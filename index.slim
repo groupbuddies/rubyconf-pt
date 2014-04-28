@@ -4,24 +4,24 @@ doctype html
 html
   head
     title RubyConf Portugal
-    meta http-equiv="Content-Type" content="text/html;charset=utf-8"
+    /* meta http-equiv="Content-Type" content="text/html;charset=utf-8" */
+    /* meta name="viewport" content="width=device-width, user-scalable=no" */
+    /* meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" */
     link rel="stylesheet" href="css/application.css"
-    script type="text/javascript" src="vendor/TweenMax.min.js"
-    script type="text/javascript" src="vendor/jquery.min.js"
-    script type="text/javascript" src="vendor/jquery.scrollmagic.js"
-    script type="text/javascript" src="vendor/jquery.scrollmagic.debug.js"
+    script type="text/javascript" src="vendor/js/jquery.min.js"
     script type="text/javascript" src="js/landing.js"
 
 
   body
-    section#landing
-      #dummy.layer
-      .layer#sky data-depth="0.05"
-      .layer#clouds data-depth="0.2"
-      .layer#mountains data-depth="0.3"
-      .layer#foreground data-depth="0.4"
-    script type="text/javascript" src="vendor/parallax.min.js"
-    script type="text/javascript" src="vendor/jquery.parallax.min.js"
+    #landing-wrapper
+      section#landing
+        .layer#dummy
+        .layer#sky data-depth="0.04"
+        .layer#clouds data-depth="0.1"
+        .layer#mountains data-depth="0.3"
+        .layer#foreground data-depth="0.5"
+    script type="text/javascript" src="vendor/js/parallax.min.js"
+    script type="text/javascript" src="vendor/js/jquery.parallax.min.js"
 
-    section#speakers
+    section#speakers style="height:800px"
       span Speakers go here
