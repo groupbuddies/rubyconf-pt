@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="3234px" height="746px" viewBox="0 0 3234 746" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.1 (7597) - http://www.bohemiancoding.com/sketch -->
+    <title>Clouds</title>
+    <description>Created with Sketch.</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(-271.000000, -188.000000)">
+            <g id="Clouds" sketch:type="MSLayerGroup" transform="translate(271.000000, 188.000000)">
+                <g id="Cloud" transform="translate(2377.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <path d="M59.765625,60.109375 L0,206 L319,206 L176.765625,4.99609375 L158.5,0 L59.765625,60.109375 Z" id="Rectangle-193" fill="#FFFFFF"></path>
+                    <path d="M511.421875,103 L442.921875,206 L317,206 L158.5,0 L511.421875,103 Z" id="Rectangle-196" fill="#FDFFFF"></path>
+                    <path d="M84,350.625 L0,204 L317,204 L228.796875,325.109375 L84,350.625 Z" id="Rectangle-194" fill="#FDFEFE"></path>
+                    <path d="M369.148438,366.703125 L503.992188,306.101562 L442.300781,202 L316,204 L226.796875,325.109375 L369.148438,366.703125 Z" id="Rectangle-195" fill="#F8FCFD"></path>
+                    <path d="M503.015625,306.925781 L488.734375,312.875 L441.300781,204 L510.71875,103.503906 L576.003906,196.5625 L503.015625,306.925781 Z" id="Rectangle-197" fill="#F5FAFC"></path>
+                </g>
+                <g id="Cloud" transform="translate(0.000000, 452.000000)" sketch:type="MSShapeGroup">
+                    <path d="M36.3464929,36.7659284 L0,126 L194,126 L107.500098,3.05586317 L96.3918495,0 L36.3464929,36.7659284 Z" id="Rectangle-193" fill="#FFFFFF"></path>
+                    <path d="M311,63 L269.269801,126 L192.558197,126 L96,0 L311,63 Z" id="Rectangle-196" fill="#FDFFFF"></path>
+                    <path d="M51.1419558,213 L0,124 L193,124 L139.299044,197.512255 L51.1419558,213 Z" id="Rectangle-194" fill="#FDFEFE"></path>
+                    <path d="M224.788676,224 L307,186.837634 L269.388081,123 L190.016061,124.226449 L138,198.493691 L224.788676,224 Z" id="Rectangle-195" fill="#F8FCFD"></path>
+                    <path d="M306.56867,186.391332 L297.875014,190 L269,123.958768 L311.257917,63 L351,119.44734 L306.56867,186.391332 Z" id="Rectangle-197" fill="#F5FAFC"></path>
+                </g>
+                <g id="Cloud" transform="translate(3083.000000, 650.000000)" sketch:type="MSShapeGroup">
+                    <path d="M15.7376567,15.7568265 L0,54 L84,54 L46.5464342,1.30965564 L41.7366771,0 L15.7376567,15.7568265 Z" id="Rectangle-193" fill="#FFFFFF"></path>
+                    <path d="M134,27 L115.949263,54 L82.7670341,54 L41,0 L134,27 Z" id="Rectangle-196" fill="#FDFFFF"></path>
+                    <path d="M21.9936909,91 L0,53 L83,53 L59.9058064,84.3872549 L21.9936909,91 Z" id="Rectangle-194" fill="#FDFEFE"></path>
+                    <path d="M97.4885995,96 L133,80.1783986 L116.753431,53 L81.4918407,53.5221516 L58,85.1408785 L97.4885995,96 Z" id="Rectangle-195" fill="#F8FCFD"></path>
+                    <path d="M132.035408,80.437191 L128.324701,82 L113,53.3994664 L134.036916,27 L151,51.4456986 L132.035408,80.437191 Z" id="Rectangle-197" fill="#F5FAFC"></path>
+                </g>
+                <g id="Cloud" transform="translate(1423.000000, 76.000000)" sketch:type="MSShapeGroup">
+                    <path d="M15.7376567,15.7568265 L0,32.5195312 L0,54 L84,54 L46.5464342,1.30965564 L41.7366771,0 L15.7376567,15.7568265 Z" id="Rectangle-193" fill="#FFFFFF"></path>
+                    <path d="M87.5,10.7460938 L110.433594,0 L134,10.7460938 L134,27 L115.949263,54 L82.7670341,54 L41,0 L87.5,10.7460938 Z" id="Rectangle-196" fill="#FDFFFF"></path>
+                    <path d="M53.2460938,108.230469 L21.9936909,91 L5.5703125,80.3085938 L0,53 L83,53 L109.976562,80.3085938 L53.2460938,108.230469 Z" id="Rectangle-194" fill="#FDFEFE"></path>
+                    <path d="M97.4885995,96 L133,80.1783986 L116.753431,53 L81.4918407,53.5221516 L58,85.1408785 L97.4885995,96 Z" id="Rectangle-195" fill="#F8FCFD"></path>
+                    <path d="M132.035408,80.437191 L128.324701,82 L113,53.3994664 L134.036916,27 L151,51.4456986 L132.035408,80.437191 Z" id="Rectangle-197" fill="#F5FAFC"></path>
+                </g>
+                <g id="Cloud-3" transform="translate(545.000000, 23.000000)" sketch:type="MSShapeGroup">
+                    <path d="M41.5923785,41.7264108 L0,86.1165365 L0,143 L222,143 L123.015576,3.46816217 L110.304075,0 L41.5923785,41.7264108 Z" id="Rectangle-193" fill="#FFFFFF"></path>
+                    <path d="M231,28.4572483 L291.663054,0 L354,28.4572483 L354,71.5 L306.252889,143 L218.480542,143 L108,0 L231,28.4572483 Z" id="Rectangle-196" fill="#FDFFFF"></path>
+                    <path d="M140.89014,286 L58.1957091,240.4518 L14.739149,212.189405 L0,140 L219.619521,140 L291,212.189405 L140.89014,286 Z" id="Rectangle-194" fill="#FDFEFE"></path>
+                    <path d="M257.249903,254 L351,212.054359 L308.109059,140 L215.018459,141.384309 L153,225.210701 L257.249903,254 Z" id="Rectangle-195" fill="#F8FCFD"></path>
+                    <path d="M349.093178,212.879867 L339.328161,217 L299,141.598593 L354.360304,72 L399,136.447751 L349.093178,212.879867 Z" id="Rectangle-197" fill="#F5FAFC"></path>
+                </g>
+                <g id="Cloud-2" transform="translate(2131.000000, 634.000000)" sketch:type="MSShapeGroup">
+                    <path d="M15.7376567,15.7568265 L0,32.5195312 L0,54 L84,54 L46.5464342,1.30965564 L41.7366771,0 L15.7376567,15.7568265 Z" id="Rectangle-193" fill="#FFFFFF"></path>
+                    <path d="M87.5,10.7460938 L110.433594,0 L134,10.7460938 L134,27 L115.949263,54 L82.7670341,54 L41,0 L87.5,10.7460938 Z" id="Rectangle-196" fill="#FDFFFF"></path>
+                    <path d="M53.2460938,108.230469 L21.9936909,91 L5.5703125,80.3085938 L0,53 L83,53 L109.976562,80.3085938 L53.2460938,108.230469 Z" id="Rectangle-194" fill="#FDFEFE"></path>
+                    <path d="M97.4885995,96 L133,80.1783986 L116.753431,53 L81.4918407,53.5221516 L58,85.1408785 L97.4885995,96 Z" id="Rectangle-195" fill="#F8FCFD"></path>
+                    <path d="M132.035408,80.437191 L128.324701,82 L113,53.3994664 L134.036916,27 L151,51.4456986 L132.035408,80.437191 Z" id="Rectangle-197" fill="#F5FAFC"></path>
+                </g>
+                <g id="Cloud" transform="translate(625.000000, 554.000000)" sketch:type="MSShapeGroup">
+                    <path d="M15.7376567,15.7568265 L0,54 L84,54 L46.5464342,1.30965564 L41.7366771,0 L15.7376567,15.7568265 Z" id="Rectangle-193" fill="#FFFFFF"></path>
+                    <path d="M134,27 L115.949263,54 L82.7670341,54 L41,0 L134,27 Z" id="Rectangle-196" fill="#FDFFFF"></path>
+                    <path d="M21.9936909,91 L0,53 L83,53 L59.9058064,84.3872549 L21.9936909,91 Z" id="Rectangle-194" fill="#FDFEFE"></path>
+                    <path d="M97.4885995,96 L133,80.1783986 L116.753431,53 L82.4918407,53.5221516 L59,85.1408785 L97.4885995,96 Z" id="Rectangle-195" fill="#F8FCFD"></path>
+                    <path d="M137.259295,79.4027244 L127.34375,82.9414062 L115,53.3994664 L133.036916,26 L151,51.4456986 L137.259295,79.4027244 Z" id="Rectangle-197" fill="#F5FAFC"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

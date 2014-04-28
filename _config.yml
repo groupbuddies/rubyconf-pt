@@ -1,0 +1,7 @@
+name: RubyConf Portugal
+markdown: redcarpet
+pygments: true
+
+gems:
+  - jekyll-compass
+  - jekyll-slim

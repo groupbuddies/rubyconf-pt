@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="3820px" height="1917px" viewBox="0 0 3820 1917" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.1 (7597) - http://www.bohemiancoding.com/sketch -->
+    <title>Sky</title>
+    <description>Created with Sketch.</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup">
+            <g id="Sky" sketch:type="MSLayerGroup" transform="translate(-32.000000, 0.000000)">
+                <path d="M32,0 L517.442026,436 L822,0 L32,0 Z" id="Rectangle-148" fill="#B4E3F9" sketch:type="MSShapeGroup"></path>
+                <path d="M32,0 L32,1125 L539,403.9375 L32,0 Z" id="Rectangle-154" fill="#AADFF7" sketch:type="MSShapeGroup"></path>
+                <path d="M1001,513.828125 L32,1125 L821.814857,0 L1001,513.828125 Z" id="Rectangle-149" fill="#A6DCF4" sketch:type="MSShapeGroup"></path>
+                <path d="M1001.19814,517 L2092,0 L822,0 L1001.19814,517 Z" id="Rectangle-153" fill="#B6E3F7" sketch:type="MSShapeGroup"></path>
+                <path d="M1000.61786,512 L32,1125 L1584,1125 L1000.61786,512 Z" id="Rectangle-150" fill="#97D1EB" sketch:type="MSShapeGroup"></path>
+                <path d="M32,1917 L32,1121 L1590,1121 L32,1917 Z" id="Rectangle-160" fill="#83C2DF" sketch:type="MSShapeGroup"></path>
+                <path d="M0,1911 L2476,1911 L1573.44844,1125 L0,1911 Z" id="Rectangle-161" fill="#76B3CE" sketch:type="MSShapeGroup"></path>
+                <path d="M2376.4375,1911 L2475.21108,1911 L2605,1448.54223 L1573,1125 L2376.4375,1911 Z" id="Rectangle-163" fill="#7BB8D3" sketch:type="MSShapeGroup"></path>
+                <path d="M3852,1095.85938 L3852,1180.59375 L2475,1911 L2689.13808,1118 L3852,1095.85938 Z" id="Rectangle-162" fill="#83C2DF" sketch:type="MSShapeGroup"></path>
+                <path d="M3852,1125 L2475,1911 L3852,1911 L3852,1125 Z" id="Rectangle-164" fill="#6DADCB" sketch:type="MSShapeGroup"></path>
+                <path d="M1001,514 L2695,1125.21813 L2591.375,1521 L1572.63754,1126.21813 L1001,514 Z" id="Rectangle-151" fill="#93CCE7" sketch:type="MSShapeGroup"></path>
+                <path d="M3852,383.984375 L2688,1125 L3852,1125 L3852,383.984375 Z" id="Rectangle-155" fill="#93CCE7" sketch:type="MSShapeGroup"></path>
+                <path d="M3852,415.78125 L2688,1125 L3168.3874,0 L3852,415.78125 Z" id="Rectangle-156" fill="#AADFF7" sketch:type="MSShapeGroup"></path>
+                <path d="M3852,456.34375 L3852,0 L3134.95312,0 L3852,456.34375 Z" id="Rectangle-157" fill="#B6E3F7" sketch:type="MSShapeGroup"></path>
+                <path d="M990,513.828125 L2693,1129 L2215.75,0 L2091.12271,0 L990,513.828125 Z" id="Rectangle-152" fill="#AADFF7" sketch:type="MSShapeGroup"></path>
+                <path d="M3185,0 L2688.89517,1125 L2091,0 L3185,0 Z" id="Rectangle-158" fill="#A6DCF4" sketch:type="MSShapeGroup"></path>
+                <path d="M3184,0 L2897.52663,653 L2506,0 L3184,0 Z" id="Rectangle-159" fill="#B4E3F9" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
