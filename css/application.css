@@ -34,25 +34,25 @@
 
 /* line 21, ../../_sass/_landing.sass */
 #sky {
-  background-image: url(/images/sky.svg);
+  background-image: url(../images/sky.svg);
   background-position: center top;
 }
 
 /* line 25, ../../_sass/_landing.sass */
 #clouds {
-  background-image: url(/images/clouds.svg);
+  background-image: url(../images/clouds.svg);
   background-position: center 5%;
 }
 
 /* line 29, ../../_sass/_landing.sass */
 #mountains {
-  background-image: url(/images/mountains.svg);
+  background-image: url(../images/mountains.svg);
   background-position: center 45%;
 }
 
 /* line 33, ../../_sass/_landing.sass */
 #foreground {
-  background-image: url(/images/foreground.svg);
+  background-image: url(../images/foreground.svg);
   background-position: center 90%;
 }
 
