@@ -1,0 +1,64 @@
+/* line 1, ../../_sass/_reset.sass */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 1, ../../_sass/_landing.sass */
+#landing {
+  width: 110%;
+  margin-left: -5%;
+  margin-right: -5%;
+  margin-top: -5%;
+  margin-bottom: -10%;
+  position: relative;
+  z-index: -1;
+  padding-bottom: 105%;
+}
+
+/* line 11, ../../_sass/_landing.sass */
+.layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+/* line 21, ../../_sass/_landing.sass */
+#sky {
+  background-image: url(/images/sky.svg);
+  background-position: center top;
+}
+
+/* line 25, ../../_sass/_landing.sass */
+#clouds {
+  background-image: url(/images/clouds.svg);
+  background-position: center 5%;
+}
+
+/* line 29, ../../_sass/_landing.sass */
+#mountains {
+  background-image: url(/images/mountains.svg);
+  background-position: center 45%;
+}
+
+/* line 33, ../../_sass/_landing.sass */
+#foreground {
+  background-image: url(/images/foreground.svg);
+  background-position: center 90%;
+}
+
+/* line 39, ../../_sass/_landing.sass */
+#speakers {
+  width: 100%;
+  height: 200px;
+  border: solid 1px green;
+}
