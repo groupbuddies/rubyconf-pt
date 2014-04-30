@@ -1,0 +1,43 @@
+.scene
+  position: relative
+  width: 110%
+  margin: -5% -5% -5% -5%
+  padding-bottom: 110%
+
+  .layers,
+  .overlay
+    position: absolute
+    width: 100%
+    height: 100%
+
+  .layers
+    z-index: -1
+
+  .layer
+    background-size: contain
+    background-repeat: no-repeat
+    background-position-x: center
+    overflow: hidden
+
+    &.sky
+      background-image: url(../images/sky.svg)
+      background-position-y: top
+
+    &.clouds
+      background-image: url(../images/clouds.svg)
+      background-position-y: 10%
+
+    &.mountains
+      background-image: url(../images/mountains.svg)
+      background-position-y: 46%
+
+    &.foreground
+      background-image: url(../images/foreground.svg)
+      background-position-y: 89%
+
+  .overlay
+    padding-top: 10%
+    .title,
+    .subtitle
+      width: 100%
+      text-align: center

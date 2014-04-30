@@ -9,17 +9,29 @@ html
     /* meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" */
     link rel="stylesheet" href="css/application.css"
     script type="text/javascript" src="vendor/js/jquery.min.js"
-    script type="text/javascript" src="js/landing.js"
+    script type="text/javascript" src="js/application.js"
+
+    script type="text/javascript" src="//use.typekit.net/tex5gzb.js"
+    javascript:
+      try{ Typekit.load(); } catch(e) {  }
 
 
   body
-    #landing-wrapper
-      section#landing
-        .layer#dummy
-        .layer#sky data-depth="0.04"
-        .layer#clouds data-depth="0.1"
-        .layer#mountains data-depth="0.3"
-        .layer#foreground data-depth="0.5"
+    section.nav
+      ul
+        li stuff
+        li more stuff
+    section.scene
+      .layers#layers
+        .layer.dummy
+        .layer.sky data-depth="0.04"
+        .layer.clouds data-depth="0.1"
+        .layer.mountains data-depth="0.3"
+        .layer.foreground data-depth="0.5"
+      .overlay
+        h1.title RubyConf Portugal
+        h2.subtitle Ruby conference, surrounded by history
+
     script type="text/javascript" src="vendor/js/parallax.min.js"
     script type="text/javascript" src="vendor/js/jquery.parallax.min.js"
 

@@ -10,8 +10,8 @@
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(0.000000, -871.000000)">
-            <g id="Foreground" sketch:type="MSLayerGroup" transform="translate(0.000000, 871.000000)">
-                <g id="castle" transform="translate(1081.000000, 340.000000)" sketch:type="MSShapeGroup">
+            <g id="Foreground" sketch:type="MSLayerGroup" transform="translate(-240.000000, 871.000000)">
+                <g id="castle" transform="translate(1321.000000, 340.000000)" sketch:type="MSShapeGroup">
                     <g id="big-tower" transform="translate(574.000000, 0.000000)">
                         <rect id="Rectangle-49" fill="#BFBFBF" x="28" y="131" width="510" height="267"></rect>
                         <path d="M28,214 L28,399 L107,399 L28,214 Z" id="Rectangle-36" fill="#9D9D9D"></path>
@@ -120,7 +120,7 @@
                         </g>
                     </g>
                 </g>
-                <g id="sand" transform="translate(0.000000, 1528.000000)" sketch:type="MSShapeGroup">
+                <g id="sand" transform="translate(240.000000, 1528.000000)" sketch:type="MSShapeGroup">
                     <path d="M0,2 L0,815.15625 L517.144531,309.496094 L209.640625,2 L0,2 Z" id="Rectangle-170" fill="#EBCF9F"></path>
                     <path d="M310.246094,511.917969 L0,200.105469 L503.640625,319.785156 L310.246094,511.917969 Z" id="Rectangle-329" fill="#EACD99"></path>
                     <path d="M193.84375,1246 L0,1246 L0,815.15625 L498.269531,326.125 L193.84375,1246 Z" id="Rectangle-171" fill="#E6C791"></path>
@@ -171,25 +171,25 @@
                     <path d="M3820,536.96875 L3820,1246 L3059.67188,1246 L3820,536.96875 Z" id="Rectangle-188" fill="#E7C78E"></path>
                 </g>
                 <g id="Red-carpet" transform="translate(0.000000, 1528.000000)" sketch:type="MSShapeGroup">
-                    <path d="M1906,0 L2093.41016,340.59375 L2123.08654,0 L1906,0 Z" id="Rectangle-366" fill="#B32B2B"></path>
-                    <path d="M1910,0 L2093.03906,338.773438 L1721.85938,0 L1910,0 Z" id="Rectangle-367" fill="#BB3030"></path>
-                    <path d="M1888.72656,529.507812 L2096.03906,337.773438 L1721.85938,0 L1888.72656,529.507812 Z" id="Rectangle-368" fill="#AB2B2B"></path>
-                    <path d="M1888.72656,529.507812 L2093.03906,338.773438 L2112.39062,1246 L1888.72656,529.507812 Z" id="Rectangle-369" fill="#BB3030"></path>
-                    <path d="M1724.18516,0 L0,1248 L2115.63281,1248 L1724.18516,0 Z" id="Rectangle-328" fill="#B32B2B"></path>
-                    <path d="M1724.18516,0 L1101.29688,449.296875 L1604.94141,821.535156 L1724.18516,0 Z" id="Rectangle-352" fill="#BB3030"></path>
-                    <path d="M1493.84375,169.65625 L1103.29688,450.296875 L1607.46484,847.796875 L1493.84375,169.65625 Z" id="Rectangle-363" fill="#AB2B2B"></path>
-                    <path d="M1724.18516,0 L1607.46484,847.796875 L1724.18516,0 Z" id="Rectangle-353" fill="#AE3B3B"></path>
-                    <path d="M1133.17188,431.203125 L0,1248 L2115.63281,1248 L1133.17188,431.203125 Z" id="Rectangle-345" fill="#AB2B2B"></path>
-                    <path d="M1133.17188,431.203125 L0,1248 L1605.66406,826.207031 L1133.17188,431.203125 Z" id="Rectangle-364" fill="#B32B2B"></path>
-                    <path d="M3002.07812,646.523438 L2086.28125,0.296875 L2093.36719,339.460938 L3002.07812,646.523438 Z" id="Rectangle-330" fill="#AB2B2B"></path>
-                    <path d="M2999.07812,644.523438 L2103.30469,886.78125 L2092.36719,338.460938 L2999.07812,644.523438 Z" id="Rectangle-355" fill="#B32E2E"></path>
-                    <path d="M3820,1246 L2969.1875,620.148438 L2113.90625,1246 L3820,1246 Z" id="Rectangle-354" fill="#BB3030"></path>
-                    <path d="M2101.48438,886.023438 L2971.1875,622.148438 L2111.90625,1248 L2101.48438,886.023438 Z" id="Rectangle-370" fill="#BA3A3A"></path>
-                    <path d="M3820,1246 L2971.1875,622.148438 L2623.01562,1246 L3820,1246 Z" id="Rectangle-365" fill="#B32B2B"></path>
-                    <path d="M2088,0 L3698.29638,1246 L3823,1246 L2123.0346,0 L2088,0 Z" id="Rectangle-327" fill="#D44747"></path>
-                    <path d="M1723.5173,0 L-3.55271368e-15,1248 L129.047904,1248 L1755,0 L1723.5173,0 Z" id="Rectangle-327" fill="#992323"></path>
+                    <path d="M2146,0 L2333.41016,340.59375 L2363.08654,0 L2146,0 Z" id="Rectangle-366" fill="#B32B2B"></path>
+                    <path d="M2150,0 L2333.03906,338.773438 L1961.85938,0 L2150,0 Z" id="Rectangle-367" fill="#BB3030"></path>
+                    <path d="M2128.72656,529.507812 L2336.03906,337.773438 L1961.85938,0 L2128.72656,529.507812 Z" id="Rectangle-368" fill="#AB2B2B"></path>
+                    <path d="M2128.72656,529.507812 L2333.03906,338.773438 L2352.39062,1246 L2128.72656,529.507812 Z" id="Rectangle-369" fill="#BB3030"></path>
+                    <path d="M1964.18516,0 L240,1248 L2355.63281,1248 L1964.18516,0 Z" id="Rectangle-328" fill="#B32B2B"></path>
+                    <path d="M1964.18516,0 L1341.29688,449.296875 L1844.94141,821.535156 L1964.18516,0 Z" id="Rectangle-352" fill="#BB3030"></path>
+                    <path d="M1733.84375,169.65625 L1343.29688,450.296875 L1847.46484,847.796875 L1733.84375,169.65625 Z" id="Rectangle-363" fill="#AB2B2B"></path>
+                    <path d="M1964.18516,0 L1847.46484,847.796875 L1964.18516,0 Z" id="Rectangle-353" fill="#AE3B3B"></path>
+                    <path d="M1373.17188,431.203125 L240,1248 L2355.63281,1248 L1373.17188,431.203125 Z" id="Rectangle-345" fill="#AB2B2B"></path>
+                    <path d="M1373.17188,431.203125 L240,1248 L1845.66406,826.207031 L1373.17188,431.203125 Z" id="Rectangle-364" fill="#B32B2B"></path>
+                    <path d="M3242.07812,646.523438 L2326.28125,0.296875 L2333.36719,339.460938 L3242.07812,646.523438 Z" id="Rectangle-330" fill="#AB2B2B"></path>
+                    <path d="M3239.07812,644.523438 L2343.30469,886.78125 L2332.36719,338.460938 L3239.07812,644.523438 Z" id="Rectangle-355" fill="#B32E2E"></path>
+                    <path d="M4060,1246 L3209.1875,620.148438 L2353.90625,1246 L4060,1246 Z" id="Rectangle-354" fill="#BB3030"></path>
+                    <path d="M2341.48438,886.023438 L3211.1875,622.148438 L2351.90625,1248 L2341.48438,886.023438 Z" id="Rectangle-370" fill="#BA3A3A"></path>
+                    <path d="M4060,1246 L3211.1875,622.148438 L2863.01562,1246 L4060,1246 Z" id="Rectangle-365" fill="#B32B2B"></path>
+                    <path d="M2328,0 L3988.29638,1246 L4220.73438,1246 L2363.0346,0 L2328,0 Z" id="Rectangle-327" fill="#D44747"></path>
+                    <path d="M1963.5173,0 L-3.55271368e-15,1248 L240,1266.73438 L1995,0 L1963.5173,0 Z" id="Rectangle-327" fill="#992323"></path>
                 </g>
-                <g id="Flowers" transform="translate(221.000000, 1546.000000)" sketch:type="MSShapeGroup">
+                <g id="Flowers" transform="translate(461.000000, 1546.000000)" sketch:type="MSShapeGroup">
                     <g id="Flower" transform="translate(2547.000000, 303.000000)">
                         <rect id="Rectangle-221" fill="#9AC771" x="20" y="26" width="4" height="46"></rect>
                         <path d="M22,39 L22,46 L36,53.6640625 L42.6171875,46 L37,38 L22,39 Z" id="Rectangle-221" fill="#96C66A"></path>
@@ -356,7 +356,7 @@
                         </g>
                     </g>
                 </g>
-                <g id="tree-6" transform="translate(466.000000, 1327.000000)" sketch:type="MSShapeGroup">
+                <g id="tree-6" transform="translate(706.000000, 1327.000000)" sketch:type="MSShapeGroup">
                     <path d="M29.5316804,257.970894 L0,363.85447 L268,363.85447 L238.46832,257.970894 L29.5316804,257.970894 Z" id="Rectangle-9" fill="#5EA034"></path>
                     <path d="M29.610986,257.970894 L0,363.85447 L144.086022,363.85447 L29.610986,257.970894 Z" id="Rectangle-25" fill="#538534"></path>
                     <path d="M29.610986,257.970894 L0,363.85447 L72.0430108,299.210341 L29.610986,257.970894 Z" id="Rectangle-31" fill="#528134"></path>
@@ -379,7 +379,7 @@
                     <rect id="Rectangle-13" fill="#A3856A" x="97.9784946" y="364.817048" width="70.1218638" height="98.1829522"></rect>
                     <path d="M97.9784946,364.817048 L97.9784946,395.621426 L168.100358,438.935551 L168.100358,364.817048 L97.9784946,364.817048 Z" id="Rectangle-14" fill="#94765B"></path>
                 </g>
-                <g id="tree-16" transform="translate(602.000000, 1345.000000)" sketch:type="MSShapeGroup">
+                <g id="tree-16" transform="translate(842.000000, 1345.000000)" sketch:type="MSShapeGroup">
                     <path d="M32.8374656,286.838951 L0,404.269663 L298,404.269663 L265.162534,286.838951 L32.8374656,286.838951 Z" id="Rectangle-9" fill="#5EA034"></path>
                     <path d="M32.9914999,286.838951 L0,404.269663 L160.535484,404.269663 L32.9914999,286.838951 Z" id="Rectangle-25" fill="#538534"></path>
                     <path d="M32.793946,286.838951 L0,404.269663 L79.7870968,332.575767 L32.793946,286.838951 Z" id="Rectangle-31" fill="#528134"></path>
@@ -402,7 +402,7 @@
                     <rect id="Rectangle-13" fill="#A3856A" x="108.625806" y="405.23221" width="77.8645161" height="108.76779"></rect>
                     <path d="M108.625806,405.23221 L108.625806,439.235943 L186.490323,487.048689 L186.490323,405.23221 L108.625806,405.23221 Z" id="Rectangle-14" fill="#94765B"></path>
                 </g>
-                <g id="tree" transform="translate(2959.000000, 1464.000000)" sketch:type="MSShapeGroup">
+                <g id="tree" transform="translate(3199.000000, 1464.000000)" sketch:type="MSShapeGroup">
                     <path d="M41.8732782,366 L0,516 L380,516 L338.126722,366 L41.8732782,366 Z" id="Rectangle-9" fill="#5EA034"></path>
                     <path d="M41.8732782,366 L0,516 L203.753906,516 L41.8732782,366 Z" id="Rectangle-25" fill="#538534"></path>
                     <path d="M41.8732782,366 L0,516 L101.876953,424.421875 L41.8732782,366 Z" id="Rectangle-31" fill="#528134"></path>
@@ -425,7 +425,7 @@
                     <rect id="Rectangle-13" fill="#A3856A" x="140" y="516" width="100" height="140"></rect>
                     <path d="M140,516 L140,559.223422 L240,620 L240,516 L140,516 Z" id="Rectangle-14" fill="#94765B"></path>
                 </g>
-                <g id="Flag" transform="translate(1927.000000, 0.000000)">
+                <g id="Flag" transform="translate(2167.000000, 0.000000)">
                     <rect id="Rectangle-277" fill="#939393" sketch:type="MSShapeGroup" x="1" y="2" width="18" height="338"></rect>
                     <path d="M1,2 L1,200 L19,230 L19,2 L1,2 Z" id="Rectangle-285" fill="#6E6E6E" sketch:type="MSShapeGroup"></path>
                     <path d="M0,3.0409917e-15 L0,139 L250,139 L202.447907,69.4999985 L250,3.0409917e-15 L0,3.0409917e-15 Z" id="Rectangle-279" fill="#5B6C7B" sketch:type="MSShapeGroup"></path>
@@ -457,24 +457,6 @@
                         <polygon id="Triangle-1" fill="#F9A3A5" points="16.8148092 0 25 7 9 7 "></polygon>
                         <polygon id="Triangle-1" fill="#FCBDBF" transform="translate(29.000000, 3.500000) scale(-1, 1) translate(-29.000000, -3.500000) " points="29.7472178 0 34 7 24 7 "></polygon>
                     </g>
-                </g>
-                <g id="Estandarte-2" transform="translate(2512.000000, 147.000000)">
-                    <rect id="Rectangle-273" fill="#939393" sketch:type="MSShapeGroup" x="58" y="1" width="10" height="196"></rect>
-                    <path d="M58,104 L58,145.075949 L68,159 L68,104 L58,104 Z" id="Rectangle-274" fill="#6E6E6E" sketch:type="MSShapeGroup"></path>
-                    <path d="M0,0 L0,138 L62.62,115 L124,138 L124,0 L0,0 Z" id="Rectangle-762" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
-                    <text id="October-" sketch:type="MSTextLayer" font-family="Blackmoor LET" font-size="20" font-weight="686" sketch:alignment="middle" fill="#6B6B6B">
-                        <tspan x="34.8798828" y="53">October </tspan>
-                        <tspan x="20.9199219" y="83">13th &amp; 14th</tspan>
-                    </text>
-                </g>
-                <g id="Estandarte-3" transform="translate(1236.000000, 147.000000)">
-                    <rect id="Rectangle-273" fill="#939393" sketch:type="MSShapeGroup" x="58" y="1" width="10" height="196"></rect>
-                    <path d="M58,104 L58,145.075949 L68,159 L68,104 L58,104 Z" id="Rectangle-274" fill="#6E6E6E" sketch:type="MSShapeGroup"></path>
-                    <path d="M0,0 L0,138 L62.62,115 L124,138 L124,0 L0,0 Z" id="Rectangle-762" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
-                    <text id="BRAGA" sketch:type="MSTextLayer" font-family="Blackmoor LET" font-size="20" font-weight="686" sketch:alignment="middle" fill="#79AAC7">
-                        <tspan x="28.0449219" y="53">BRAGA</tspan>
-                        <tspan x="30.8867188" y="83">Portugal</tspan>
-                    </text>
                 </g>
             </g>
         </g>
