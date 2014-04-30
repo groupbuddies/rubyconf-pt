@@ -11,17 +11,22 @@
 /* line 1, ../../_sass/utils/_typography.sass */
 body {
   font-family: "open-sans";
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /* line 5, ../../_sass/utils/_typography.sass */
-.title {
-  font-size: 2em;
+.main-title {
+  font-size: 3em;
   font-family: "chaparral-pro";
   color: #cb5757;
 }
 
 /* line 10, ../../_sass/utils/_typography.sass */
+.subtitle {
+  color: #2b3a48;
+}
+
+/* line 13, ../../_sass/utils/_typography.sass */
 .section-title {
   font-size: 2em;
   font-family: "chaparral-pro";
@@ -109,15 +114,15 @@ body {
 .scene {
   position: relative;
   width: 100%;
-  padding-bottom: 102%;
+  padding-bottom: 104%;
   overflow: hidden;
 }
 /* line 7, ../../_sass/sections/_scene.sass */
 .scene .layers,
 .scene .overlay {
   position: absolute;
-  width: 118%;
-  margin-left: -9%;
+  width: 112%;
+  margin-left: -6%;
   margin-top: -6%;
   height: 106%;
 }
@@ -149,19 +154,25 @@ body {
 /* line 35, ../../_sass/sections/_scene.sass */
 .scene .layer.mountains {
   background-image: url(../images/mountains.svg);
-  background-position-y: 46%;
+  background-position-y: 55%;
 }
 /* line 39, ../../_sass/sections/_scene.sass */
 .scene .layer.foreground {
   background-image: url(../images/foreground.svg);
-  background-position-y: 60%;
+  background-position-y: 90%;
 }
 /* line 43, ../../_sass/sections/_scene.sass */
+.scene .layer.knight {
+  background-image: url(../images/knight.svg);
+  background-size: 26%;
+  background-position-y: 90%;
+}
+/* line 48, ../../_sass/sections/_scene.sass */
 .scene .overlay {
   padding-top: 10%;
 }
-/* line 45, ../../_sass/sections/_scene.sass */
-.scene .overlay .title,
+/* line 50, ../../_sass/sections/_scene.sass */
+.scene .overlay .main-title,
 .scene .overlay .subtitle {
   width: 100%;
   text-align: center;
