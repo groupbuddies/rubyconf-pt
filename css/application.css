@@ -30,52 +30,54 @@ body {
 /* line 1, ../../_sass/sections/_scene.sass */
 .scene {
   position: relative;
-  width: 110%;
+  width: 100%;
   padding-bottom: 110%;
+  overflow: hidden;
 }
-/* line 6, ../../_sass/sections/_scene.sass */
+/* line 7, ../../_sass/sections/_scene.sass */
 .scene .layers,
 .scene .overlay {
   position: absolute;
-  width: 100%;
+  width: 112%;
+  margin: -6%;
   height: 100%;
 }
-/* line 12, ../../_sass/sections/_scene.sass */
+/* line 14, ../../_sass/sections/_scene.sass */
 .scene .layers {
   z-index: -1;
 }
-/* line 15, ../../_sass/sections/_scene.sass */
+/* line 17, ../../_sass/sections/_scene.sass */
 .scene .layer {
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
   overflow: hidden;
 }
-/* line 21, ../../_sass/sections/_scene.sass */
+/* line 23, ../../_sass/sections/_scene.sass */
 .scene .layer.sky {
   background-image: url(../images/sky.svg);
   background-position-y: top;
 }
-/* line 25, ../../_sass/sections/_scene.sass */
+/* line 27, ../../_sass/sections/_scene.sass */
 .scene .layer.clouds {
   background-image: url(../images/clouds.svg);
   background-position-y: 10%;
 }
-/* line 29, ../../_sass/sections/_scene.sass */
+/* line 31, ../../_sass/sections/_scene.sass */
 .scene .layer.mountains {
   background-image: url(../images/mountains.svg);
   background-position-y: 46%;
 }
-/* line 33, ../../_sass/sections/_scene.sass */
+/* line 35, ../../_sass/sections/_scene.sass */
 .scene .layer.foreground {
   background-image: url(../images/foreground.svg);
   background-position-y: 89%;
 }
-/* line 37, ../../_sass/sections/_scene.sass */
+/* line 39, ../../_sass/sections/_scene.sass */
 .scene .overlay {
   padding-top: 10%;
 }
-/* line 39, ../../_sass/sections/_scene.sass */
+/* line 41, ../../_sass/sections/_scene.sass */
 .scene .overlay .title,
 .scene .overlay .subtitle {
   width: 100%;
