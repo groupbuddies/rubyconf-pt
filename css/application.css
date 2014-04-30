@@ -1,4 +1,4 @@
-/* line 1, ../../_sass/_reset.sass */
+/* line 1, ../../_sass/utils/_reset.sass */
 * {
   margin: 0;
   padding: 0;
@@ -8,57 +8,77 @@
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 1, ../../_sass/_landing.sass */
-#landing {
-  width: 110%;
-  margin-left: -5%;
-  margin-right: -5%;
-  margin-top: -5%;
-  margin-bottom: -10%;
-  position: relative;
-  z-index: -1;
-  padding-bottom: 105%;
+/* line 1, ../../_sass/utils/_typography.sass */
+body {
+  font-family: "open-sans";
+  font-size: 18px;
 }
 
-/* line 11, ../../_sass/_landing.sass */
-.layer {
+/* line 5, ../../_sass/utils/_typography.sass */
+.title {
+  font-size: 4em;
+  font-family: "chaparral-pro";
+  color: #ab2b2b;
+}
+
+/* line 1, ../../_sass/sections/_nav.sass */
+.nav {
+  background-color: white;
+  width: 100%;
+}
+
+/* line 1, ../../_sass/sections/_scene.sass */
+.scene {
+  position: relative;
+  width: 110%;
+  margin: -5% -5% -5% -5%;
+  padding-bottom: 110%;
+}
+/* line 7, ../../_sass/sections/_scene.sass */
+.scene .layers,
+.scene .overlay {
   position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 13, ../../_sass/sections/_scene.sass */
+.scene .layers {
+  z-index: -1;
+}
+/* line 16, ../../_sass/sections/_scene.sass */
+.scene .layer {
   background-size: contain;
   background-repeat: no-repeat;
+  background-position-x: center;
   overflow: hidden;
 }
-
-/* line 21, ../../_sass/_landing.sass */
-#sky {
+/* line 22, ../../_sass/sections/_scene.sass */
+.scene .layer.sky {
   background-image: url(../images/sky.svg);
-  background-position: center top;
+  background-position-y: top;
 }
-
-/* line 25, ../../_sass/_landing.sass */
-#clouds {
+/* line 26, ../../_sass/sections/_scene.sass */
+.scene .layer.clouds {
   background-image: url(../images/clouds.svg);
-  background-position: center 5%;
+  background-position-y: 10%;
 }
-
-/* line 29, ../../_sass/_landing.sass */
-#mountains {
+/* line 30, ../../_sass/sections/_scene.sass */
+.scene .layer.mountains {
   background-image: url(../images/mountains.svg);
-  background-position: center 45%;
+  background-position-y: 46%;
 }
-
-/* line 33, ../../_sass/_landing.sass */
-#foreground {
+/* line 34, ../../_sass/sections/_scene.sass */
+.scene .layer.foreground {
   background-image: url(../images/foreground.svg);
-  background-position: center 90%;
+  background-position-y: 89%;
 }
-
-/* line 39, ../../_sass/_landing.sass */
-#speakers {
+/* line 38, ../../_sass/sections/_scene.sass */
+.scene .overlay {
+  padding-top: 10%;
+}
+/* line 40, ../../_sass/sections/_scene.sass */
+.scene .overlay .title,
+.scene .overlay .subtitle {
   width: 100%;
-  height: 200px;
-  border: solid 1px green;
+  text-align: center;
 }

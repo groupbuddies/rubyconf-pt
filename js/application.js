@@ -1,6 +1,6 @@
 (function() {
   $(function() {
-    return $('#landing').parallax();
+    return $('#layers').parallax();
   });
 
 }).call(this);
