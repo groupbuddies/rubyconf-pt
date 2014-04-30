@@ -1,14 +1,14 @@
 .scene
   position: relative
   width: 100%
-  padding-bottom: 102%
+  padding-bottom: 104%
   overflow: hidden
 
   .layers,
   .overlay
     position: absolute
-    width: 118%
-    margin-left: -9%
+    width: 112%
+    margin-left: -6%
     margin-top: -6%
     height: 106%
 
@@ -34,15 +34,20 @@
 
     &.mountains
       background-image: url(../images/mountains.svg)
-      background-position-y: 46%
+      background-position-y: 55%
 
     &.foreground
       background-image: url(../images/foreground.svg)
-      background-position-y: 60%
+      background-position-y: 90%
+
+    &.knight
+      background-image: url(../images/knight.svg)
+      background-size: 26%
+      background-position-y: 90%
 
   .overlay
     padding-top: 10%
-    .title,
+    .main-title,
     .subtitle
       width: 100%
       text-align: center
