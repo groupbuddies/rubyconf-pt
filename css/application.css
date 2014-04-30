@@ -18,7 +18,7 @@ body {
 .title {
   font-size: 4em;
   font-family: "chaparral-pro";
-  color: #ab2b2b;
+  color: #cb5757;
 }
 
 /* line 1, ../../_sass/sections/_nav.sass */
@@ -31,52 +31,51 @@ body {
 .scene {
   position: relative;
   width: 110%;
-  margin: -5% -5% -5% -5%;
   padding-bottom: 110%;
 }
-/* line 7, ../../_sass/sections/_scene.sass */
+/* line 6, ../../_sass/sections/_scene.sass */
 .scene .layers,
 .scene .overlay {
   position: absolute;
   width: 100%;
   height: 100%;
 }
-/* line 13, ../../_sass/sections/_scene.sass */
+/* line 12, ../../_sass/sections/_scene.sass */
 .scene .layers {
   z-index: -1;
 }
-/* line 16, ../../_sass/sections/_scene.sass */
+/* line 15, ../../_sass/sections/_scene.sass */
 .scene .layer {
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
   overflow: hidden;
 }
-/* line 22, ../../_sass/sections/_scene.sass */
+/* line 21, ../../_sass/sections/_scene.sass */
 .scene .layer.sky {
   background-image: url(../images/sky.svg);
   background-position-y: top;
 }
-/* line 26, ../../_sass/sections/_scene.sass */
+/* line 25, ../../_sass/sections/_scene.sass */
 .scene .layer.clouds {
   background-image: url(../images/clouds.svg);
   background-position-y: 10%;
 }
-/* line 30, ../../_sass/sections/_scene.sass */
+/* line 29, ../../_sass/sections/_scene.sass */
 .scene .layer.mountains {
   background-image: url(../images/mountains.svg);
   background-position-y: 46%;
 }
-/* line 34, ../../_sass/sections/_scene.sass */
+/* line 33, ../../_sass/sections/_scene.sass */
 .scene .layer.foreground {
   background-image: url(../images/foreground.svg);
   background-position-y: 89%;
 }
-/* line 38, ../../_sass/sections/_scene.sass */
+/* line 37, ../../_sass/sections/_scene.sass */
 .scene .overlay {
   padding-top: 10%;
 }
-/* line 40, ../../_sass/sections/_scene.sass */
+/* line 39, ../../_sass/sections/_scene.sass */
 .scene .overlay .title,
 .scene .overlay .subtitle {
   width: 100%;
