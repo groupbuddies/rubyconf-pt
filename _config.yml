@@ -4,4 +4,3 @@ pygments: true
 
 gems:
   - jekyll-compass
-  - jekyll-slim

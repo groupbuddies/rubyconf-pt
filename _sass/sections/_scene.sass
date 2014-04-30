@@ -1,15 +1,16 @@
 .scene
   position: relative
   width: 100%
-  padding-bottom: 110%
+  padding-bottom: 102%
   overflow: hidden
 
   .layers,
   .overlay
     position: absolute
-    width: 112%
-    margin: -6%
-    height: 100%
+    width: 118%
+    margin-left: -9%
+    margin-top: -6%
+    height: 106%
 
   .layers
     z-index: -1
@@ -19,6 +20,9 @@
     background-repeat: no-repeat
     background-position-x: center
     overflow: hidden
+
+    &.background
+      background-color: $red-bg
 
     &.sky
       background-image: url(../images/sky.svg)
@@ -34,7 +38,7 @@
 
     &.foreground
       background-image: url(../images/foreground.svg)
-      background-position-y: 89%
+      background-position-y: 60%
 
   .overlay
     padding-top: 10%
