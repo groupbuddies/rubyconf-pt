@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="490px" height="520px" viewBox="0 0 490 520" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="463px" height="518px" viewBox="0 0 463 518" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.0.1 (7597) - http://www.bohemiancoding.com/sketch -->
     <title>Dark Knight</title>
     <description>Created with Sketch.</description>
@@ -9,9 +9,9 @@
         <path id="path-3" d="M5,100.5 L5.00000009,102 L60.9999984,102 L61,100.5 L5,100.5 Z"></path>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(-1404.000000, -2907.000000)">
-            <g id="Dark-Knight" sketch:type="MSLayerGroup" transform="translate(1404.000000, 2907.000000)">
-                <g id="Legs" transform="translate(156.000000, 358.500000)" sketch:type="MSShapeGroup">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(-1424.000000, -2909.000000)">
+            <g id="Dark-Knight" sketch:type="MSLayerGroup" transform="translate(1424.000000, 2909.000000)">
+                <g id="Legs" transform="translate(136.000000, 356.500000)" sketch:type="MSShapeGroup">
                     <g id="Left-leg">
                         <path d="M0,0 L0,48.5451784 L40.3389958,72.5 L73.5,40.0247693 L73.5,0 L0,0 Z" id="Rectangle-406" fill="#737373"></path>
                         <path d="M40.3389958,88 L0,61.8198115 L0,47.7574142 L40.3389958,72.582171 L73.5,40.5 L73.5,59.6948123 L40.3389958,88 Z" id="Rectangle-412" fill="#686868"></path>
@@ -31,7 +31,7 @@
                         <path d="M40.8133842,73.5 L44.5,31.5082009 L2,2 L40.8133842,73.5 Z" id="Rectangle-409" fill="#818181"></path>
                     </g>
                 </g>
-                <g id="Dark-shield" transform="translate(111.500000, 178.500000)" sketch:type="MSShapeGroup">
+                <g id="Dark-shield" transform="translate(91.500000, 176.500000)" sketch:type="MSShapeGroup">
                     <rect id="Rectangle-416" fill="#686868" x="0" y="0" width="276.5" height="32"></rect>
                     <path d="M0,0 L0,32 L65,0 L0,0 Z" id="Rectangle-424" fill="#565656"></path>
                     <path d="M42.4229272,32 L0,32 L65,0 L42.4229272,32 Z" id="Rectangle-425" fill="#4B4B4B"></path>
@@ -43,7 +43,7 @@
                     <path d="M276.5,0 L237.472282,32 L229.5,0 L276.5,0 Z" id="Rectangle-431" fill="#414141"></path>
                     <path d="M276.5,0 L237.5,32 L276.5,32 L276.5,0 Z" id="Rectangle-432" fill="#565656"></path>
                 </g>
-                <g id="Light-shield" transform="translate(90.000000, 206.500000)" sketch:type="MSShapeGroup">
+                <g id="Light-shield" transform="translate(70.000000, 204.500000)" sketch:type="MSShapeGroup">
                     <rect id="Rectangle-417" fill="#545454" x="0" y="0" width="319.5" height="32"></rect>
                     <path d="M0,0 L0,32 L42,32 L0,0 Z" id="Rectangle-433" fill="#5D5D5D"></path>
                     <path d="M0,0 L32.4405409,0 L42,32 L0,0 Z" id="Rectangle-434" fill="#585656"></path>
@@ -60,7 +60,7 @@
                     <path d="M320.5,0 L298.801633,0 L283.5,32 L320.5,0 Z" id="Rectangle-445" fill="#6B6B6B"></path>
                     <path d="M320.5,0 L320.5,32 L283.5,32 L320.5,0 Z" id="Rectangle-446" fill="#626262"></path>
                 </g>
-                <g id="Dark-shield" transform="translate(79.500000, 231.000000)" sketch:type="MSShapeGroup">
+                <g id="Dark-shield" transform="translate(59.500000, 229.000000)" sketch:type="MSShapeGroup">
                     <rect id="Rectangle-415" fill="#454545" x="0" y="0" width="340.5" height="32"></rect>
                     <path d="M0,0 L0,32 L53.5,32 L0,0 Z" id="Rectangle-447" fill="#2C2C2C"></path>
                     <path d="M0,0 L23.0590633,0 L53.5,32 L0,0 Z" id="Rectangle-448" fill="#262626"></path>
@@ -78,7 +78,7 @@
                     <path d="M340,32 L255,32 L315.674152,0 L340,32 Z" id="Rectangle-460" fill="#161616"></path>
                     <path d="M340,32 L340,0 L316,0 L340,32 Z" id="Rectangle-461" fill="#272727"></path>
                 </g>
-                <g id="Light-shield" transform="translate(79.500000, 253.000000)" sketch:type="MSShapeGroup">
+                <g id="Light-shield" transform="translate(59.500000, 251.000000)" sketch:type="MSShapeGroup">
                     <rect id="Rectangle-419" fill="#545454" x="10.5" y="0" width="319.5" height="32"></rect>
                     <path d="M10.6013449,0 L0,32 L52.5,32 L10.6013449,0 Z" id="Rectangle-500" fill="#5D5D5D"></path>
                     <path d="M11.5,0 L0,32 L0,0 L11.5,0 Z" id="Rectangle-529" fill="#494949"></path>
@@ -96,7 +96,7 @@
                     <path d="M331,0 L309.301633,0 L294,32 L331,0 Z" id="Rectangle-512" fill="#6B6B6B"></path>
                     <path d="M330.928409,0 L340.5,32 L294,32 L330.928409,0 Z" id="Rectangle-513" fill="#626262"></path>
                 </g>
-                <g id="Dark-shield" transform="translate(79.500000, 278.000000)" sketch:type="MSShapeGroup">
+                <g id="Dark-shield" transform="translate(59.500000, 276.000000)" sketch:type="MSShapeGroup">
                     <rect id="Rectangle-418" fill="#454545" x="0" y="0" width="340.5" height="32"></rect>
                     <path d="M0,0 L0,32 L53.5,32 L0,0 Z" id="Rectangle-514" fill="#2C2C2C"></path>
                     <path d="M0,0 L23.0590633,0 L53.5,32 L0,0 Z" id="Rectangle-515" fill="#262626"></path>
@@ -114,7 +114,7 @@
                     <path d="M340,32 L255,32 L315.674152,0 L340,32 Z" id="Rectangle-527" fill="#161616"></path>
                     <path d="M340,32 L340,0 L316,0 L340,32 Z" id="Rectangle-528" fill="#272727"></path>
                 </g>
-                <g id="Light-shield" transform="translate(79.500000, 303.500000)" sketch:type="MSShapeGroup">
+                <g id="Light-shield" transform="translate(59.500000, 301.500000)" sketch:type="MSShapeGroup">
                     <rect id="Rectangle-420" fill="#545454" x="10.5" y="0" width="319.5" height="32"></rect>
                     <path d="M10.6013449,0 L0,32 L52.5,32 L10.6013449,0 Z" id="Rectangle-531" fill="#5D5D5D"></path>
                     <path d="M11.5,0 L0,32 L0,0 L11.5,0 Z" id="Rectangle-532" fill="#494949"></path>
@@ -133,7 +133,7 @@
                     <path d="M330.928409,0 L340.5,32 L294,32 L330.928409,0 Z" id="Rectangle-545" fill="#626262"></path>
                     <path d="M329.5,0 L340.5,32 L340.5,0 L329.5,0 Z" id="Rectangle-546" fill="#595959"></path>
                 </g>
-                <g id="Capacete-3" transform="translate(165.500000, 2.000000)" sketch:type="MSShapeGroup">
+                <g id="Capacete-3" transform="translate(145.500000, 0.000000)" sketch:type="MSShapeGroup">
                     <g id="Capacete-2">
                         <path d="M143.896127,121.018894 L135,205 L174.5,205 L174.5,0 L143.896127,121.018894 Z" id="Rectangle-282" fill="#F3F3F3"></path>
                         <path d="M135,204.5 L174.5,204.5 L150.814185,123 L135,204.5 Z" id="Rectangle-311" fill="#EBEBEB"></path>
@@ -172,7 +172,7 @@
                         <path d="M87.5,176 L72.5,205 L87.5,204.999997 L87.5,176 Z" id="Rectangle-318" fill="#5B5A5A"></path>
                     </g>
                 </g>
-                <g id="Dark-sheld" transform="translate(79.500000, 333.000000)" sketch:type="MSShapeGroup">
+                <g id="Dark-sheld" transform="translate(59.500000, 331.000000)" sketch:type="MSShapeGroup">
                     <rect id="Rectangle-421" fill="#454545" x="0" y="0" width="340.5" height="32"></rect>
                     <path d="M0,0 L0,32 L53.5,32 L0,0 Z" id="Rectangle-462" fill="#2C2C2C"></path>
                     <path d="M0,0 L23.0590633,0 L53.5,32 L0,0 Z" id="Rectangle-463" fill="#262626"></path>
@@ -190,7 +190,7 @@
                     <path d="M340,32 L255,32 L315.674152,0 L340,32 Z" id="Rectangle-475" fill="#161616"></path>
                     <path d="M340,32 L340,0 L316,0 L340,32 Z" id="Rectangle-476" fill="#272727"></path>
                 </g>
-                <g id="Light-shield" transform="translate(90.000000, 358.500000)" sketch:type="MSShapeGroup">
+                <g id="Light-shield" transform="translate(70.000000, 356.500000)" sketch:type="MSShapeGroup">
                     <rect id="Rectangle-422" fill="#545454" x="0" y="0" width="319.5" height="32"></rect>
                     <path d="M0,0 L0,32 L42,32 L0,0 Z" id="Rectangle-477" fill="#5D5D5D"></path>
                     <path d="M0,0 L32.4405409,0 L42,32 L0,0 Z" id="Rectangle-478" fill="#585656"></path>
@@ -207,7 +207,7 @@
                     <path d="M320.5,0 L298.801633,0 L283.5,32 L320.5,0 Z" id="Rectangle-489" fill="#6B6B6B"></path>
                     <path d="M320.5,0 L320.5,32 L283.5,32 L320.5,0 Z" id="Rectangle-490" fill="#626262"></path>
                 </g>
-                <g id="Dark-shield" transform="translate(111.500000, 382.000000)" sketch:type="MSShapeGroup">
+                <g id="Dark-shield" transform="translate(91.500000, 380.000000)" sketch:type="MSShapeGroup">
                     <rect id="Rectangle-423" fill="#686868" x="0" y="0" width="276.5" height="32"></rect>
                     <path d="M0,0 L0,32 L65,0 L0,0 Z" id="Rectangle-491" fill="#565656"></path>
                     <path d="M42.4229272,32 L0,32 L65,0 L42.4229272,32 Z" id="Rectangle-492" fill="#4B4B4B"></path>
@@ -219,7 +219,7 @@
                     <path d="M276.5,0 L237.472282,32 L229.5,0 L276.5,0 Z" id="Rectangle-498" fill="#414141"></path>
                     <path d="M276.5,0 L237.5,32 L276.5,32 L276.5,0 Z" id="Rectangle-499" fill="#565656"></path>
                 </g>
-                <g id="Shield-2" transform="translate(0.000000, 176.000000)">
+                <g id="Shield-2" transform="translate(0.000000, 194.000000)">
                     <path d="M0,-6.01774131e-15 L0,183.855884 L102.75,254.5 L205.5,183.855884 L205.5,-6.01774131e-15 L0,-6.01774131e-15 Z" id="Rectangle-302" fill="#5B6C7B" sketch:type="MSShapeGroup"></path>
                     <path d="M0,-6.02245833e-15 L0,184 L58.5,-6.02245833e-15 L0,-6.02245833e-15 Z" id="Rectangle-339" fill="#405262" sketch:type="MSShapeGroup"></path>
                     <path d="M58.5,145.281479 L0,184 L58.5,-6.02245833e-15 L58.5,145.281479 Z" id="Rectangle-340" fill="#2D4152" sketch:type="MSShapeGroup"></path>
@@ -235,7 +235,7 @@
                     <path d="M137,230.926302 L102.5,70.5 L102.5,255 L137,230.926302 Z" id="Rectangle-375" fill="#1F3141" sketch:type="MSShapeGroup"></path>
                     <g id="Group" transform="translate(70.000000, 73.500000)">
                         <g id="Rectangle-124">
-                            <use stroke="#FFFFFF" stroke-width="4" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                            <use stroke="#FFFFFF" stroke-width="2" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
                             <use stroke="none" xlink:href="#path-1"></use>
                         </g>
                         <g id="Path-1058">
@@ -258,7 +258,7 @@
                         </g>
                     </g>
                 </g>
-                <g id="Sword" transform="translate(344.000000, 0.000000)" sketch:type="MSShapeGroup">
+                <g id="Sword" transform="translate(317.000000, 18.000000)" sketch:type="MSShapeGroup">
                     <path d="M45.5,286.999996 L72.9999993,287 L73,250 L45.5,286.999996 Z" id="Rectangle-394" fill="#DDE8EE"></path>
                     <path d="M45.5,289 L48.4197672,199.5 L73,251.803127 L45.5,289 Z" id="Rectangle-395" fill="#D5E5ED"></path>
                     <path d="M73,180.5 L48.5,202.116785 L72.9999992,254 L73,180.5 Z" id="Rectangle-396" fill="#CEE6F2"></path>
@@ -270,11 +270,11 @@
                     <path d="M96.5,181 L72,201.8499 L96.5,252.5 L96.5,181 Z" id="Rectangle-390" fill="#E6F4FC" transform="translate(84.250000, 216.750000) scale(-1, 1) translate(-84.250000, -216.750000) "></path>
                     <path d="M96.5,182.55751 L72,203.5 L73.6014754,109.5 L96.5,182.55751 Z" id="Rectangle-391" fill="#F7FCFF" transform="translate(84.250000, 156.500000) scale(-1, 1) translate(-84.250000, -156.500000) "></path>
                     <path d="M95,185 L94.4999998,79 L72,111.073864 L95,185 Z" id="Rectangle-392" fill="#EEF9FF" transform="translate(83.500000, 132.000000) scale(-1, 1) translate(-83.500000, -132.000000) "></path>
-                    <path d="M73.1168726,50 L95,80.0262353 L72.5,112 L73.1168726,50 Z" id="Rectangle-393" fill="#ECF7FD" transform="translate(83.750000, 81.000000) scale(-1, 1) translate(-83.750000, -81.000000) "></path>
-                    <path d="M51.6669922,48.9570313 L72.9999993,36.493883 L73,6.7717319e-16 L51.6669922,48.9570313 Z" id="Rectangle-300" fill="#F6FCFF"></path>
-                    <path d="M73,36.5429087 L94.416992,50.2646484 L72.9231432,6.78082901e-16 L73,36.5429087 Z" id="Rectangle-402" fill="#FFFFFF"></path>
-                    <path d="M51.5,48.8283626 L72.5,84 L72.5,34 L51.5,48.8283626 Z" id="Rectangle-400" fill="#EEF7FC"></path>
-                    <path d="M94.5,50.1507984 L72.5,84 L72,34 L94.5,50.1507984 Z" id="Rectangle-401" fill="#F7FCFF"></path>
+                    <path d="M71.9492188,49.9316406 L95.5,80.0262353 L73,112 L71.9492188,49.9316406 Z" id="Rectangle-393" fill="#ECF7FD" transform="translate(84.000000, 81.000000) scale(-1, 1) translate(-84.000000, -81.000000) "></path>
+                    <path d="M51.6542969,49.1982422 L72.9999993,36.493883 L73,6.7717319e-16 L51.6542969,49.1982422 Z" id="Rectangle-300" fill="#F6FCFF"></path>
+                    <path d="M73,36.5429087 L96.0605467,50.3613281 L72.9231432,6.78082901e-16 L73,36.5429087 Z" id="Rectangle-402" fill="#FFFFFF"></path>
+                    <path d="M52.1132812,49.0019531 L73.5,84 L73.5,28.0146484 L52.1132812,49.0019531 Z" id="Rectangle-400" fill="#EEF7FC"></path>
+                    <path d="M96.1113281,50.4609375 L72.5576172,83.7490234 L72.5576172,27.8964844 L96.1113281,50.4609375 Z" id="Rectangle-401" fill="#F7FCFF"></path>
                     <path d="M72,276 L72,299 L130.5,299 L130.5,276 L72,276 Z" id="Rectangle-294" fill="#FAEE9A"></path>
                     <path d="M72,276 L72,299 L90,299 L72,276 Z" id="Rectangle-377" fill="#E9DD86"></path>
                     <path d="M72,276 L102.5,299 L89.9457492,299 L72,276 Z" id="Rectangle-378" fill="#FBF09F"></path>
