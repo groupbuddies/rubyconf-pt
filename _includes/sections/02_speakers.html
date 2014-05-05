@@ -1,0 +1,9 @@
+<section class="section speakers">
+  <h1 class="section-title">
+    {% include title_ribbon.html title="Speakers" %}
+  </h1>
+
+  {% for speaker in page.speakers %}
+    {% include speaker.html %}
+  {% endfor %}
+</section>

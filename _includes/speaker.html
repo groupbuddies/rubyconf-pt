@@ -1,0 +1,11 @@
+<div class="speaker">
+  <div class="speaker-picture-container">
+    <img class="speaker-picture" src="images/speakers/{{ speaker.picture_name }}" />
+  </div>
+  <div class="speaker-name-frame">
+    <h1 class="speaker-name">{{ speaker.name }}</h1>
+    {% if speaker.twitter %}
+      <a href="https://twitter.com/{{include.twitter}}"><h2 class="speaker-twitter">{{ speaker.twitter }}</h2></a>
+    {% endif %}
+  </div>
+</div>

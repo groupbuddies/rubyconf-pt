@@ -1,0 +1,14 @@
+@mixin gradient($start: red, $end: green, $size: 5)
+  width: 100%
+  line-height: 40px
+  min-height: 40px
+
+  @for $i from 0 through ($size - 1)
+    .gradient-line-#{$i}
+      background-color: mix($start, $end, ($size - 1 - $i) * 100/($size - 1))
+
+.gradient
+  &.red-to-white
+    @include gradient($red-bg, $white)
+  &.white-to-dark
+    @include gradient($white, $dark-blue)

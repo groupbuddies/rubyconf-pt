@@ -1,68 +1,32 @@
 ---
+layout: default
+speakers:
+  - name: Joe Ferris
+    picture_name: ferris.jpg
+    twitter: "@joeferris"
+  - name: Katrina Owen
+    picture_name: katrina.jpg
+    twitter: "@kytrinyx"
+  - name: This could be you!
+    picture_name: knight.png
 ---
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>RubyConf Portugal</title>
-    <link href="css/application.css" rel="stylesheet" />
-    <script src="vendor/js/jquery.min.js" type="text/javascript"></script>
-    <script src="js/application.js" type="text/javascript"></script>
-    <script src="//use.typekit.net/tex5gzb.js" type="text/javascript"></script>
-    <script type="text/javascript">
-      try{ Typekit.load(); } catch(e) {  }
-    </script>
-  </head>
 
-  <body>
-    <section class="nav">
-      <div class="left-nav">
-        <img class="logo" src="images/logo.png" alt="logo" />
-      </div>
-      <div class="right-nav">
-        <a href="#" class="nav-action">Call for Papers</a>
-      </div>
-    </section>
+{% include sections/00_nav.html %}
+{% include sections/01_scene.html %}
+{% include gradient.html class="red-to-white" %}
+{% include sections/02_speakers.html %}
+{% include gradient.html class="white-to-dark" %}
+{% include sections/03_venue.html %}
 
-    <section class="scene">
-      <div class="layers" id="layers">
-        <div class="layer dummy"></div>
-        <div class="layer background" data-depth="0.00"></div>
-        <div class="layer sky" data-depth="0.04"></div>
-        <div class="layer clouds" data-depth="0.1"></div>
-        <div class="layer mountains" data-depth="0.3"></div>
-        <div class="layer foreground" data-depth="0.5"></div>
-        <div class="layer knight" data-depth="0.5"></div>
-      </div>
-      <div class="overlay">
-        <h1 class="main-title">RubyConf Portugal</h1>
-        <h2 class="subtitle">Ruby conference, surrounded by history</h2>
-      </div>
-    </section>
-    <script src="vendor/js/parallax.min.js" type="text/javascript"></script>
-    <script src="vendor/js/jquery.parallax.min.js" type="text/javascript"></script>
 
-    <section class="section speakers">
-      <h1 class="section-title">
-        {% include title_banner.html title="Speakers" %}
-      </h1>
-    </section>
+<!-- <section class="section blog"> -->
+<!--   <h1 class="section-title"> -->
+<!--     {% include title_ribbon.html title="Blog" %} -->
+<!--   </h1> -->
+<!-- </section> -->
 
-    <section class="section venue">
-      <h1 class="section-title">
-        {% include title_banner.html title="Venue" %}
-      </h1>
-    </section>
-
-    <!-- <section class="section blog"> -->
-    <!--   <h1 class="section-title"> -->
-    <!--     {% include title_banner.html title="Blog" %} -->
-    <!--   </h1> -->
-    <!-- </section> -->
-
-    <!-- <section class="section sponsorship"> -->
-    <!--   <h1 class="section-title"> -->
-    <!--     {% include title_banner.html title="Sponsorship" %} -->
-    <!--   </h1> -->
-    <!-- </section> -->
-  </body>
-</html>
+<!-- <section class="section sponsorship"> -->
+<!--   <h1 class="section-title"> -->
+<!--     {% include title_ribbon.html title="Sponsorship" %} -->
+<!--   </h1> -->
+<!-- </section> -->

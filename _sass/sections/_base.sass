@@ -1,3 +1,19 @@
+%white-section
+  @include dark-ribbon
+  background-color: $white
+
+%dark-section
+  @include light-ribbon
+  background-color: $blue-bg
+
+%red-section
+  @include light-ribbon
+  background-color: $red-bg
+
 .section
   padding-top: 3em
   padding-bottom: 3em
+  text-align: center
+
+  .section-title
+    margin-bottom: 3rem

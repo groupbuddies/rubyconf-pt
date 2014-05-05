@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="379px" height="382px" viewBox="0 0 379 382" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.1 (7597) - http://www.bohemiancoding.com/sketch -->
+    <title>Moldura</title>
+    <description>Created with Sketch.</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-3" sketch:type="MSArtboardGroup" transform="translate(-371.000000, -231.000000)">
+            <g id="Moldura" sketch:type="MSLayerGroup" transform="translate(371.000000, 231.000000)">
+                <path d="M314.222656,1.4140625 L262.675781,20 L191,1.4140625 L112.597656,20 L64.1171875,1.4140625 L1,20 L21,126.101562 L1,188 L21,257.785156 L1,360 L64.1171875,380 L112.597656,360 L191,380 L262.675781,360 L314.222656,380 L377.492188,360 L361,257.785156 L377.492188,188 L361,126.101562 L377.492188,20 L314.222656,1.4140625 Z" id="Rectangle-84" fill="#FFDE51" sketch:type="MSShapeGroup"></path>
+                <path d="M64.1171875,1.4140625 L114.074219,19.828125 L21,126.101562 L64.1171875,1.4140625 Z" id="Rectangle-88" fill="#F6CD20" sketch:type="MSShapeGroup"></path>
+                <path d="M278.890625,130.59375 L192.015625,0.6640625 L114.074219,19.828125 L21,126.101562 L278.890625,130.59375 Z" id="Rectangle-89" fill="#FFD41A" sketch:type="MSShapeGroup"></path>
+                <path d="M30.7109375,126.101562 L30.7109375,113.169922 L21,126.101562 L30.7109375,126.101562 Z" id="Rectangle-274" fill="#F5CA16" sketch:type="MSShapeGroup"></path>
+                <path d="M27.1738281,107.914062 L30.7109375,113.169922 L21,126.101562 L27.1738281,107.914062 Z" id="Rectangle-275" fill="#D6B215" sketch:type="MSShapeGroup"></path>
+                <path d="M280.193359,130.523438 L193.015625,0.6640625 L162.632812,130.523438 L280.193359,130.523438 Z" id="Rectangle-106" fill="#F2CA23" sketch:type="MSShapeGroup"></path>
+                <path d="M278.890625,130.59375 L0.947265625,188 L21,126.101562 L278.890625,130.59375 Z" id="Rectangle-93" fill="#FFD93A" sketch:type="MSShapeGroup"></path>
+                <path d="M31.5566406,126.101562 L15.2519531,143.029297 L21,126.101562 L31.5566406,126.101562 Z" id="Rectangle-209" fill="#FFE677" sketch:type="MSShapeGroup"></path>
+                <path d="M31.5566406,126.101562 L15.2519531,143.029297 L18.9726562,153.5625 L31.5566406,126.101562 Z" id="Rectangle-210" fill="#F2CC29" sketch:type="MSShapeGroup"></path>
+                <path d="M5.86523438,174.564453 L15.2519531,143.029297 L18.9726562,153.5625 L5.86523438,174.564453 Z" id="Rectangle-211" fill="#FFE36A" sketch:type="MSShapeGroup"></path>
+                <path d="M5.86523438,174.564453 L13.4189453,185.787109 L18.9726562,153.5625 L5.86523438,174.564453 Z" id="Rectangle-212" fill="#F6CA0D" sketch:type="MSShapeGroup"></path>
+                <path d="M5.86523438,174.564453 L13.4189453,185.787109 L0.25,188 L5.86523438,174.564453 Z" id="Rectangle-213" fill="#FFE46D" sketch:type="MSShapeGroup"></path>
+                <path d="M278.890625,130.59375 L72.0117188,174.332031 L84.6015625,125.898438 L278.890625,130.59375 Z" id="Rectangle-105" fill="#EBC72E" sketch:type="MSShapeGroup"></path>
+                <path d="M278.890625,130.59375 L328.487305,117.263672 L361.425781,125.722656 L378.083984,188 L278.890625,130.59375 Z" id="Rectangle-94" fill="#FAD434" sketch:type="MSShapeGroup"></path>
+                <path d="M278.890625,130.59375 L180.277344,248.113281 L360.736328,259.416016 L378.083984,188 L278.890625,130.59375 Z" id="Rectangle-95" fill="#F1CB28" sketch:type="MSShapeGroup"></path>
+                <path d="M377.205078,359.492188 L180.277344,248.113281 L361.736328,256.416016 L377.205078,359.492188 Z" id="Rectangle-96" fill="#E6C32B" sketch:type="MSShapeGroup"></path>
+                <path d="M377.205078,359.492188 L180.277344,248.113281 L315.181641,380.585938 L377.205078,359.492188 Z" id="Rectangle-97" fill="#F3CB21" sketch:type="MSShapeGroup"></path>
+                <path d="M263.572266,360.279297 L180.277344,248.113281 L315.181641,380.585938 L263.572266,360.279297 Z" id="Rectangle-98" fill="#F8D439" sketch:type="MSShapeGroup"></path>
+                <path d="M263.572266,360.279297 L180.277344,248.113281 L192.626953,380.416016 L263.572266,360.279297 Z" id="Rectangle-99" fill="#F2CA23" sketch:type="MSShapeGroup"></path>
+                <path d="M113.259766,360.011719 L180.277344,248.113281 L192.626953,380.416016 L113.259766,360.011719 Z" id="Rectangle-100" fill="#FFD41A" sketch:type="MSShapeGroup"></path>
+                <path d="M113.259766,360.011719 L180.277344,248.113281 L71.1660156,172.742188 L63.5664062,379.669922 L113.259766,360.011719 Z" id="Rectangle-101" fill="#EFC50F" sketch:type="MSShapeGroup"></path>
+                <path d="M1.421875,359.947266 L71.1660156,172.742188 L63.5664062,379.669922 L1.421875,359.947266 Z" id="Rectangle-102" fill="#F6CD20" sketch:type="MSShapeGroup"></path>
+                <path d="M1.421875,359.947266 L71.1660156,172.742188 L21.4726562,258.191406 L1.421875,359.947266 Z" id="Rectangle-103" fill="#FED111" sketch:type="MSShapeGroup"></path>
+                <path d="M15.6222098,284.799665 L25.8359375,273.416853 L21.329799,257.412946 L15.6222098,284.799665 Z" id="Rectangle-218" fill="#FFDC47" sketch:type="MSShapeGroup"></path>
+                <path d="M15.6222098,284.799665 L25.8359375,273.416853 L11.251674,308.18136 L15.6222098,284.799665 Z" id="Rectangle-220" fill="#FFE77F" sketch:type="MSShapeGroup"></path>
+                <path d="M20.6738284,299.109375 L25.8359375,271.416853 L11.251674,308.18136 L20.6738284,299.109375 Z" id="Rectangle-222" fill="#F1CD34" sketch:type="MSShapeGroup"></path>
+                <path d="M6.73828104,333.072264 L20.363281,297.503906 L11.251674,308.18136 L6.73828104,333.072264 Z" id="Rectangle-221" fill="#FFE77F" sketch:type="MSShapeGroup"></path>
+                <path d="M6.73828104,333.072264 L20.363281,297.503906 L10.694336,335.72168 L6.73828104,333.072264 Z" id="Rectangle-284" fill="#E4C43B" sketch:type="MSShapeGroup"></path>
+                <path d="M6.73828104,333.072264 L10.7343748,335.277344 L0.593749791,359.541017 L6.73828104,333.072264 Z" id="Rectangle-223" fill="#FFE77F" sketch:type="MSShapeGroup"></path>
+                <path d="M10.7343748,363.050781 L10.7343748,335.277344 L0.593749791,359.541017 L10.7343748,363.050781 Z" id="Rectangle-224" fill="#E5C644" sketch:type="MSShapeGroup"></path>
+                <path d="M10.7343748,363.050781 L10.7343748,335.277344 L23.9082029,349.164062 L10.7343748,363.050781 Z" id="Rectangle-225" fill="#DFBE31" sketch:type="MSShapeGroup"></path>
+                <path d="M10.7343748,363.050781 L39.5566404,371.927734 L23.9082029,349.164062 L10.7343748,363.050781 Z" id="Rectangle-226" fill="#FFE15E" sketch:type="MSShapeGroup"></path>
+                <path d="M51.2050779,364.001953 L39.5566404,371.927734 L23.9082029,349.164062 L51.2050779,364.001953 Z" id="Rectangle-227" fill="#FFDD49" sketch:type="MSShapeGroup"></path>
+                <path d="M51.2050779,364.001953 L39.5566404,371.927734 L64.6894529,380.755859 L51.2050779,364.001953 Z" id="Rectangle-228" fill="#FFDF54" sketch:type="MSShapeGroup"></path>
+                <path d="M51.2050779,364.001953 L64.6894529,359.835938 L64.6894529,380.755859 L51.2050779,364.001953 Z" id="Rectangle-229" fill="#E6C432" sketch:type="MSShapeGroup"></path>
+                <path d="M83.2167967,372.820312 L64.6894529,359.835938 L64.6894529,380.755859 L83.2167967,372.820312 Z" id="Rectangle-230" fill="#F2D143" sketch:type="MSShapeGroup"></path>
+                <path d="M83.2167967,372.820312 L64.6894529,359.835938 L86.8808592,359.835938 L83.2167967,372.820312 Z" id="Rectangle-231" fill="#FFDD49" sketch:type="MSShapeGroup"></path>
+                <path d="M83.2167967,372.820312 L112.490234,359.835938 L86.8808592,359.835938 L83.2167967,372.820312 Z" id="Rectangle-232" fill="#FFED9C" sketch:type="MSShapeGroup"></path>
+                <path d="M120.449219,349.082031 L112.490234,359.835938 L86.8808592,359.835938 L120.449219,349.082031 Z" id="Rectangle-233" fill="#DCB924" sketch:type="MSShapeGroup"></path>
+                <path d="M120.449219,349.082031 L112.490234,359.835938 L129.425781,364.484375 L120.449219,349.082031 Z" id="Rectangle-234" fill="#E7C32D" sketch:type="MSShapeGroup"></path>
+                <path d="M120.449219,349.082031 L154.02539,364.484375 L129.425781,364.484375 L120.449219,349.082031 Z" id="Rectangle-235" fill="#F3D03A" sketch:type="MSShapeGroup"></path>
+                <path d="M175.716797,376.263672 L154.02539,364.484375 L129.425781,364.484375 L175.716797,376.263672 Z" id="Rectangle-236" fill="#FFED9C" sketch:type="MSShapeGroup"></path>
+                <path d="M175.716797,376.263672 L154.02539,364.484375 L191.841797,364.484375 L175.716797,376.263672 Z" id="Rectangle-237" fill="#F4D243" sketch:type="MSShapeGroup"></path>
+                <path d="M175.716797,376.263672 L191.841797,380.001953 L191.841797,364.484375 L175.716797,376.263672 Z" id="Rectangle-238" fill="#FFED9C" sketch:type="MSShapeGroup"></path>
+                <path d="M210.859375,375.287109 L191.841797,380.001953 L191.841797,364.484375 L210.859375,375.287109 Z" id="Rectangle-239" fill="#FFDD49" sketch:type="MSShapeGroup"></path>
+                <path d="M210.859375,375.287109 L224.416015,356.974609 L191.841797,364.484375 L210.859375,375.287109 Z" id="Rectangle-240" fill="#E7C742" sketch:type="MSShapeGroup"></path>
+                <path d="M210.859375,375.287109 L224.416015,356.974609 L236.582031,368.376953 L210.859375,375.287109 Z" id="Rectangle-241" fill="#F7D64A" sketch:type="MSShapeGroup"></path>
+                <path d="M255.705078,350.751953 L224.416015,356.974609 L236.582031,368.376953 L255.705078,350.751953 Z" id="Rectangle-242" fill="#E6C22C" sketch:type="MSShapeGroup"></path>
+                <path d="M256.705078,349.751953 L263.992187,360.564453 L236.582031,368.376953 L256.705078,349.751953 Z" id="Rectangle-243" fill="#FFDD49" sketch:type="MSShapeGroup"></path>
+                <path d="M256.705078,349.751953 L263.992187,360.564453 L278.519531,366.294922 L256.705078,349.751953 Z" id="Rectangle-244" fill="#FFEA8D" sketch:type="MSShapeGroup"></path>
+                <path d="M256.705078,349.751953 L285.234375,361.908203 L278.519531,366.294922 L256.705078,349.751953 Z" id="Rectangle-245" fill="#EFCD3B" sketch:type="MSShapeGroup"></path>
+                <path d="M316.449219,381.197266 L285.234375,361.908203 L278.519531,366.294922 L316.449219,381.197266 Z" id="Rectangle-246" fill="#FFED9C" sketch:type="MSShapeGroup"></path>
+                <path d="M316.449219,381.197266 L285.234375,361.908203 L297.484375,361.908203 L316.449219,381.197266 Z" id="Rectangle-247" fill="#E7C63D" sketch:type="MSShapeGroup"></path>
+                <path d="M316.449219,381.197266 L310.441406,358.333984 L297.484375,361.908203 L316.449219,381.197266 Z" id="Rectangle-248" fill="#D5B738" sketch:type="MSShapeGroup"></path>
+                <path d="M316.449219,381.197266 L310.441406,358.333984 L333.46875,374.318359 L316.449219,381.197266 Z" id="Rectangle-249" fill="#FFDD49" sketch:type="MSShapeGroup"></path>
+                <path d="M347.771484,358.333984 L310.441406,358.333984 L333.46875,374.318359 L347.771484,358.333984 Z" id="Rectangle-250" fill="#DFBF35" sketch:type="MSShapeGroup"></path>
+                <path d="M347.771484,358.333984 L377.880859,360.382812 L333.46875,374.318359 L347.771484,358.333984 Z" id="Rectangle-251" fill="#F8D953" sketch:type="MSShapeGroup"></path>
+                <path d="M347.771484,358.333984 L377.880859,360.382812 L355.674804,346.177734 L347.771484,358.333984 Z" id="Rectangle-252" fill="#D6B839" sketch:type="MSShapeGroup"></path>
+                <path d="M373.980469,338.21875 L377.880859,360.382812 L355.674804,346.177734 L373.980469,338.21875 Z" id="Rectangle-253" fill="#F4D139" sketch:type="MSShapeGroup"></path>
+                <path d="M373.980469,338.21875 L363.021484,313.025391 L355.674804,346.177734 L373.980469,338.21875 Z" id="Rectangle-254" fill="#DFBB25" sketch:type="MSShapeGroup"></path>
+                <path d="M373.980469,338.21875 L363.021484,313.025391 L367.078125,290.294922 L373.980469,338.21875 Z" id="Rectangle-255" fill="#F9D84B" sketch:type="MSShapeGroup"></path>
+                <path d="M351.363281,256.605469 L363.021484,313.025391 L367.078125,290.294922 L351.363281,256.605469 Z" id="Rectangle-256" fill="#D5B52D" sketch:type="MSShapeGroup"></path>
+                <path d="M351.363281,256.605469 L361.90625,254.597656 L367.078125,290.294922 L351.363281,256.605469 Z" id="Rectangle-257" fill="#F1CF3F" sketch:type="MSShapeGroup"></path>
+                <path d="M351.363281,256.605469 L361.90625,254.597656 L367.939453,229.380859 L351.363281,256.605469 Z" id="Rectangle-258" fill="#FDDC4F" sketch:type="MSShapeGroup"></path>
+                <path d="M351.363281,256.605469 L359.651367,206.363281 L367.939453,229.380859 L351.363281,256.605469 Z" id="Rectangle-259" fill="#E2BF2C" sketch:type="MSShapeGroup"></path>
+                <path d="M378.142578,188 L359.651367,206.363281 L367.939453,229.380859 L378.142578,188 Z" id="Rectangle-260" fill="#F8DA5B" sketch:type="MSShapeGroup"></path>
+                <path d="M378.142578,188 L359.651367,206.363281 L361.994141,178.355469 L378.142578,188 Z" id="Rectangle-261" fill="#E5C01E" sketch:type="MSShapeGroup"></path>
+                <path d="M378.142578,188 L372.339844,164.65625 L361.994141,178.355469 L378.142578,188 Z" id="Rectangle-262" fill="#EDCB37" sketch:type="MSShapeGroup"></path>
+                <path d="M357.976563,151.769531 L372.339844,164.65625 L361.994141,178.355469 L357.976563,151.769531 Z" id="Rectangle-263" fill="#E0C034" sketch:type="MSShapeGroup"></path>
+                <path d="M357.976563,151.769531 L372.339844,164.65625 L363.039063,133.71875 L357.976563,151.769531 Z" id="Rectangle-264" fill="#FFDA3A" sketch:type="MSShapeGroup"></path>
+                <path d="M357.976563,151.769531 L349.146484,126.609375 L363.039063,133.71875 L357.976563,151.769531 Z" id="Rectangle-265" fill="#EEC92C" sketch:type="MSShapeGroup"></path>
+                <path d="M360.783203,122.798828 L349.146484,126.609375 L363.039063,133.71875 L360.783203,122.798828 Z" id="Rectangle-266" fill="#FCDE5D" sketch:type="MSShapeGroup"></path>
+                <path d="M0.85546875,188 L71.1660156,172.742188 L21.4726562,258.191406 L0.85546875,188 Z" id="Rectangle-104" fill="#F5CA14" sketch:type="MSShapeGroup"></path>
+                <path d="M30.384487,242.296875 L25.6450895,273.61384 L20.905692,257.072266 L30.384487,242.296875 Z" id="Rectangle-219" fill="#DFBD29" sketch:type="MSShapeGroup"></path>
+                <path d="M8.97070312,215.109375 L13.4189453,185.787109 L0.25,188 L8.97070312,215.109375 Z" id="Rectangle-214" fill="#FFD419" sketch:type="MSShapeGroup"></path>
+                <path d="M8.97070312,215.109375 L13.4189453,185.787109 L19.9394531,219.822266 L8.97070312,215.109375 Z" id="Rectangle-215" fill="#EBC51D" sketch:type="MSShapeGroup"></path>
+                <path d="M8.97070312,215.109375 L20.9394531,257.070312 L19.9394531,219.822266 L8.97070312,215.109375 Z" id="Rectangle-216" fill="#FFDD48" sketch:type="MSShapeGroup"></path>
+                <path d="M30.2871094,242.470703 L20.9394531,257.070312 L19.9394531,219.822266 L30.2871094,242.470703 Z" id="Rectangle-217" fill="#E7C637" sketch:type="MSShapeGroup"></path>
+                <path d="M340.011719,118.9375 L278.890625,130.59375 L192.015625,0.6640625 L264.542969,20.5 L340.011719,118.9375 Z" id="Rectangle-90" fill="#F2CA23" sketch:type="MSShapeGroup"></path>
+                <path d="M278.478516,131.257812 L359.929688,124.769531 L356.896484,107.339844 L312.613281,0.84375 L261.542969,19.5 L278.478516,131.257812 Z" id="Rectangle-91" fill="#F6CD20" sketch:type="MSShapeGroup"></path>
+                <path d="M360.929688,125.769531 L312.613281,0.84375 L378.703125,18.7929688 L360.929688,125.769531 Z" id="Rectangle-92" fill="#FED111" sketch:type="MSShapeGroup"></path>
+                <path d="M360.783203,124.798828 L349.146484,127.609375 L364.128906,107.921875 L360.783203,124.798828 Z" id="Rectangle-267" fill="#FFE575" sketch:type="MSShapeGroup"></path>
+                <path d="M350.146484,98.1347656 L357.137695,117.097656 L364.128906,107.921875 L350.146484,98.1347656 Z" id="Rectangle-268" fill="#FFEB94" sketch:type="MSShapeGroup"></path>
+                <path d="M350.146484,98.1347656 L357.137695,117.097656 L349.146484,127.349609 L350.146484,98.1347656 Z" id="Rectangle-276" fill="#EBC72D" sketch:type="MSShapeGroup"></path>
+                <path d="M350.146484,98.1347656 L368.628906,79.6660156 L364.128906,107.921875 L350.146484,98.1347656 Z" id="Rectangle-269" fill="#FEDA3C" sketch:type="MSShapeGroup"></path>
+                <path d="M350.146484,98.1347656 L368.628906,79.6660156 L363.258789,60.8583984 L350.146484,98.1347656 Z" id="Rectangle-270" fill="#F1CA22" sketch:type="MSShapeGroup"></path>
+                <path d="M374.135742,46.5498047 L368.628906,79.6660156 L363.258789,60.8583984 L374.135742,46.5498047 Z" id="Rectangle-271" fill="#FFDB3C" sketch:type="MSShapeGroup"></path>
+                <path d="M374.135742,46.5498047 L360.852539,19.9736328 L363.258789,60.8583984 L374.135742,46.5498047 Z" id="Rectangle-272" fill="#F7CB10" sketch:type="MSShapeGroup"></path>
+                <path d="M374.135742,46.5498047 L360.852539,19.9736328 L376.669922,30.7685547 L374.135742,46.5498047 Z" id="Rectangle-273" fill="#FFDB3C" sketch:type="MSShapeGroup"></path>
+                <path d="M19.4472656,14.6640625 L1,20 L4.43847656,36.6503906 L19.4472656,14.6640625 Z" id="Rectangle-107" fill="#FFDD4C" sketch:type="MSShapeGroup"></path>
+                <path d="M19.4472656,14.6640625 L25.8417969,25.4394531 L4.5859375,36.2148438 L19.4472656,14.6640625 Z" id="Rectangle-108" fill="#FFE266" sketch:type="MSShapeGroup"></path>
+                <path d="M19.4472656,14.6640625 L25.8417969,25.4394531 L45,7.27734375 L19.4472656,14.6640625 Z" id="Rectangle-109" fill="#F8CB0C" sketch:type="MSShapeGroup"></path>
+                <path d="M51.640625,16.3583984 L25.8417969,25.4394531 L45,7.27734375 L51.640625,16.3583984 Z" id="Rectangle-110" fill="#FFE266" sketch:type="MSShapeGroup"></path>
+                <path d="M51.640625,16.3583984 L64.6796875,1.00585938 L45,7.27734375 L51.640625,16.3583984 Z" id="Rectangle-111" fill="#FFDD4D" sketch:type="MSShapeGroup"></path>
+                <path d="M51.640625,16.3583984 L64.1357422,1.47167969 L59.8828125,16.3583984 L51.640625,16.3583984 Z" id="Rectangle-112" fill="#FFE46E" sketch:type="MSShapeGroup"></path>
+                <path d="M67.9277344,21.3828125 L64.1357422,1.47167969 L58.8828125,16.3583984 L67.9277344,21.3828125 Z" id="Rectangle-113" fill="#FED62A" sketch:type="MSShapeGroup"></path>
+                <path d="M67.9277344,21.3828125 L64.1357422,1.47167969 L78.0009766,6.56640625 L67.9277344,21.3828125 Z" id="Rectangle-114" fill="#F2C91C" sketch:type="MSShapeGroup"></path>
+                <path d="M67.9277344,21.3828125 L88.4726562,10.1113281 L78.0009766,6.56640625 L67.9277344,21.3828125 Z" id="Rectangle-115" fill="#FBD531" sketch:type="MSShapeGroup"></path>
+                <path d="M67.9277344,21.3828125 L88.4726562,10.1113281 L92.5068359,21.3828125 L67.9277344,21.3828125 Z" id="Rectangle-116" fill="#EEC82A" sketch:type="MSShapeGroup"></path>
+                <path d="M102.538086,15.7470703 L88.4726562,10.1113281 L92.5068359,21.3828125 L102.538086,15.7470703 Z" id="Rectangle-117" fill="#FCD83F" sketch:type="MSShapeGroup"></path>
+                <path d="M102.538086,15.7470703 L107.035156,27.5185547 L92.5068359,21.3828125 L102.538086,15.7470703 Z" id="Rectangle-118" fill="#F2CE33" sketch:type="MSShapeGroup"></path>
+                <path d="M102.538086,15.7470703 L107.035156,27.5185547 L114.182617,19.7958984 L102.538086,15.7470703 Z" id="Rectangle-119" fill="#EBC72B" sketch:type="MSShapeGroup"></path>
+                <path d="M129.188477,16.0292969 L107.035156,27.5185547 L114.182617,19.7958984 L129.188477,16.0292969 Z" id="Rectangle-120" fill="#FFE161" sketch:type="MSShapeGroup"></path>
+                <path d="M129.188477,16.0292969 L107.035156,27.5185547 L131.782227,21.7739258 L129.188477,16.0292969 Z" id="Rectangle-121" fill="#FFD936" sketch:type="MSShapeGroup"></path>
+                <path d="M129.188477,16.0292969 L149.75,11.2636719 L131.782227,21.7739258 L129.188477,16.0292969 Z" id="Rectangle-122" fill="#FBD01B" sketch:type="MSShapeGroup"></path>
+                <path d="M160.342773,13.9570312 L149.75,11.2636719 L131.782227,21.7739258 L160.342773,13.9570312 Z" id="Rectangle-123" fill="#FFDC45" sketch:type="MSShapeGroup"></path>
+                <path d="M160.342773,13.9570312 L149.75,11.2636719 L176.314453,4.54589844 L160.342773,13.9570312 Z" id="Rectangle-124" fill="#FFE369" sketch:type="MSShapeGroup"></path>
+                <path d="M160.342773,13.9570312 L191.642578,13.9570312 L176.314453,4.54589844 L160.342773,13.9570312 Z" id="Rectangle-125" fill="#FFD938" sketch:type="MSShapeGroup"></path>
+                <path d="M193,0.143554688 L191.642578,13.9570312 L176.314453,4.54589844 L193,0.143554688 Z" id="Rectangle-126" fill="#F9D230" sketch:type="MSShapeGroup"></path>
+                <path d="M193,0.143554688 L191.642578,13.9570312 L205.341797,4.36132812 L193,0.143554688 Z" id="Rectangle-127" fill="#E9C21D" sketch:type="MSShapeGroup"></path>
+                <path d="M215.25,7.05029297 L191.642578,13.9570312 L205.341797,4.36132812 L215.25,7.05029297 Z" id="Rectangle-128" fill="#E1BB17" sketch:type="MSShapeGroup"></path>
+                <path d="M215.25,7.05029297 L191.642578,13.9570312 L218.680664,13.9570312 L215.25,7.05029297 Z" id="Rectangle-129" fill="#EBC524" sketch:type="MSShapeGroup"></path>
+                <path d="M215.25,7.05029297 L232.755859,11.5498047 L218.680664,13.9570312 L215.25,7.05029297 Z" id="Rectangle-130" fill="#F6CF2B" sketch:type="MSShapeGroup"></path>
+                <path d="M239.625977,20.96875 L232.755859,11.5498047 L218.680664,13.9570312 L239.625977,20.96875 Z" id="Rectangle-131" fill="#ECC626" sketch:type="MSShapeGroup"></path>
+                <path d="M239.625977,20.96875 L232.755859,11.5498047 L251.77832,17.2592773 L239.625977,20.96875 Z" id="Rectangle-132" fill="#F8D230" sketch:type="MSShapeGroup"></path>
+                <path d="M239.625977,20.96875 L261.910156,19.7197266 L251.77832,17.2592773 L239.625977,20.96875 Z" id="Rectangle-133" fill="#FFDA3D" sketch:type="MSShapeGroup"></path>
+                <path d="M239.625977,20.96875 L261.910156,19.7197266 L267.366211,26.8427734 L239.625977,20.96875 Z" id="Rectangle-134" fill="#F3CF35" sketch:type="MSShapeGroup"></path>
+                <path d="M275.301758,14.5263672 L261.910156,19.7197266 L267.366211,26.8427734 L275.301758,14.5263672 Z" id="Rectangle-135" fill="#F8D852" sketch:type="MSShapeGroup"></path>
+                <path d="M275.301758,14.5263672 L284.933594,18.3632812 L267.366211,26.8427734 L275.301758,14.5263672 Z" id="Rectangle-136" fill="#FFE05A" sketch:type="MSShapeGroup"></path>
+                <path d="M275.301758,14.5263672 L284.933594,18.3632812 L292.134766,8.32519531 L275.301758,14.5263672 Z" id="Rectangle-137" fill="#F9DA53" sketch:type="MSShapeGroup"></path>
+                <path d="M305.094727,3.5703125 L284.933594,18.3632812 L292.134766,8.32519531 L305.094727,3.5703125 Z" id="Rectangle-138" fill="#FFE266" sketch:type="MSShapeGroup"></path>
+                <path d="M305.094727,3.5703125 L284.933594,18.3632812 L301.185547,15.2314453 L305.094727,3.5703125 Z" id="Rectangle-139" fill="#F9D641" sketch:type="MSShapeGroup"></path>
+                <path d="M305.094727,3.5703125 L313.350586,0.69921875 L301.185547,15.2314453 L305.094727,3.5703125 Z" id="Rectangle-140" fill="#FFD72D" sketch:type="MSShapeGroup"></path>
+                <path d="M316.678711,12.3681641 L313.350586,0.69921875 L301.185547,15.2314453 L316.678711,12.3681641 Z" id="Rectangle-141" fill="#FFDE52" sketch:type="MSShapeGroup"></path>
+                <path d="M316.678711,12.3681641 L313.350586,0.69921875 L327.985352,4.98242188 L316.678711,12.3681641 Z" id="Rectangle-142" fill="#FFDC46" sketch:type="MSShapeGroup"></path>
+                <path d="M316.678711,12.3681641 L341.535156,8.63183594 L327.985352,4.98242188 L316.678711,12.3681641 Z" id="Rectangle-143" fill="#F2CD31" sketch:type="MSShapeGroup"></path>
+                <path d="M316.678711,12.3681641 L341.535156,8.63183594 L341.535156,18.9150391 L316.678711,12.3681641 Z" id="Rectangle-144" fill="#FFDD49" sketch:type="MSShapeGroup"></path>
+                <path d="M361.003906,13.7734375 L341.535156,8.63183594 L341.535156,18.9150391 L361.003906,13.7734375 Z" id="Rectangle-145" fill="#FFE05D" sketch:type="MSShapeGroup"></path>
+                <path d="M361.003906,13.7734375 L361.003906,20.3828125 L341.535156,18.9150391 L361.003906,13.7734375 Z" id="Rectangle-146" fill="#FFD833" sketch:type="MSShapeGroup"></path>
+                <path d="M361.003906,13.7734375 L361.003906,20.3828125 L379.03418,18.5791016 L361.003906,13.7734375 Z" id="Rectangle-147" fill="#F5CF2B" sketch:type="MSShapeGroup"></path>
+                <path d="M376.570312,30.7363281 L361.003906,20.3828125 L379.03418,18.5791016 L376.570312,30.7363281 Z" id="Rectangle-148" fill="#FFDC44" sketch:type="MSShapeGroup"></path>
+                <path d="M19.4472656,14.6640625 L1,20 L4.43847656,36.6503906 L19.4472656,14.6640625 Z" id="Rectangle-197" fill="#FFDD4C" sketch:type="MSShapeGroup"></path>
+                <path d="M22.1328125,26.0722656 L7.72265625,54.7890625 L4.43847656,36.6503906 L22.1328125,26.0722656 Z" id="Rectangle-198" fill="#FFE77E" sketch:type="MSShapeGroup"></path>
+                <path d="M22.1328125,26.0722656 L7.72265625,54.7890625 L22.1328125,51.5507812 L22.1328125,26.0722656 Z" id="Rectangle-199" fill="#F8CB0C" sketch:type="MSShapeGroup"></path>
+                <path d="M11.8105469,76.8066406 L7.72265625,54.7890625 L22.1328125,51.5507812 L11.8105469,76.8066406 Z" id="Rectangle-200" fill="#FFE77E" sketch:type="MSShapeGroup"></path>
+                <path d="M11.8105469,76.8066406 L21.71875,54.0820312 L21.71875,90.7246094 L11.8105469,76.8066406 Z" id="Rectangle-206" fill="#FFD62A" sketch:type="MSShapeGroup"></path>
+                <path d="M11.8105469,76.8066406 L20.6601562,126.5625 L21.71875,90.7246094 L11.8105469,76.8066406 Z" id="Rectangle-207" fill="#FFED9E" sketch:type="MSShapeGroup"></path>
+                <path d="M27.5703125,108.862305 L20.6601562,127.5625 L21.71875,90.7246094 L27.5703125,108.862305 Z" id="Rectangle-208" fill="#E5C12B" sketch:type="MSShapeGroup"></path>
+                <path d="M19.4472656,14.6640625 L25.8417969,25.4394531 L4.5859375,36.2148438 L19.4472656,14.6640625 Z" id="Rectangle-149" fill="#FFE266" sketch:type="MSShapeGroup"></path>
+                <path d="M19.4472656,14.6640625 L25.8417969,25.4394531 L45,7.27734375 L19.4472656,14.6640625 Z" id="Rectangle-150" fill="#F8CB0C" sketch:type="MSShapeGroup"></path>
+                <path d="M51.640625,16.3583984 L25.8417969,25.4394531 L45,7.27734375 L51.640625,16.3583984 Z" id="Rectangle-151" fill="#FFE266" sketch:type="MSShapeGroup"></path>
+                <path d="M51.640625,16.3583984 L63.8769531,1.25878906 L45,7.27734375 L51.640625,16.3583984 Z" id="Rectangle-152" fill="#FFDD4D" sketch:type="MSShapeGroup"></path>
+                <path d="M51.640625,16.3583984 L64.1357422,1.47167969 L59.8828125,16.3583984 L51.640625,16.3583984 Z" id="Rectangle-153" fill="#FFE46E" sketch:type="MSShapeGroup"></path>
+                <path d="M67.9277344,21.3828125 L64.1357422,1.47167969 L58.8828125,16.3583984 L67.9277344,21.3828125 Z" id="Rectangle-154" fill="#FED62A" sketch:type="MSShapeGroup"></path>
+                <path d="M67.9277344,21.3828125 L64.1357422,1.47167969 L78.0009766,6.56640625 L67.9277344,21.3828125 Z" id="Rectangle-155" fill="#F2C91C" sketch:type="MSShapeGroup"></path>
+                <path d="M67.9277344,21.3828125 L88.4726562,10.1113281 L78.0009766,6.56640625 L67.9277344,21.3828125 Z" id="Rectangle-156" fill="#FBD531" sketch:type="MSShapeGroup"></path>
+                <path d="M67.9277344,21.3828125 L88.4726562,10.1113281 L92.5068359,21.3828125 L67.9277344,21.3828125 Z" id="Rectangle-157" fill="#EEC82A" sketch:type="MSShapeGroup"></path>
+                <path d="M102.538086,15.7470703 L88.4726562,10.1113281 L92.5068359,21.3828125 L102.538086,15.7470703 Z" id="Rectangle-158" fill="#FCD83F" sketch:type="MSShapeGroup"></path>
+                <path d="M102.538086,15.7470703 L107.035156,27.5185547 L92.5068359,21.3828125 L102.538086,15.7470703 Z" id="Rectangle-159" fill="#F2CE33" sketch:type="MSShapeGroup"></path>
+                <path d="M102.538086,15.7470703 L107.035156,27.5185547 L114.182617,19.7958984 L102.538086,15.7470703 Z" id="Rectangle-160" fill="#EBC72B" sketch:type="MSShapeGroup"></path>
+                <path d="M129.188477,16.0292969 L107.035156,27.5185547 L114.182617,19.7958984 L129.188477,16.0292969 Z" id="Rectangle-168" fill="#FFE161" sketch:type="MSShapeGroup"></path>
+                <path d="M129.188477,16.0292969 L107.035156,27.5185547 L131.782227,21.7739258 L129.188477,16.0292969 Z" id="Rectangle-169" fill="#FFE886" sketch:type="MSShapeGroup"></path>
+                <path d="M129.188477,16.0292969 L149.75,11.2636719 L131.782227,21.7739258 L129.188477,16.0292969 Z" id="Rectangle-170" fill="#FBD01B" sketch:type="MSShapeGroup"></path>
+                <path d="M160.342773,13.9570312 L149.75,11.2636719 L131.782227,21.7739258 L160.342773,13.9570312 Z" id="Rectangle-171" fill="#EFC720" sketch:type="MSShapeGroup"></path>
+                <path d="M160.342773,13.9570312 L149.75,11.2636719 L176.314453,4.54589844 L160.342773,13.9570312 Z" id="Rectangle-172" fill="#FFE369" sketch:type="MSShapeGroup"></path>
+                <path d="M160.342773,13.9570312 L191.642578,13.9570312 L176.314453,4.54589844 L160.342773,13.9570312 Z" id="Rectangle-173" fill="#EFC720" sketch:type="MSShapeGroup"></path>
+                <path d="M193,0.143554688 L191.642578,13.9570312 L176.314453,4.54589844 L193,0.143554688 Z" id="Rectangle-174" fill="#FFDE52" sketch:type="MSShapeGroup"></path>
+                <path d="M193,0.143554688 L191.642578,13.9570312 L205.341797,4.36132812 L193,0.143554688 Z" id="Rectangle-175" fill="#E9C21D" sketch:type="MSShapeGroup"></path>
+                <path d="M215.25,7.05029297 L191.642578,13.9570312 L205.341797,4.36132812 L215.25,7.05029297 Z" id="Rectangle-176" fill="#E1BB17" sketch:type="MSShapeGroup"></path>
+                <path d="M215.25,7.05029297 L191.642578,13.9570312 L218.680664,13.9570312 L215.25,7.05029297 Z" id="Rectangle-177" fill="#EBC524" sketch:type="MSShapeGroup"></path>
+                <path d="M215.25,7.05029297 L232.755859,11.5498047 L218.680664,13.9570312 L215.25,7.05029297 Z" id="Rectangle-178" fill="#F6CF2B" sketch:type="MSShapeGroup"></path>
+                <path d="M239.625977,20.96875 L232.755859,11.5498047 L218.680664,13.9570312 L239.625977,20.96875 Z" id="Rectangle-179" fill="#ECC626" sketch:type="MSShapeGroup"></path>
+                <path d="M239.625977,20.96875 L232.755859,11.5498047 L251.77832,17.2592773 L239.625977,20.96875 Z" id="Rectangle-180" fill="#F8D230" sketch:type="MSShapeGroup"></path>
+                <path d="M239.625977,20.96875 L261.910156,19.7197266 L251.77832,17.2592773 L239.625977,20.96875 Z" id="Rectangle-181" fill="#FFDA3D" sketch:type="MSShapeGroup"></path>
+                <path d="M239.625977,20.96875 L261.910156,19.7197266 L267.366211,26.8427734 L239.625977,20.96875 Z" id="Rectangle-182" fill="#F3CF35" sketch:type="MSShapeGroup"></path>
+                <path d="M275.301758,14.5263672 L261.910156,19.7197266 L267.366211,26.8427734 L275.301758,14.5263672 Z" id="Rectangle-183" fill="#F8D852" sketch:type="MSShapeGroup"></path>
+                <path d="M275.301758,14.5263672 L284.933594,18.3632812 L267.366211,26.8427734 L275.301758,14.5263672 Z" id="Rectangle-184" fill="#FFE05A" sketch:type="MSShapeGroup"></path>
+                <path d="M275.301758,14.5263672 L284.933594,18.3632812 L292.134766,8.32519531 L275.301758,14.5263672 Z" id="Rectangle-185" fill="#F9DA53" sketch:type="MSShapeGroup"></path>
+                <path d="M305.094727,3.5703125 L284.933594,18.3632812 L292.134766,8.32519531 L305.094727,3.5703125 Z" id="Rectangle-186" fill="#FFE266" sketch:type="MSShapeGroup"></path>
+                <path d="M305.094727,3.5703125 L284.933594,18.3632812 L301.185547,15.2314453 L305.094727,3.5703125 Z" id="Rectangle-187" fill="#F9D641" sketch:type="MSShapeGroup"></path>
+                <path d="M305.094727,3.5703125 L313.350586,0.69921875 L301.185547,15.2314453 L305.094727,3.5703125 Z" id="Rectangle-188" fill="#FFD72D" sketch:type="MSShapeGroup"></path>
+                <path d="M316.678711,12.3681641 L313.350586,0.69921875 L301.185547,15.2314453 L316.678711,12.3681641 Z" id="Rectangle-189" fill="#FFDE52" sketch:type="MSShapeGroup"></path>
+                <path d="M316.678711,12.3681641 L313.350586,0.69921875 L327.985352,4.98242188 L316.678711,12.3681641 Z" id="Rectangle-190" fill="#FFE886" sketch:type="MSShapeGroup"></path>
+                <path d="M316.678711,12.3681641 L341.535156,8.63183594 L327.985352,4.98242188 L316.678711,12.3681641 Z" id="Rectangle-191" fill="#F2CD31" sketch:type="MSShapeGroup"></path>
+                <path d="M316.678711,12.3681641 L341.535156,8.63183594 L341.535156,18.9150391 L316.678711,12.3681641 Z" id="Rectangle-192" fill="#FFDD49" sketch:type="MSShapeGroup"></path>
+                <path d="M361.003906,13.7734375 L341.535156,8.63183594 L341.535156,18.9150391 L361.003906,13.7734375 Z" id="Rectangle-193" fill="#FFE886" sketch:type="MSShapeGroup"></path>
+                <path d="M361.003906,13.7734375 L361.003906,20.3828125 L341.535156,18.9150391 L361.003906,13.7734375 Z" id="Rectangle-194" fill="#FFD833" sketch:type="MSShapeGroup"></path>
+                <path d="M361.003906,13.7734375 L361.003906,20.3828125 L379.03418,18.5791016 L361.003906,13.7734375 Z" id="Rectangle-195" fill="#FFE369" sketch:type="MSShapeGroup"></path>
+                <path d="M376.570312,30.7363281 L361.003906,20.3828125 L379.03418,18.5791016 L376.570312,30.7363281 Z" id="Rectangle-196" fill="#FFE98B" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
