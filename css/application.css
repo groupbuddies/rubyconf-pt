@@ -22,13 +22,13 @@ body {
 
 /* line 5, ../../_sass/utils/_typography.sass */
 .main-title {
-  font-size: 3em;
+  font-size: 4em;
   font-family: "chaparral-pro";
   color: #cb5757;
 }
 
 /* line 10, ../../_sass/utils/_typography.sass */
-.subtitle {
+.main-subtitle {
   color: #2b3a48;
 }
 
