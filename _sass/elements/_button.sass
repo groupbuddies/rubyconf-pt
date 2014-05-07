@@ -1,9 +1,17 @@
-.red-button
+%button
   display: inline-block
   padding: 0.6em 0.8em
-  background-color: $light-red
+  transition: all 200ms linear
+  &:hover
+    border-radius: 10px
+
+.red-button
+  @extend %button
   color: $white
-  border-radius: 5px
-  transition: background-color 200ms linear
+  background-color: $light-red
   &:hover
     background-color: $dark-red
+
+.blue-button
+  @extend %button
+  border: solid 2px $dark-blue

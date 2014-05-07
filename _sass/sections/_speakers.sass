@@ -10,7 +10,12 @@
     margin: 2rem
     margin-bottom: 5rem
 
+    &.you,
+    &.placeholder
+      .speaker-name
+        line-height: 55px
+
   @media all and (max-width: #{$small-width})
     .speaker
+      margin: 0
       @include scale(0.8)
-      margin-bottom: 0rem

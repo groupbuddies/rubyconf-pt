@@ -4,13 +4,17 @@
   </h1>
 
   <section class="speaker-list">
-    {% for speaker in page.speakers %}
-      {% include speaker.html %}
-    {% endfor %}
+    {% include speaker-placeholder.html %}
+    {% include speaker-placeholder.html %}
+    {% include speaker-you.html %}
+
+    <!-- {% for speaker in page.speakers %} -->
+    <!--   {% include speaker.html %} -->
+    <!-- {% endfor %} -->
   </section>
 
   <div class="cta">
     <p>Want to talk at RubyConf Portugal?</p>
-    <a href="#" class="red-button">Submit your talk</a>
+    <a href="{{ page.cfp_url }}" class="red-button">Submit your talk</a>
   </div>
 </section>
