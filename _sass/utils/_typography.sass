@@ -1,21 +1,30 @@
 body
   font-family: $base-font
   font-size: $base-size
+  @media all and (max-width: #{$small-width})
+    font-size: $base-size * 0.7
 
 .main-title
   font-size: $main-title-size
   font-family: $title-font
   color: $main-title-color
+  @media all and (max-width: #{$small-width})
+    font-size: $main-title-size-small
 
 .main-subtitle
+  font-size: $main-subtitle-size
   color: $sub-title-color
   text-align: center
+  @media all and (max-width: #{$small-width})
+    display: none
 
 .section-title
   font-size: $section-title-size
   font-family: $title-font
-  max-width: 50%
+  max-width: 60%
   margin: auto
+  @media all and (min-width: #{$small-width})
+    max-width: 40%
 
 .speaker-name
   font-family: $title-font
@@ -26,3 +35,6 @@ body
   font-family: $title-font
   color: $light-blue
   font-size: 22px
+
+.twitter-link
+  color: $light-blue

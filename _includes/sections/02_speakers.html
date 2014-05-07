@@ -3,7 +3,14 @@
     {% include title_ribbon.html title="Speakers" %}
   </h1>
 
-  {% for speaker in page.speakers %}
-    {% include speaker.html %}
-  {% endfor %}
+  <section class="speaker-list">
+    {% for speaker in page.speakers %}
+      {% include speaker.html %}
+    {% endfor %}
+  </section>
+
+  <div class="cta">
+    <p>Want to talk at RubyConf Portugal?</p>
+    <a href="#" class="red-button">Submit your talk</a>
+  </div>
 </section>

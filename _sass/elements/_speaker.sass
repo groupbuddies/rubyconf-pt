@@ -6,7 +6,12 @@
 
   .speaker-picture
     width: 300px
-    height: 300px
+    &:not([src*='knight.png'])
+      height: 300px
+    &[src*='knight.png']
+      padding-top: 25px
+      background-color: $white
+
 
   .speaker-name-frame
     width: 300px

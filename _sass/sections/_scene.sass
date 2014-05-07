@@ -1,17 +1,29 @@
 .scene
   position: relative
   width: 100%
-  padding-bottom: 80%
+  padding-bottom: 85%
   overflow: hidden
 
   .layers,
   .overlay
     position: absolute
+    text-align: center
+
+  .layers
     width: 112%
     margin-left: -6%
     margin-top: -3%
     height: 106%
-    text-align: center
+
+  .overlay
+    width: 100%
+    padding-top: 8%
+    .main-title,
+    .subtitle
+      width: 100%
+      text-align: center
+    .date
+      margin-top: 1em
 
   .layers
     z-index: -1
@@ -45,12 +57,3 @@
       background-image: url(../images/knight.svg)
       background-size: 15%
       background-position-y: 90%
-
-  .overlay
-    padding-top: 8%
-    .main-title,
-    .subtitle
-      width: 100%
-      text-align: center
-    .date
-      margin-top: 1em

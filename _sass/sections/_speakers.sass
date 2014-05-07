@@ -1,7 +1,16 @@
 .speakers
   @extend %white-section
 
+  .speaker-list
+    margin-bottom: 3rem
+
   .speaker
     display: inline-block
     vertical-align: top
     margin: 2rem
+    margin-bottom: 5rem
+
+  @media all and (max-width: #{$small-width})
+    .speaker
+      @include scale(0.8)
+      margin-bottom: 0rem
