@@ -30,9 +30,10 @@ body {
 /* line 10, ../../_sass/utils/_typography.sass */
 .main-subtitle {
   color: #2b3a48;
+  text-align: center;
 }
 
-/* line 13, ../../_sass/utils/_typography.sass */
+/* line 14, ../../_sass/utils/_typography.sass */
 .section-title {
   font-size: 2em;
   font-family: "chaparral-pro";
@@ -40,14 +41,14 @@ body {
   margin: auto;
 }
 
-/* line 19, ../../_sass/utils/_typography.sass */
+/* line 20, ../../_sass/utils/_typography.sass */
 .speaker-name {
   font-family: "chaparral-pro";
   font-weight: normal;
   font-size: 30px;
 }
 
-/* line 24, ../../_sass/utils/_typography.sass */
+/* line 25, ../../_sass/utils/_typography.sass */
 .speaker-twitter {
   font-family: "chaparral-pro";
   color: #33ccff;
