@@ -1,6 +1,6 @@
 @mixin ribbon-colors($text: white, $front: blue, $back: darken(blue, 10%), $shadow: darken(blue, 20%))
   .ribbon-container
-    width: 300px
+    width: 350px
   .ribbon
     background-color: $front
     color: $text
@@ -17,6 +17,9 @@
 
 @mixin dark-ribbon
   @include ribbon-colors($text: $dark-ribbon-text, $front: $dark-ribbon-front, $back: $dark-ribbon-back, $shadow: $dark-ribbon-shadow)
+
+@mixin red-ribbon
+  @include ribbon-colors($text: $red-ribbon-text, $front: $red-ribbon-front, $back: $red-ribbon-back, $shadow: $red-ribbon-shadow)
 
 .ribbon-container
   $ribbon-front-color: white
