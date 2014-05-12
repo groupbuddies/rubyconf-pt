@@ -1,6 +1,1 @@
-(function() {
-  $(function() {
-    return $('#layers').parallax();
-  });
-
-}).call(this);
+(function() { $(function() { return $('#layers').parallax(); });}).call(this);
