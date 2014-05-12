@@ -4,13 +4,11 @@
   </h1>
 
   <section class="speaker-list">
-    {% include speaker-placeholder.html %}
-    {% include speaker-placeholder.html %}
-    {% include speaker-you.html %}
+    {% for speaker in page.speakers %}
+      {% include speaker.html %}
+    {% endfor %}
 
-    <!-- {% for speaker in page.speakers %} -->
-    <!--   {% include speaker.html %} -->
-    <!-- {% endfor %} -->
+    {% include speaker-you.html %}
   </section>
 
   <div class="cta">
