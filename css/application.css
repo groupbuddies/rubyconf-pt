@@ -280,7 +280,7 @@ body {
   text-align: center;
   background-image: url(../images/speaker-name-frame.svg);
   background-size: 100% 100%;
-  padding: 2rem;
+  padding: 2rem 1rem;
 }
 /* line 26, ../../_sass/elements/_speaker.sass */
 .speaker .speaker-name,
@@ -483,38 +483,37 @@ body {
 .scene .layer {
   background-size: contain;
   background-repeat: no-repeat;
-  background-position-x: center;
   overflow: hidden;
 }
-/* line 37, ../../_sass/sections/_scene.sass */
+/* line 36, ../../_sass/sections/_scene.sass */
 .scene .layer.background {
   background-color: #ab2b2b;
 }
-/* line 40, ../../_sass/sections/_scene.sass */
+/* line 39, ../../_sass/sections/_scene.sass */
 .scene .layer.sky {
   background-image: url(../images/sky.svg);
-  background-position-y: top;
+  background-position: center top;
 }
-/* line 44, ../../_sass/sections/_scene.sass */
+/* line 43, ../../_sass/sections/_scene.sass */
 .scene .layer.clouds {
   background-image: url(../images/clouds.svg);
-  background-position-y: 10%;
+  background-position: center 10%;
 }
-/* line 48, ../../_sass/sections/_scene.sass */
+/* line 47, ../../_sass/sections/_scene.sass */
 .scene .layer.mountains {
   background-image: url(../images/mountains.svg);
-  background-position-y: 55%;
+  background-position: center 55%;
 }
-/* line 52, ../../_sass/sections/_scene.sass */
+/* line 51, ../../_sass/sections/_scene.sass */
 .scene .layer.foreground {
   background-image: url(../images/foreground.svg);
-  background-position-y: 90%;
+  background-position: center 90%;
 }
-/* line 56, ../../_sass/sections/_scene.sass */
+/* line 55, ../../_sass/sections/_scene.sass */
 .scene .layer.knight {
   background-image: url(../images/knight.svg);
   background-size: 15%;
-  background-position-y: 90%;
+  background-position: center 90%;
 }
 
 /* line 4, ../../_sass/sections/_speakers.sass */
