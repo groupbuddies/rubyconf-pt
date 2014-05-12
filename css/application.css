@@ -260,11 +260,11 @@ body {
 }
 /* line 7, ../../_sass/elements/_speaker.sass */
 .speaker .speaker-picture {
-  width: 300px;
+  width: 250px;
 }
 /* line 9, ../../_sass/elements/_speaker.sass */
 .speaker .speaker-picture:not([src*='knight.png']) {
-  height: 300px;
+  height: 250px;
 }
 /* line 11, ../../_sass/elements/_speaker.sass */
 .speaker .speaker-picture[src*='knight.png'] {
