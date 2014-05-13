@@ -668,6 +668,10 @@ body {
   margin: auto;
   margin-top: 1rem;
 }
+/* line 7, ../../_sass/sections/_newsletter.sass */
+.section.newsletter .newsletter-real-submit {
+  cursor: pointer;
+}
 
 /* line 2, ../../_sass/sections/_social.sass */
 .section.social .rubyconf-social {
