@@ -749,18 +749,19 @@ body {
 .section.footer .footer-list a {
   color: white;
   white-space: nowrap;
+  text-decoration: none;
 }
-/* line 55, ../../_sass/sections/_footer.sass */
+/* line 56, ../../_sass/sections/_footer.sass */
 .section.footer .footer-list a:hover {
   text-decoration: underline;
 }
-/* line 57, ../../_sass/sections/_footer.sass */
+/* line 58, ../../_sass/sections/_footer.sass */
 .section.footer .footer-list img {
   height: 25px;
   vertical-align: middle;
   padding-right: 0.5em;
 }
-/* line 62, ../../_sass/sections/_footer.sass */
+/* line 63, ../../_sass/sections/_footer.sass */
 .section.footer .bottom {
   text-align: center;
   margin-top: 2rem;
