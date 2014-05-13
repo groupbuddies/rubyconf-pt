@@ -3,7 +3,7 @@
   <div class="left">
     <h1 class="footer-title">About</h1>
     <ul class="footer-list">
-      <li><a href="{{ page.cpf_url }}">Call for proposals</a></li>
+      <li><a href="{{ page.rubyconf.cfp }}">Call for proposals</a></li>
       <li><a href="#speakers">Speakers</a></li>
       <!-- <li><a href="#">Blog</a></li> -->
       <!-- <li><a href="#">Code of conduct</a></li> -->
@@ -14,19 +14,19 @@
     <h1 class="footer-title">Contact us</h1>
     <ul class="footer-list">
       <li>
-        <a href="mailto:hi@rubyconf-pt.com">
+        <a href="mailto:{{ page.rubyconf.email }}">
           <img src="images/email-icon.png" alt="email">
-          <span class="optional-text">hi@rubyconf-pt.com</span>
+          <span class="optional-text">{{ page.rubyconf.email }}</span>
         </a>
       </li>
       <li>
-        <a href="https://twitter.com/rubyconfpt">
+        <a href="{{ page.rubyconf.twitter }}">
           <img src="images/twitter-icon.png" alt="email">
           <span class="optional-text">twitter.com/rubyconfpt</span>
         </a>
       </li>
       <li>
-        <a href="http://facebook.com/rubyconfpt">
+        <a href="{{ page.rubyconf.facebook }}">
           <img src="images/facebook-icon.png" alt="email">
           <span class="optional-text">facebook.com/rubyconfpt</span>
         </a>
