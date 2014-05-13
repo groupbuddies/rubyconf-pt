@@ -1,0 +1,63 @@
+.section.footer
+  padding-top: 0
+  padding-bottom: 0.5em
+  margin-top: 4rem
+  background-color: $greyish-blue
+  text-align: left
+
+  .footer-logo
+    position: absolute
+    margin: auto
+    margin-left: calc(50% - 60px)
+    margin-top: -60px
+    border-radius: 50%
+    width: 120px
+
+  .left,
+  .right
+    vertical-align: top
+    line-height: 2em
+    width: 40%
+    margin: auto
+    padding-top: 4em
+
+  @media all and (max-width: #{$small-width})
+    .left,
+    .right
+      display: inline-block
+      width: 30%
+    .left
+      margin-left: 5%
+    .right
+      margin-left: 30%
+      li
+        display: inline-block
+    .optional-text
+      display: none
+
+
+  @media all and (min-width: #{$small-width})
+    .left,
+    .right
+      display: inline-block
+      width: 20%
+    .left
+      margin-left: 20%
+    .right
+      margin-left: 20%
+
+  .footer-list
+    list-style-type: none
+    font-size: $footer-items-size
+    a
+      color: $white
+      white-space: nowrap
+    img
+      height: 25px
+      vertical-align: middle
+      padding-right: 0.5em
+
+  .bottom
+    text-align: center
+    margin-top: 2rem
+    font-size: $copyright-size
