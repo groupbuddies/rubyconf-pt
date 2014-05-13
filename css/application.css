@@ -100,6 +100,10 @@ body {
 .twitter-link {
   color: #33ccff;
 }
+/* line 53, ../../_sass/utils/_typography.sass */
+.twitter-link:hover {
+  text-decoration: underline;
+}
 
 /* line 24, ../../_sass/elements/_ribbon.sass */
 .ribbon-container {
@@ -747,12 +751,16 @@ body {
   white-space: nowrap;
 }
 /* line 55, ../../_sass/sections/_footer.sass */
+.section.footer .footer-list a:hover {
+  text-decoration: underline;
+}
+/* line 57, ../../_sass/sections/_footer.sass */
 .section.footer .footer-list img {
   height: 25px;
   vertical-align: middle;
   padding-right: 0.5em;
 }
-/* line 60, ../../_sass/sections/_footer.sass */
+/* line 62, ../../_sass/sections/_footer.sass */
 .section.footer .bottom {
   text-align: center;
   margin-top: 2rem;
