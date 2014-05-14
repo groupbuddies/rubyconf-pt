@@ -1,6 +1,6 @@
 <section class="section footer">
   <img class="footer-logo" src="images/square-logo.png">
-  <div class="left">
+  <div class="column about">
     <h1 class="footer-title">About</h1>
     <ul class="footer-list">
       <li><a href="{{ page.rubyconf.cfp }}">Call for proposals</a></li>
@@ -10,25 +10,36 @@
     </ul>
   </div>
 
-  <div class="right">
+  <div class="column contact_us">
     <h1 class="footer-title">Contact us</h1>
     <ul class="footer-list">
       <li>
         <a href="mailto:{{ page.rubyconf.email }}">
-          <img src="images/email-icon.png" alt="email">
+          <img class="footer-icon" src="images/email-icon.png" alt="email">
           <span class="optional-text">{{ page.rubyconf.email }}</span>
         </a>
       </li>
       <li>
         <a href="{{ page.rubyconf.twitter }}">
-          <img src="images/twitter-icon.png" alt="email">
+          <img class="footer-icon" src="images/twitter-icon.png" alt="email">
           <span class="optional-text">twitter.com/rubyconfpt</span>
         </a>
       </li>
       <li>
         <a href="{{ page.rubyconf.facebook }}">
-          <img src="images/facebook-icon.png" alt="email">
+          <img class="footer-icon" src="images/facebook-icon.png" alt="email">
           <span class="optional-text">facebook.com/rubyconfpt</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="column organization">
+    <h1 class="footer-title">Co-organized by</h1>
+    <ul class="footer-list">
+      <li>
+        <a href="http://groupbuddies.com">
+          <img src="images/organizers/groupbuddies.png" alt="GroupBuddies">
         </a>
       </li>
     </ul>
