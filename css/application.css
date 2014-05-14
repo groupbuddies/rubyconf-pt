@@ -496,7 +496,7 @@ body {
 }
 /* line 25, ../../_sass/sections/_nav.sass */
 .nav .logo {
-  padding: 0.5em 0;
+  padding: 1em 0;
 }
 @media all and (max-width: 680px) {
   /* line 29, ../../_sass/sections/_nav.sass */
