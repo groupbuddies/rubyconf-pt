@@ -696,76 +696,52 @@ body {
   width: 120px;
 }
 /* line 16, ../../_sass/sections/_footer.sass */
-.section.footer .left,
-.section.footer .right {
+.section.footer .column {
   vertical-align: top;
   line-height: 2em;
   width: 40%;
   margin: auto;
   padding-top: 4em;
 }
+/* line 23, ../../_sass/sections/_footer.sass */
+.section.footer .column {
+  display: inline-block;
+  width: 27%;
+  min-width: 300px;
+  margin-left: 6%;
+}
 @media all and (max-width: 680px) {
-  /* line 25, ../../_sass/sections/_footer.sass */
-  .section.footer .left,
-  .section.footer .right {
-    display: inline-block;
-    width: 30%;
-  }
-  /* line 29, ../../_sass/sections/_footer.sass */
-  .section.footer .left {
-    margin-left: 5%;
-  }
   /* line 31, ../../_sass/sections/_footer.sass */
-  .section.footer .right {
-    margin-left: 30%;
+  .section.footer .contact_us li {
+    display: inline-block;
   }
   /* line 33, ../../_sass/sections/_footer.sass */
-  .section.footer .right li {
-    display: inline-block;
-  }
-  /* line 35, ../../_sass/sections/_footer.sass */
   .section.footer .optional-text {
     display: none;
   }
 }
-@media all and (min-width: 680px) {
-  /* line 40, ../../_sass/sections/_footer.sass */
-  .section.footer .left,
-  .section.footer .right {
-    display: inline-block;
-    width: 20%;
-  }
-  /* line 44, ../../_sass/sections/_footer.sass */
-  .section.footer .left {
-    margin-left: 20%;
-  }
-  /* line 46, ../../_sass/sections/_footer.sass */
-  .section.footer .right {
-    margin-left: 20%;
-  }
-}
-/* line 49, ../../_sass/sections/_footer.sass */
+/* line 36, ../../_sass/sections/_footer.sass */
 .section.footer .footer-list {
   list-style-type: none;
   font-size: 0.9em;
 }
-/* line 52, ../../_sass/sections/_footer.sass */
+/* line 39, ../../_sass/sections/_footer.sass */
 .section.footer .footer-list a {
   color: white;
   white-space: nowrap;
   text-decoration: none;
 }
-/* line 56, ../../_sass/sections/_footer.sass */
+/* line 43, ../../_sass/sections/_footer.sass */
 .section.footer .footer-list a:hover {
   text-decoration: underline;
 }
-/* line 58, ../../_sass/sections/_footer.sass */
-.section.footer .footer-list img {
+/* line 45, ../../_sass/sections/_footer.sass */
+.section.footer .footer-icon {
   height: 25px;
   vertical-align: middle;
   padding-right: 0.5em;
 }
-/* line 63, ../../_sass/sections/_footer.sass */
+/* line 50, ../../_sass/sections/_footer.sass */
 .section.footer .bottom {
   text-align: center;
   margin-top: 2rem;
