@@ -1,0 +1,10 @@
+<section id="code-of-conduct" class="section code-of-conduct">
+  <h1 class="section-title">
+    {% include title_ribbon.html title="Code of Conduct" %}
+  </h1>
+
+  <div class="text">
+    {% capture my_include %}{% include code-of-conduct.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </div>
+</section>
