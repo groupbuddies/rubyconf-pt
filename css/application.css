@@ -865,3 +865,37 @@ body {
   margin-top: 2rem;
   font-size: 0.6em;
 }
+
+/* line 2, ../../_sass/elements/_ribbon.sass */
+.section.code-of-conduct .ribbon-container {
+  width: 100%;
+}
+/* line 4, ../../_sass/elements/_ribbon.sass */
+.section.code-of-conduct .ribbon {
+  background-color: #384c5e;
+  color: white;
+}
+/* line 8, ../../_sass/elements/_ribbon.sass */
+.section.code-of-conduct .ribbon-corner.top {
+  border-top-color: #2b3a48;
+}
+/* line 10, ../../_sass/elements/_ribbon.sass */
+.section.code-of-conduct .ribbon-corner.bottom {
+  border-bottom-color: #2b3a48;
+}
+/* line 12, ../../_sass/elements/_ribbon.sass */
+.section.code-of-conduct .ribbon-shadow {
+  border-top-color: #03070b;
+}
+/* line 4, ../../_sass/sections/_code-of-conduct.sass */
+.section.code-of-conduct .text {
+  text-align: left;
+  max-width: 900px;
+  margin: auto;
+  padding: 0 50px;
+  line-height: 2;
+}
+/* line 11, ../../_sass/sections/_code-of-conduct.sass */
+.section.code-of-conduct .text p {
+  margin-bottom: 2em;
+}
