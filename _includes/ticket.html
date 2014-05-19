@@ -1,6 +1,17 @@
-<div class="ticket {{ include.state }}">
-  <p class="batch-name">{{ include.batch }} Batch</p>
-  <p class="price">{{ include.price }}€</p>
-  <p class="date">{{ include.date  }}</p>
-</div>
-<a href="{{ page.rubyconf.tito }}" class="red-button ticket-button {{ include.state }}">Buy</a>
+{% if include.url == 'present' %}
+  <a href="{{ page.rubyconf.tito }}">
+    <div class="ticket {{ include.state }}">
+      <p class="batch-name">{{ include.batch }} Batch</p>
+      <p class="price">{{ include.price }}€</p>
+      <p class="date">{{ include.date  }}</p>
+    </div>
+  </a>
+  <a href="{{ page.rubyconf.tito }}" class="red-button ticket-button {{ include.state }}">Buy</a>
+{% else %}
+  <div class="ticket {{ include.state }}">
+    <p class="batch-name">{{ include.batch }} Batch</p>
+    <p class="price">{{ include.price }}€</p>
+    <p class="date">{{ include.date  }}</p>
+  </div>
+  <span class="red-button ticket-button {{ include.state }}">Available at {{ include.time }}</span>
+{% endif %}

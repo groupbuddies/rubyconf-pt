@@ -21,6 +21,9 @@
 @mixin red-ribbon
   @include ribbon-colors($text: $red-ribbon-text, $front: $red-ribbon-front, $back: $red-ribbon-back, $shadow: $red-ribbon-shadow)
 
+@mixin yellow-ribbon
+  @include ribbon-colors($text: $yellow-ribbon-text, $front: $yellow-ribbon-front, $back: $yellow-ribbon-back, $shadow: $yellow-ribbon-shadow)
+
 .ribbon-container
   $ribbon-front-color: white
   $ribbon-back-color: darken($ribbon-front-color, 10%)
