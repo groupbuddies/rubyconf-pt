@@ -1,5 +1,8 @@
 .ticket
-  min-width: 300px
+  width: 300px
+  height: 160px
+  display: table-cell
+  vertical-align: middle
   .batch-name,
   .price
     font-family: $title-font
@@ -16,11 +19,13 @@
     font-style: italic
 
   &.present
+    background-image: url('../images/blue-ticket.svg')
     color: $white
     .price
       color: $yellow
 
   &.future
+    background-image: url('../images/grey-ticket.svg')
     color: $grey
     .price
       color: $light-grey
