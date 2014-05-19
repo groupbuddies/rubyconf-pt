@@ -105,7 +105,7 @@ body {
   text-decoration: underline;
 }
 
-/* line 24, ../../_sass/elements/_ribbon.sass */
+/* line 27, ../../_sass/elements/_ribbon.sass */
 .ribbon-container {
   position: relative;
   height: 1.9em;
@@ -113,7 +113,7 @@ body {
   margin: 0 auto;
   width: 100%;
 }
-/* line 40, ../../_sass/elements/_ribbon.sass */
+/* line 43, ../../_sass/elements/_ribbon.sass */
 .ribbon-container .ribbon {
   background-color: white;
   text-align: center;
@@ -121,7 +121,7 @@ body {
   z-index: 1;
   width: 100%;
 }
-/* line 47, ../../_sass/elements/_ribbon.sass */
+/* line 50, ../../_sass/elements/_ribbon.sass */
 .ribbon-container .ribbon-corner {
   position: absolute;
   width: 50px;
@@ -129,39 +129,39 @@ body {
   box-sizing: content-box;
   z-index: 0;
 }
-/* line 53, ../../_sass/elements/_ribbon.sass */
+/* line 56, ../../_sass/elements/_ribbon.sass */
 .ribbon-container .ribbon-corner.bottom {
   border-bottom: 1.9em solid #e6e6e6;
 }
-/* line 55, ../../_sass/elements/_ribbon.sass */
+/* line 58, ../../_sass/elements/_ribbon.sass */
 .ribbon-container .ribbon-corner.top {
   border-top: 1.9em solid #e6e6e6;
 }
-/* line 57, ../../_sass/elements/_ribbon.sass */
+/* line 60, ../../_sass/elements/_ribbon.sass */
 .ribbon-container .ribbon-corner.left {
   border-left: 40px solid transparent;
   left: 0;
   margin-left: -50px;
 }
-/* line 61, ../../_sass/elements/_ribbon.sass */
+/* line 64, ../../_sass/elements/_ribbon.sass */
 .ribbon-container .ribbon-corner.right {
   border-right: 40px solid transparent;
   right: 0;
   margin-right: -50px;
 }
-/* line 66, ../../_sass/elements/_ribbon.sass */
+/* line 69, ../../_sass/elements/_ribbon.sass */
 .ribbon-container .ribbon-shadow {
   position: absolute;
   bottom: 0;
   border-top: 15px solid #cccccc;
   margin-bottom: -15px;
 }
-/* line 71, ../../_sass/elements/_ribbon.sass */
+/* line 74, ../../_sass/elements/_ribbon.sass */
 .ribbon-container .ribbon-shadow.left {
   border-left: 40px solid transparent;
   left: 0;
 }
-/* line 74, ../../_sass/elements/_ribbon.sass */
+/* line 77, ../../_sass/elements/_ribbon.sass */
 .ribbon-container .ribbon-shadow.right {
   border-right: 40px solid transparent;
   right: 0;
@@ -269,6 +269,58 @@ body {
 }
 /* line 7, ../../_sass/elements/_gradient.sass */
 .gradient.dark-to-white .gradient-line-4 {
+  background-color: white;
+}
+/* line 19, ../../_sass/elements/_gradient.sass */
+.gradient.white-to-yellow {
+  width: 100%;
+  line-height: 40px;
+  min-height: 40px;
+}
+/* line 7, ../../_sass/elements/_gradient.sass */
+.gradient.white-to-yellow .gradient-line-0 {
+  background-color: white;
+}
+/* line 7, ../../_sass/elements/_gradient.sass */
+.gradient.white-to-yellow .gradient-line-1 {
+  background-color: #fff5bf;
+}
+/* line 7, ../../_sass/elements/_gradient.sass */
+.gradient.white-to-yellow .gradient-line-2 {
+  background-color: #ffeb7f;
+}
+/* line 7, ../../_sass/elements/_gradient.sass */
+.gradient.white-to-yellow .gradient-line-3 {
+  background-color: #ffe13f;
+}
+/* line 7, ../../_sass/elements/_gradient.sass */
+.gradient.white-to-yellow .gradient-line-4 {
+  background-color: gold;
+}
+/* line 21, ../../_sass/elements/_gradient.sass */
+.gradient.yellow-to-white {
+  width: 100%;
+  line-height: 40px;
+  min-height: 40px;
+}
+/* line 7, ../../_sass/elements/_gradient.sass */
+.gradient.yellow-to-white .gradient-line-0 {
+  background-color: gold;
+}
+/* line 7, ../../_sass/elements/_gradient.sass */
+.gradient.yellow-to-white .gradient-line-1 {
+  background-color: #ffe13f;
+}
+/* line 7, ../../_sass/elements/_gradient.sass */
+.gradient.yellow-to-white .gradient-line-2 {
+  background-color: #ffeb7f;
+}
+/* line 7, ../../_sass/elements/_gradient.sass */
+.gradient.yellow-to-white .gradient-line-3 {
+  background-color: #fff5bf;
+}
+/* line 7, ../../_sass/elements/_gradient.sass */
+.gradient.yellow-to-white .gradient-line-4 {
   background-color: white;
 }
 
@@ -395,6 +447,56 @@ body {
   outline: none;
 }
 
+/* line 1, ../../_sass/elements/_ticket.sass */
+.ticket {
+  width: 300px;
+  height: 160px;
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 6, ../../_sass/elements/_ticket.sass */
+.ticket .batch-name,
+.ticket .price {
+  font-family: "chaparral-pro";
+}
+/* line 10, ../../_sass/elements/_ticket.sass */
+.ticket .batch-name {
+  font-size: 1.5em;
+}
+/* line 13, ../../_sass/elements/_ticket.sass */
+.ticket .price {
+  font-size: 2em;
+  font-weight: bold;
+}
+/* line 17, ../../_sass/elements/_ticket.sass */
+.ticket .date {
+  font-size: 0.8em;
+  font-style: italic;
+}
+/* line 21, ../../_sass/elements/_ticket.sass */
+.ticket.present {
+  background-image: url("../images/blue-ticket.svg");
+  color: white;
+}
+/* line 24, ../../_sass/elements/_ticket.sass */
+.ticket.present .price {
+  color: gold;
+}
+/* line 27, ../../_sass/elements/_ticket.sass */
+.ticket.future {
+  background-image: url("../images/grey-ticket.svg");
+  color: #cccccc;
+}
+/* line 30, ../../_sass/elements/_ticket.sass */
+.ticket.future .price {
+  color: #bdc9d4;
+}
+
+/* line 35, ../../_sass/elements/_ticket.sass */
+.ticket-button.future, .ticket-button.past {
+  display: none;
+}
+
 /* line 1, ../../_sass/sections/_base.sass */
 .speakers {
   background-color: white;
@@ -422,43 +524,43 @@ body {
 }
 
 /* line 5, ../../_sass/sections/_base.sass */
-.venue {
+.venue, .section.tickets {
   background-color: #2b3a48;
   color: white;
 }
 /* line 2, ../../_sass/elements/_ribbon.sass */
-.venue .ribbon-container {
+.venue .ribbon-container, .section.tickets .ribbon-container {
   width: 100%;
 }
 /* line 4, ../../_sass/elements/_ribbon.sass */
-.venue .ribbon {
+.venue .ribbon, .section.tickets .ribbon {
   background-color: white;
   color: #2b3a48;
 }
 /* line 8, ../../_sass/elements/_ribbon.sass */
-.venue .ribbon-corner.top {
+.venue .ribbon-corner.top, .section.tickets .ribbon-corner.top {
   border-top-color: #e2e2e2;
 }
 /* line 10, ../../_sass/elements/_ribbon.sass */
-.venue .ribbon-corner.bottom {
+.venue .ribbon-corner.bottom, .section.tickets .ribbon-corner.bottom {
   border-bottom-color: #e2e2e2;
 }
 /* line 12, ../../_sass/elements/_ribbon.sass */
-.venue .ribbon-shadow {
+.venue .ribbon-shadow, .section.tickets .ribbon-shadow {
   border-top-color: #cccccc;
 }
 
-/* line 14, ../../_sass/sections/_base.sass */
+/* line 18, ../../_sass/sections/_base.sass */
 .section {
   padding-top: 3em;
   padding-bottom: 3em;
   text-align: center;
 }
-/* line 19, ../../_sass/sections/_base.sass */
+/* line 23, ../../_sass/sections/_base.sass */
 .section .ribbon-container {
   margin-bottom: 5rem;
 }
-/* line 22, ../../_sass/sections/_base.sass */
+/* line 26, ../../_sass/sections/_base.sass */
 .section .small-title {
   margin-bottom: 1rem;
 }
@@ -612,6 +714,22 @@ body {
     -o-transform: scale(0.8, 0.8);
     transform: scale(0.8, 0.8);
   }
+}
+
+/* line 5, ../../_sass/sections/_tickets.sass */
+.section.tickets .ticket-batches .batch {
+  display: inline-block;
+  vertical-align: top;
+  margin: 3rem;
+}
+/* line 10, ../../_sass/sections/_tickets.sass */
+.section.tickets .ticket {
+  margin-bottom: 2rem;
+}
+/* line 13, ../../_sass/sections/_tickets.sass */
+.section.tickets .ticket-button {
+  margin-top: 2rem;
+  min-width: 60%;
 }
 
 /* line 2, ../../_sass/elements/_ribbon.sass */
