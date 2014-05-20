@@ -587,8 +587,8 @@ body {
   text-align: right;
 }
 /* line 17, ../../_sass/sections/_nav.sass */
-.nav .right-nav .blue-button {
-  margin-left: 1rem;
+.nav .right-nav .red-button {
+  margin-right: 1rem;
 }
 /* line 20, ../../_sass/sections/_nav.sass */
 .nav .logo,
