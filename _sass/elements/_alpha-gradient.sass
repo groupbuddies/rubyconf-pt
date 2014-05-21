@@ -1,0 +1,15 @@
+@mixin alpha-gradient($size: 4)
+  width: 100%
+  line-height: 40px
+  min-height: 40px
+
+  @for $i from 0 through ($size - 1)
+    &.down
+      .gradient-line-#{$i}
+        background-color: rgba(white, 1 - $i/($size))
+    &.up
+      .gradient-line-#{$i}
+        background-color: rgba(white, $i/($size))
+
+.alpha-gradient
+  @include alpha-gradient

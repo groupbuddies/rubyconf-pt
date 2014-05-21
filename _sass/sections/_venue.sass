@@ -1,2 +1,55 @@
 .venue
   @extend %dark-section
+  @include red-on-white-ribbon
+
+  background-image: url('../images/venue/background.png')
+  background-size: cover
+  padding-bottom: 66.6%
+  min-height: 900px
+
+  position: relative
+
+  .alpha-gradient
+    position: absolute
+    &.down
+      top: 0
+
+    &.up
+      bottom: 0
+
+  .abs-content
+    width: 80%
+    margin-left: 10%
+    position: absolute
+    padding-top: 40px * 4
+    padding-bottom: 40px * 4
+
+  .venue-name
+    max-width: 70%
+    font-family: $title-font
+    margin: auto
+    font-size: 2em
+    padding: 0.2em
+    border-top: solid 1px $yellow
+    border-bottom: solid 1px $yellow
+
+  .venue-features
+    list-style-type: none
+    vertical-align: middle
+    line-height: 2em
+    width: 100%
+    .feature
+      display: inline-block
+
+      & + .feature:before
+        content: "\2022"
+        padding: 1em
+
+  .venue-photos
+    margin-top: 2em
+    .photo
+      display: inline-block
+      border: solid 1px $yellow
+      width: 200px
+      height: 150px
+      margin: 0.5em
