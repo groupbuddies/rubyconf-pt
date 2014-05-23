@@ -14,6 +14,11 @@ a {
   color: #2b3a48;
 }
 
+/* line 13, ../../_sass/utils/_reset.sass */
+h1 {
+  font-weight: normal;
+}
+
 /* line 1, ../../_sass/utils/_typography.sass */
 body {
   font-family: "open-sans";
@@ -31,6 +36,7 @@ body {
   font-size: 2.5em;
   font-family: "chaparral-pro";
   color: #cb5757;
+  font-weight: bold;
 }
 @media all and (max-width: 680px) {
   /* line 7, ../../_sass/utils/_typography.sass */
@@ -39,20 +45,20 @@ body {
   }
 }
 
-/* line 14, ../../_sass/utils/_typography.sass */
+/* line 15, ../../_sass/utils/_typography.sass */
 .main-subtitle {
   font-size: 1.5em;
   color: #2b3a48;
   text-align: center;
 }
 @media all and (max-width: 680px) {
-  /* line 14, ../../_sass/utils/_typography.sass */
+  /* line 15, ../../_sass/utils/_typography.sass */
   .main-subtitle {
     display: none;
   }
 }
 
-/* line 21, ../../_sass/utils/_typography.sass */
+/* line 22, ../../_sass/utils/_typography.sass */
 .section-title {
   font-size: 1.8em;
   font-family: "chaparral-pro";
@@ -61,13 +67,13 @@ body {
   margin: auto;
 }
 @media all and (min-width: 680px) {
-  /* line 21, ../../_sass/utils/_typography.sass */
+  /* line 22, ../../_sass/utils/_typography.sass */
   .section-title {
     max-width: 450px;
   }
 }
 
-/* line 30, ../../_sass/utils/_typography.sass */
+/* line 31, ../../_sass/utils/_typography.sass */
 .small-title {
   font-size: 1.5em;
   font-family: "chaparral-pro";
@@ -75,37 +81,37 @@ body {
   margin: auto;
 }
 
-/* line 36, ../../_sass/utils/_typography.sass */
+/* line 37, ../../_sass/utils/_typography.sass */
 .footer-title {
   font-size: 1.2em;
   font-family: "chaparral-pro";
   color: #2b3a48;
 }
 
-/* line 41, ../../_sass/utils/_typography.sass */
+/* line 42, ../../_sass/utils/_typography.sass */
 .speaker-name {
   font-family: "chaparral-pro";
   font-weight: normal;
   font-size: 30px;
 }
 
-/* line 46, ../../_sass/utils/_typography.sass */
+/* line 47, ../../_sass/utils/_typography.sass */
 .speaker-twitter {
   font-family: "chaparral-pro";
   color: #33ccff;
   font-size: 22px;
 }
 
-/* line 51, ../../_sass/utils/_typography.sass */
+/* line 52, ../../_sass/utils/_typography.sass */
 .twitter-link {
   color: #33ccff;
 }
-/* line 53, ../../_sass/utils/_typography.sass */
+/* line 54, ../../_sass/utils/_typography.sass */
 .twitter-link:hover {
   text-decoration: underline;
 }
 
-/* line 27, ../../_sass/elements/_ribbon.sass */
+/* line 30, ../../_sass/elements/_ribbon.sass */
 .ribbon-container {
   position: relative;
   height: 1.9em;
@@ -113,7 +119,7 @@ body {
   margin: 0 auto;
   width: 100%;
 }
-/* line 43, ../../_sass/elements/_ribbon.sass */
+/* line 46, ../../_sass/elements/_ribbon.sass */
 .ribbon-container .ribbon {
   background-color: white;
   text-align: center;
@@ -121,7 +127,7 @@ body {
   z-index: 1;
   width: 100%;
 }
-/* line 50, ../../_sass/elements/_ribbon.sass */
+/* line 53, ../../_sass/elements/_ribbon.sass */
 .ribbon-container .ribbon-corner {
   position: absolute;
   width: 50px;
@@ -129,39 +135,39 @@ body {
   box-sizing: content-box;
   z-index: 0;
 }
-/* line 56, ../../_sass/elements/_ribbon.sass */
+/* line 59, ../../_sass/elements/_ribbon.sass */
 .ribbon-container .ribbon-corner.bottom {
   border-bottom: 1.9em solid #e6e6e6;
 }
-/* line 58, ../../_sass/elements/_ribbon.sass */
+/* line 61, ../../_sass/elements/_ribbon.sass */
 .ribbon-container .ribbon-corner.top {
   border-top: 1.9em solid #e6e6e6;
 }
-/* line 60, ../../_sass/elements/_ribbon.sass */
+/* line 63, ../../_sass/elements/_ribbon.sass */
 .ribbon-container .ribbon-corner.left {
   border-left: 40px solid transparent;
   left: 0;
   margin-left: -50px;
 }
-/* line 64, ../../_sass/elements/_ribbon.sass */
+/* line 67, ../../_sass/elements/_ribbon.sass */
 .ribbon-container .ribbon-corner.right {
   border-right: 40px solid transparent;
   right: 0;
   margin-right: -50px;
 }
-/* line 69, ../../_sass/elements/_ribbon.sass */
+/* line 72, ../../_sass/elements/_ribbon.sass */
 .ribbon-container .ribbon-shadow {
   position: absolute;
   bottom: 0;
   border-top: 15px solid #cccccc;
   margin-bottom: -15px;
 }
-/* line 74, ../../_sass/elements/_ribbon.sass */
+/* line 77, ../../_sass/elements/_ribbon.sass */
 .ribbon-container .ribbon-shadow.left {
   border-left: 40px solid transparent;
   left: 0;
 }
-/* line 77, ../../_sass/elements/_ribbon.sass */
+/* line 80, ../../_sass/elements/_ribbon.sass */
 .ribbon-container .ribbon-shadow.right {
   border-right: 40px solid transparent;
   right: 0;
@@ -283,19 +289,19 @@ body {
 }
 /* line 7, ../../_sass/elements/_gradient.sass */
 .gradient.white-to-yellow .gradient-line-1 {
-  background-color: #fff5bf;
+  background-color: #fff9e3;
 }
 /* line 7, ../../_sass/elements/_gradient.sass */
 .gradient.white-to-yellow .gradient-line-2 {
-  background-color: #ffeb7f;
+  background-color: #fff3c7;
 }
 /* line 7, ../../_sass/elements/_gradient.sass */
 .gradient.white-to-yellow .gradient-line-3 {
-  background-color: #ffe13f;
+  background-color: #ffedab;
 }
 /* line 7, ../../_sass/elements/_gradient.sass */
 .gradient.white-to-yellow .gradient-line-4 {
-  background-color: gold;
+  background-color: #ffe88f;
 }
 /* line 21, ../../_sass/elements/_gradient.sass */
 .gradient.yellow-to-white {
@@ -305,23 +311,62 @@ body {
 }
 /* line 7, ../../_sass/elements/_gradient.sass */
 .gradient.yellow-to-white .gradient-line-0 {
-  background-color: gold;
+  background-color: #ffe88f;
 }
 /* line 7, ../../_sass/elements/_gradient.sass */
 .gradient.yellow-to-white .gradient-line-1 {
-  background-color: #ffe13f;
+  background-color: #ffedab;
 }
 /* line 7, ../../_sass/elements/_gradient.sass */
 .gradient.yellow-to-white .gradient-line-2 {
-  background-color: #ffeb7f;
+  background-color: #fff3c7;
 }
 /* line 7, ../../_sass/elements/_gradient.sass */
 .gradient.yellow-to-white .gradient-line-3 {
-  background-color: #fff5bf;
+  background-color: #fff9e3;
 }
 /* line 7, ../../_sass/elements/_gradient.sass */
 .gradient.yellow-to-white .gradient-line-4 {
   background-color: white;
+}
+
+/* line 14, ../../_sass/elements/_alpha-gradient.sass */
+.alpha-gradient {
+  width: 100%;
+  line-height: 40px;
+  min-height: 40px;
+}
+/* line 8, ../../_sass/elements/_alpha-gradient.sass */
+.alpha-gradient.down .gradient-line-0 {
+  background-color: white;
+}
+/* line 11, ../../_sass/elements/_alpha-gradient.sass */
+.alpha-gradient.up .gradient-line-0 {
+  background-color: rgba(255, 255, 255, 0);
+}
+/* line 8, ../../_sass/elements/_alpha-gradient.sass */
+.alpha-gradient.down .gradient-line-1 {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+/* line 11, ../../_sass/elements/_alpha-gradient.sass */
+.alpha-gradient.up .gradient-line-1 {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+/* line 8, ../../_sass/elements/_alpha-gradient.sass */
+.alpha-gradient.down .gradient-line-2 {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+/* line 11, ../../_sass/elements/_alpha-gradient.sass */
+.alpha-gradient.up .gradient-line-2 {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+/* line 8, ../../_sass/elements/_alpha-gradient.sass */
+.alpha-gradient.down .gradient-line-3 {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+/* line 11, ../../_sass/elements/_alpha-gradient.sass */
+.alpha-gradient.up .gradient-line-3 {
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 /* line 2, ../../_sass/elements/_speaker.sass */
@@ -370,13 +415,13 @@ body {
 }
 
 /* line 1, ../../_sass/elements/_button.sass */
-.red-button, .blue-button {
+.red-button, .blue-button, .transparent-button {
   display: inline-block;
   padding: 0.6em 0.8em;
   transition: all 200ms linear;
 }
 /* line 5, ../../_sass/elements/_button.sass */
-.red-button:hover, .blue-button:hover {
+.red-button:hover, .blue-button:hover, .transparent-button:hover {
   border-radius: 10px;
 }
 
@@ -395,6 +440,12 @@ body {
 /* line 17, ../../_sass/elements/_button.sass */
 .blue-button {
   border: solid 2px #2b3a48;
+}
+
+/* line 21, ../../_sass/elements/_button.sass */
+.transparent-button {
+  border: solid 2px white;
+  color: white;
 }
 
 /* line 2, ../../_sass/elements/_cta.sass */
@@ -480,7 +531,7 @@ body {
 }
 /* line 24, ../../_sass/elements/_ticket.sass */
 .ticket.present .price {
-  color: gold;
+  color: #ffda4d;
 }
 /* line 27, ../../_sass/elements/_ticket.sass */
 .ticket.future {
@@ -524,29 +575,29 @@ body {
 }
 
 /* line 5, ../../_sass/sections/_base.sass */
-.venue, .section.tickets {
+.venue, .section.sponsors {
   background-color: #2b3a48;
   color: white;
 }
 /* line 2, ../../_sass/elements/_ribbon.sass */
-.venue .ribbon-container, .section.tickets .ribbon-container {
+.venue .ribbon-container, .section.sponsors .ribbon-container {
   width: 100%;
 }
 /* line 4, ../../_sass/elements/_ribbon.sass */
-.venue .ribbon, .section.tickets .ribbon {
+.venue .ribbon, .section.sponsors .ribbon {
   background-color: white;
   color: #2b3a48;
 }
 /* line 8, ../../_sass/elements/_ribbon.sass */
-.venue .ribbon-corner.top, .section.tickets .ribbon-corner.top {
+.venue .ribbon-corner.top, .section.sponsors .ribbon-corner.top {
   border-top-color: #e2e2e2;
 }
 /* line 10, ../../_sass/elements/_ribbon.sass */
-.venue .ribbon-corner.bottom, .section.tickets .ribbon-corner.bottom {
+.venue .ribbon-corner.bottom, .section.sponsors .ribbon-corner.bottom {
   border-bottom-color: #e2e2e2;
 }
 /* line 12, ../../_sass/elements/_ribbon.sass */
-.venue .ribbon-shadow, .section.tickets .ribbon-shadow {
+.venue .ribbon-shadow, .section.sponsors .ribbon-shadow {
   border-top-color: #cccccc;
 }
 
@@ -716,17 +767,161 @@ body {
   }
 }
 
-/* line 5, ../../_sass/sections/_tickets.sass */
+/* line 1, ../../_sass/sections/_venue.sass */
+.venue {
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 45%;
+  min-height: 1000px;
+  position: relative;
+}
+/* line 2, ../../_sass/elements/_ribbon.sass */
+.venue .ribbon-container {
+  width: 100%;
+}
+/* line 4, ../../_sass/elements/_ribbon.sass */
+.venue .ribbon {
+  background-color: white;
+  color: #ab2b2b;
+}
+/* line 8, ../../_sass/elements/_ribbon.sass */
+.venue .ribbon-corner.top {
+  border-top-color: #e2e2e2;
+}
+/* line 10, ../../_sass/elements/_ribbon.sass */
+.venue .ribbon-corner.bottom {
+  border-bottom-color: #e2e2e2;
+}
+/* line 12, ../../_sass/elements/_ribbon.sass */
+.venue .ribbon-shadow {
+  border-top-color: #cccccc;
+}
+@media all and (max-width: 680px) {
+  /* line 1, ../../_sass/sections/_venue.sass */
+  .venue {
+    background-image: url("../images/venue/background-small.jpeg");
+  }
+}
+@media all and (min-width: 680px) {
+  /* line 1, ../../_sass/sections/_venue.sass */
+  .venue {
+    background-image: url("../images/venue/background.jpeg");
+  }
+}
+/* line 17, ../../_sass/sections/_venue.sass */
+.venue .alpha-gradient {
+  position: absolute;
+}
+/* line 19, ../../_sass/sections/_venue.sass */
+.venue .alpha-gradient.down {
+  top: 0;
+}
+/* line 22, ../../_sass/sections/_venue.sass */
+.venue .alpha-gradient.up {
+  bottom: 0;
+}
+/* line 25, ../../_sass/sections/_venue.sass */
+.venue .abs-content {
+  width: 80%;
+  margin-left: 10%;
+  position: absolute;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+/* line 32, ../../_sass/sections/_venue.sass */
+.venue .venue-name {
+  max-width: 60%;
+  font-family: "chaparral-pro";
+  margin: auto;
+  margin-top: 4em;
+  font-size: 2em;
+  padding: 0.2em;
+  border-top: solid 1px #ffe88f;
+  border-bottom: solid 1px #ffe88f;
+}
+@media all and (max-width: 680px) {
+  /* line 32, ../../_sass/sections/_venue.sass */
+  .venue .venue-name {
+    margin-top: 2em;
+  }
+}
+/* line 44, ../../_sass/sections/_venue.sass */
+.venue .venue-features {
+  font-size: 1.5em;
+  list-style-type: none;
+  vertical-align: middle;
+  line-height: 2em;
+  width: 100%;
+}
+/* line 50, ../../_sass/sections/_venue.sass */
+.venue .venue-features .feature {
+  display: inline-block;
+}
+/* line 52, ../../_sass/sections/_venue.sass */
+.venue .venue-features .feature + .feature:before {
+  content: "\2022";
+  padding: 1em;
+}
+@media all and (max-width: 1340px) {
+  /* line 44, ../../_sass/sections/_venue.sass */
+  .venue .venue-features {
+    font-size: 1em;
+  }
+}
+/* line 58, ../../_sass/sections/_venue.sass */
+.venue .venue-photos {
+  margin-top: 4em;
+}
+/* line 60, ../../_sass/sections/_venue.sass */
+.venue .venue-photos .photo {
+  display: inline-block;
+  margin: 0.5em;
+}
+/* line 63, ../../_sass/sections/_venue.sass */
+.venue .venue-photos .photo img {
+  border: solid 1px #ffe88f;
+  width: 300px;
+  height: 200px;
+}
+@media all and (max-width: 1340px) {
+  /* line 58, ../../_sass/sections/_venue.sass */
+  .venue .venue-photos {
+    display: none;
+  }
+}
+
+/* line 2, ../../_sass/elements/_ribbon.sass */
+.section.tickets .ribbon-container {
+  width: 100%;
+}
+/* line 4, ../../_sass/elements/_ribbon.sass */
+.section.tickets .ribbon {
+  background-color: #ffe88f;
+  color: #2b3a48;
+}
+/* line 8, ../../_sass/elements/_ribbon.sass */
+.section.tickets .ribbon-corner.top {
+  border-top-color: #e0be3d;
+}
+/* line 10, ../../_sass/elements/_ribbon.sass */
+.section.tickets .ribbon-corner.bottom {
+  border-bottom-color: #e0be3d;
+}
+/* line 12, ../../_sass/elements/_ribbon.sass */
+.section.tickets .ribbon-shadow {
+  border-top-color: #ffda4d;
+}
+/* line 4, ../../_sass/sections/_tickets.sass */
 .section.tickets .ticket-batches .batch {
   display: inline-block;
   vertical-align: top;
   margin: 3rem;
 }
-/* line 10, ../../_sass/sections/_tickets.sass */
+/* line 9, ../../_sass/sections/_tickets.sass */
 .section.tickets .ticket {
   margin-bottom: 2rem;
 }
-/* line 13, ../../_sass/sections/_tickets.sass */
+/* line 12, ../../_sass/sections/_tickets.sass */
 .section.tickets .ticket-button {
   margin-top: 2rem;
   min-width: 60%;
@@ -754,30 +949,45 @@ body {
   border-top-color: #03070b;
 }
 
-/* line 1, ../../_sass/sections/_sponsorship.sass */
-.sponsorship {
-  background-color: #2b3a48;
+/* line 5, ../../_sass/sections/_sponsoring.sass */
+.section.sponsors .sponsor-info li {
+  display: inline-block;
+  position: relative;
+  margin: 3em;
+  text-align: left;
+  font-family: "open-sans";
 }
-/* line 2, ../../_sass/elements/_ribbon.sass */
-.sponsorship .ribbon-container {
-  width: 100%;
+/* line 11, ../../_sass/sections/_sponsoring.sass */
+.section.sponsors .sponsor-info li .top {
+  position: absolute;
+  top: 0px;
+  font-style: italic;
 }
-/* line 4, ../../_sass/elements/_ribbon.sass */
-.sponsorship .ribbon {
-  background-color: white;
-  color: #2b3a48;
+/* line 15, ../../_sass/sections/_sponsoring.sass */
+.section.sponsors .sponsor-info li .mid {
+  font-size: 6em;
+  color: #ffda4d;
+  font-family: "chaparral-pro";
 }
-/* line 8, ../../_sass/elements/_ribbon.sass */
-.sponsorship .ribbon-corner.top {
-  border-top-color: #e2e2e2;
+/* line 19, ../../_sass/sections/_sponsoring.sass */
+.section.sponsors .sponsor-info li .bottom {
+  vertical-align: top;
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  font-size: 1.5em;
+  font-style: italic;
+  height: 2em;
+  font-weight: bold;
 }
-/* line 10, ../../_sass/elements/_ribbon.sass */
-.sponsorship .ribbon-corner.bottom {
-  border-bottom-color: #e2e2e2;
+/* line 29, ../../_sass/sections/_sponsoring.sass */
+.section.sponsors .sponsor-buttons {
+  margin-top: 3em;
 }
-/* line 12, ../../_sass/elements/_ribbon.sass */
-.sponsorship .ribbon-shadow {
-  border-top-color: #cccccc;
+/* line 31, ../../_sass/sections/_sponsoring.sass */
+.section.sponsors .sponsor-buttons li {
+  display: inline-block;
+  margin: 1em;
 }
 
 /* line 2, ../../_sass/sections/_newsletter.sass */
