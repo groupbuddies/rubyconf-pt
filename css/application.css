@@ -534,17 +534,17 @@ body {
   color: #ffda4d;
 }
 /* line 27, ../../_sass/elements/_ticket.sass */
-.ticket.future {
+.ticket.future, .ticket.past {
   background-image: url("../images/grey-ticket.svg");
   color: #cccccc;
 }
-/* line 30, ../../_sass/elements/_ticket.sass */
-.ticket.future .price {
+/* line 31, ../../_sass/elements/_ticket.sass */
+.ticket.future .price, .ticket.past .price {
   color: #bdc9d4;
 }
 
-/* line 35, ../../_sass/elements/_ticket.sass */
-.ticket-button.future, .ticket-button.past {
+/* line 36, ../../_sass/elements/_ticket.sass */
+.ticket-button.future {
   display: none;
 }
 
