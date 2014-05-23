@@ -18,13 +18,14 @@
     font-size: 0.8em
     font-style: italic
 
-  &.present
+  &.present,
     background-image: url('../images/blue-ticket.svg')
     color: $white
     .price
       color: $dark-yellow
 
-  &.future
+  &.future,
+  &.past
     background-image: url('../images/grey-ticket.svg')
     color: $grey
     .price
@@ -32,6 +33,5 @@
 
 
 .ticket-button
-  &.future,
-  &.past
+  &.future
     display: none
