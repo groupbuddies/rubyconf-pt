@@ -415,13 +415,13 @@ body {
 }
 
 /* line 1, ../../_sass/elements/_button.sass */
-.red-button, .blue-button, .transparent-button {
+.red-button, .blue-button, .transparent-button, .disabled-button {
   display: inline-block;
   padding: 0.6em 0.8em;
   transition: all 200ms linear;
 }
 /* line 5, ../../_sass/elements/_button.sass */
-.red-button:hover, .blue-button:hover, .transparent-button:hover {
+.red-button:hover, .blue-button:hover, .transparent-button:hover, .disabled-button:hover {
   border-radius: 10px;
 }
 
@@ -446,6 +446,17 @@ body {
 .transparent-button {
   border: solid 2px white;
   color: white;
+}
+
+/* line 26, ../../_sass/elements/_button.sass */
+.disabled-button {
+  color: #cccccc;
+  background-color: #eaeaea;
+  border: solid 2px #eaeaea;
+}
+/* line 31, ../../_sass/elements/_button.sass */
+.disabled-button:hover {
+  border-radius: 0px;
 }
 
 /* line 2, ../../_sass/elements/_cta.sass */
@@ -765,6 +776,10 @@ body {
     -o-transform: scale(0.8, 0.8);
     transform: scale(0.8, 0.8);
   }
+}
+/* line 23, ../../_sass/sections/_speakers.sass */
+.speakers .between-buttons {
+  padding: 1em;
 }
 
 /* line 1, ../../_sass/sections/_venue.sass */
