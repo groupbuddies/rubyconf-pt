@@ -13,12 +13,12 @@
     <p class="price">{{ include.price }}€</p>
     <p class="date">{{ include.date  }}</p>
   </div>
-  <a class="red-button ticket-button {{ include.state }}">Sold Out</a>
+  <a class="disabled-button ticket-button {{ include.state }}">Sold Out</a>
 {% else %}
   <div class="ticket {{ include.state }}">
     <p class="batch-name">{{ include.batch }} Batch</p>
     <p class="price">{{ include.price }}€</p>
     <p class="date">{{ include.date  }}</p>
   </div>
-  <span class="red-button ticket-button {{ include.state }}">Available at {{ include.time }}</span>
+  <span class="ticket-button disabled-button {{ include.state }}">Available at {{ include.time }}</span>
 {% endif %}
