@@ -879,6 +879,9 @@ body {
   max-width: 960px;
   margin: 2.5rem auto;
   text-align: left;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1em;
+  border-radius: 10px;
 }
 
 /* line 2, ../../_sass/elements/_ribbon.sass */
