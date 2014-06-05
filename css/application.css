@@ -1145,16 +1145,20 @@ body {
   display: inline-block;
   margin: 1em;
 }
-/* line 27, ../../_sass/sections/_venue-page.sass */
+/* line 26, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .showcase .photo img {
+  max-width: 80%;
+}
+/* line 29, ../../_sass/sections/_venue-page.sass */
 .section.venue-page .where-to-stay {
   background-color: #2b3a48;
   color: white;
 }
-/* line 30, ../../_sass/sections/_venue-page.sass */
+/* line 32, ../../_sass/sections/_venue-page.sass */
 .section.venue-page .where-to-stay .email {
   color: white;
 }
-/* line 34, ../../_sass/sections/_venue-page.sass */
+/* line 36, ../../_sass/sections/_venue-page.sass */
 .section.venue-page .how-to-get-here .map,
 .section.venue-page .how-to-get-here .directions {
   display: inline-block;
@@ -1163,48 +1167,61 @@ body {
   min-width: 350px;
   vertical-align: top;
 }
-/* line 41, ../../_sass/sections/_venue-page.sass */
+/* line 43, ../../_sass/sections/_venue-page.sass */
 .section.venue-page .how-to-get-here .map h2,
 .section.venue-page .how-to-get-here .directions h2 {
   font-family: "chaparral-pro";
   margin-bottom: 0.6em;
 }
-/* line 44, ../../_sass/sections/_venue-page.sass */
+/* line 46, ../../_sass/sections/_venue-page.sass */
 .section.venue-page .how-to-get-here .map .text,
 .section.venue-page .how-to-get-here .directions .text {
   padding-left: 0;
   margin-bottom: 3em;
 }
-/* line 47, ../../_sass/sections/_venue-page.sass */
+/* line 49, ../../_sass/sections/_venue-page.sass */
 .section.venue-page .how-to-get-here .map .text a,
 .section.venue-page .how-to-get-here .directions .text a {
   text-decoration: underline;
 }
-/* line 49, ../../_sass/sections/_venue-page.sass */
+/* line 51, ../../_sass/sections/_venue-page.sass */
 .section.venue-page .how-to-get-here .map {
   text-align: right;
   padding-right: 2em;
   overflow: hidden;
 }
-/* line 54, ../../_sass/sections/_venue-page.sass */
+@media all and (max-width: 680px) {
+  /* line 51, ../../_sass/sections/_venue-page.sass */
+  .section.venue-page .how-to-get-here .map {
+    text-align: left;
+    padding-right: 0;
+  }
+}
+/* line 60, ../../_sass/sections/_venue-page.sass */
 .section.venue-page .how-to-get-here .map iframe {
-  min-width: 500px;
+  min-width: 600px;
   max-width: 80%;
   min-height: 400px;
   max-height: 400px;
 }
-/* line 64, ../../_sass/sections/_venue-page.sass */
+@media all and (max-width: 680px) {
+  /* line 60, ../../_sass/sections/_venue-page.sass */
+  .section.venue-page .how-to-get-here .map iframe {
+    min-width: 80%;
+  }
+}
+/* line 72, ../../_sass/sections/_venue-page.sass */
 .section.venue-page .hotel {
   display: inline-block;
   margin: 2em;
 }
-/* line 68, ../../_sass/sections/_venue-page.sass */
+/* line 76, ../../_sass/sections/_venue-page.sass */
 .section.venue-page .hotel-name {
   font-family: "chaparral-pro";
   font-size: 1.3em;
   text-align: left;
 }
-/* line 73, ../../_sass/sections/_venue-page.sass */
+/* line 81, ../../_sass/sections/_venue-page.sass */
 .section.venue-page .single-room,
 .section.venue-page .double-room {
   display: inline-block;
@@ -1212,14 +1229,14 @@ body {
   margin-right: 1em;
   text-align: left;
 }
-/* line 79, ../../_sass/sections/_venue-page.sass */
+/* line 87, ../../_sass/sections/_venue-page.sass */
 .section.venue-page .single-room .price,
 .section.venue-page .double-room .price {
   font-size: 3em;
   color: #ffda4d;
   font-family: "chaparral-pro";
 }
-/* line 83, ../../_sass/sections/_venue-page.sass */
+/* line 91, ../../_sass/sections/_venue-page.sass */
 .section.venue-page .single-room .sub,
 .section.venue-page .double-room .sub {
   font-size: 0.8em;
@@ -1231,17 +1248,17 @@ body {
   height: 2em;
   font-weight: bold;
 }
-/* line 93, ../../_sass/sections/_venue-page.sass */
+/* line 101, ../../_sass/sections/_venue-page.sass */
 .section.venue-page .stars {
   text-align: left;
 }
-/* line 96, ../../_sass/sections/_venue-page.sass */
+/* line 104, ../../_sass/sections/_venue-page.sass */
 .section.venue-page .footnote {
   font-size: 0.8em;
   font-style: italic;
   margin-bottom: 2em;
 }
-/* line 101, ../../_sass/sections/_venue-page.sass */
+/* line 109, ../../_sass/sections/_venue-page.sass */
 .section.venue-page .icon-phone,
 .section.venue-page .icon-email,
 .section.venue-page .icon-star {
@@ -1254,19 +1271,19 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-/* line 112, ../../_sass/sections/_venue-page.sass */
+/* line 120, ../../_sass/sections/_venue-page.sass */
 .section.venue-page .icon-phone {
   background-image: url("../images/icons/phone.png");
 }
-/* line 114, ../../_sass/sections/_venue-page.sass */
+/* line 122, ../../_sass/sections/_venue-page.sass */
 .section.venue-page .icon-email {
   background-image: url("../images/icons/mail.png");
 }
-/* line 116, ../../_sass/sections/_venue-page.sass */
+/* line 124, ../../_sass/sections/_venue-page.sass */
 .section.venue-page .icon-star {
   background-image: url("../images/icons/star.png");
 }
-/* line 119, ../../_sass/sections/_venue-page.sass */
+/* line 127, ../../_sass/sections/_venue-page.sass */
 .section.venue-page .contacts {
   max-width: 960px;
   margin: auto;
@@ -1274,7 +1291,7 @@ body {
   list-style-type: none;
   font-weight: bold;
 }
-/* line 125, ../../_sass/sections/_venue-page.sass */
+/* line 133, ../../_sass/sections/_venue-page.sass */
 .section.venue-page .contacts li {
   display: inline-block;
   width: 50%;
