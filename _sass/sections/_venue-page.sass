@@ -23,6 +23,8 @@
     .photo
       display: inline-block
       margin: 1em
+      img
+        max-width: 80%
 
   .where-to-stay
     background-color: $dark-blue
@@ -50,12 +52,18 @@
       text-align: right
       padding-right: 2em
       overflow: hidden
+      @media all and (max-width: #{$small-width})
+        text-align: left
+        padding-right: 0
+
 
       iframe
-        min-width: 500px
+        min-width: 600px
         max-width: 80%
         min-height: 400px
         max-height: 400px
+        @media all and (max-width: #{$small-width})
+          min-width: 80%
 
   .bom-jesus,
   .where-to-stay,
