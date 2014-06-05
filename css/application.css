@@ -111,6 +111,21 @@ body {
   text-decoration: underline;
 }
 
+/* line 57, ../../_sass/utils/_typography.sass */
+.text {
+  text-align: left;
+  max-width: 960px;
+  margin: auto;
+  padding: 0 50px;
+  line-height: 2;
+  text-align: justify;
+  text-justify: inter-word;
+}
+/* line 66, ../../_sass/utils/_typography.sass */
+.text p {
+  margin-bottom: 2em;
+}
+
 /* line 30, ../../_sass/elements/_ribbon.sass */
 .ribbon-container {
   position: relative;
@@ -415,13 +430,13 @@ body {
 }
 
 /* line 1, ../../_sass/elements/_button.sass */
-.red-button, .blue-button, .transparent-button, .disabled-button {
+.red-button, .blue-button, .transparent-button, .transparent-dark-button, .disabled-button {
   display: inline-block;
   padding: 0.6em 0.8em;
   transition: all 200ms linear;
 }
 /* line 5, ../../_sass/elements/_button.sass */
-.red-button:hover, .blue-button:hover, .transparent-button:hover, .disabled-button:hover {
+.red-button:hover, .blue-button:hover, .transparent-button:hover, .transparent-dark-button:hover, .disabled-button:hover {
   border-radius: 10px;
 }
 
@@ -449,12 +464,18 @@ body {
 }
 
 /* line 26, ../../_sass/elements/_button.sass */
+.transparent-dark-button {
+  border: solid 2px #2b3a48;
+  color: #2b3a48;
+}
+
+/* line 31, ../../_sass/elements/_button.sass */
 .disabled-button {
   color: #cccccc;
   background-color: #eaeaea;
   border: solid 2px #eaeaea;
 }
-/* line 31, ../../_sass/elements/_button.sass */
+/* line 36, ../../_sass/elements/_button.sass */
 .disabled-button:hover {
   border-radius: 0px;
 }
@@ -784,8 +805,9 @@ body {
 
 /* line 1, ../../_sass/sections/_venue.sass */
 .venue {
+  background-image: url("../images/venue/background.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: center right;
   padding-bottom: 45%;
   min-height: 1000px;
   position: relative;
@@ -811,44 +833,37 @@ body {
 .venue .ribbon-shadow {
   border-top-color: #cccccc;
 }
-@media all and (max-width: 680px) {
-  /* line 1, ../../_sass/sections/_venue.sass */
-  .venue {
-    background-image: url("../images/venue/background-small.jpeg");
-  }
-}
-@media all and (min-width: 680px) {
-  /* line 1, ../../_sass/sections/_venue.sass */
-  .venue {
-    background-image: url("../images/venue/background.jpeg");
-  }
-}
-/* line 17, ../../_sass/sections/_venue.sass */
+/* line 14, ../../_sass/sections/_venue.sass */
 .venue .alpha-gradient {
   position: absolute;
 }
-/* line 19, ../../_sass/sections/_venue.sass */
+/* line 16, ../../_sass/sections/_venue.sass */
 .venue .alpha-gradient.down {
   top: 0;
 }
-/* line 22, ../../_sass/sections/_venue.sass */
+/* line 19, ../../_sass/sections/_venue.sass */
 .venue .alpha-gradient.up {
   bottom: 0;
 }
-/* line 25, ../../_sass/sections/_venue.sass */
+/* line 22, ../../_sass/sections/_venue.sass */
 .venue .abs-content {
-  width: 80%;
-  margin-left: 10%;
+  width: 100%;
   position: absolute;
   padding-top: 160px;
   padding-bottom: 160px;
+}
+/* line 28, ../../_sass/sections/_venue.sass */
+.venue .venue-name,
+.venue .venue-summary {
+  text-shadow: 0px 0px 5px #2b3a48;
 }
 /* line 32, ../../_sass/sections/_venue.sass */
 .venue .venue-name {
   max-width: 60%;
   font-family: "chaparral-pro";
+  font-weight: bold;
   margin: auto;
-  margin-top: 4em;
+  margin-top: 3em;
   font-size: 2em;
   padding: 0.2em;
   border-top: solid 1px #ffe88f;
@@ -860,49 +875,12 @@ body {
     margin-top: 2em;
   }
 }
-/* line 44, ../../_sass/sections/_venue.sass */
-.venue .venue-features {
-  font-size: 1.5em;
-  list-style-type: none;
-  vertical-align: middle;
-  line-height: 2em;
-  width: 100%;
-}
-/* line 50, ../../_sass/sections/_venue.sass */
-.venue .venue-features .feature {
-  display: inline-block;
-}
-/* line 52, ../../_sass/sections/_venue.sass */
-.venue .venue-features .feature + .feature:before {
-  content: "\2022";
-  padding: 1em;
-}
-@media all and (max-width: 1340px) {
-  /* line 44, ../../_sass/sections/_venue.sass */
-  .venue .venue-features {
-    font-size: 1em;
-  }
-}
-/* line 58, ../../_sass/sections/_venue.sass */
-.venue .venue-photos {
-  margin-top: 4em;
-}
-/* line 60, ../../_sass/sections/_venue.sass */
-.venue .venue-photos .photo {
-  display: inline-block;
-  margin: 0.5em;
-}
-/* line 63, ../../_sass/sections/_venue.sass */
-.venue .venue-photos .photo img {
-  border: solid 1px #ffe88f;
-  width: 300px;
-  height: 200px;
-}
-@media all and (max-width: 1340px) {
-  /* line 58, ../../_sass/sections/_venue.sass */
-  .venue .venue-photos {
-    display: none;
-  }
+/* line 45, ../../_sass/sections/_venue.sass */
+.venue .venue-summary {
+  margin: 2.5rem;
+  max-width: 960px;
+  margin: 2.5rem auto;
+  text-align: left;
 }
 
 /* line 2, ../../_sass/elements/_ribbon.sass */
@@ -1112,15 +1090,188 @@ body {
 .section.code-of-conduct .ribbon-shadow {
   border-top-color: #03070b;
 }
-/* line 4, ../../_sass/sections/_code-of-conduct.sass */
-.section.code-of-conduct .text {
-  text-align: left;
-  max-width: 900px;
-  margin: auto;
-  padding: 0 50px;
-  line-height: 2;
+
+/* line 1, ../../_sass/sections/_venue-page.sass */
+.section.venue-page {
+  padding-top: 0;
 }
-/* line 11, ../../_sass/sections/_code-of-conduct.sass */
-.section.code-of-conduct .text p {
+/* line 2, ../../_sass/elements/_ribbon.sass */
+.section.venue-page .ribbon-container {
+  width: 100%;
+}
+/* line 4, ../../_sass/elements/_ribbon.sass */
+.section.venue-page .ribbon {
+  background-color: #384c5e;
+  color: white;
+}
+/* line 8, ../../_sass/elements/_ribbon.sass */
+.section.venue-page .ribbon-corner.top {
+  border-top-color: #2b3a48;
+}
+/* line 10, ../../_sass/elements/_ribbon.sass */
+.section.venue-page .ribbon-corner.bottom {
+  border-bottom-color: #2b3a48;
+}
+/* line 12, ../../_sass/elements/_ribbon.sass */
+.section.venue-page .ribbon-shadow {
+  border-top-color: #03070b;
+}
+/* line 5, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .bom-jesus,
+.section.venue-page .where-to-stay,
+.section.venue-page .how-to-get-here {
+  padding: 3em;
+}
+/* line 9, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .bom-jesus h1,
+.section.venue-page .where-to-stay h1,
+.section.venue-page .how-to-get-here h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  font-family: "chaparral-pro";
+}
+/* line 15, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .bom-jesus .transparent-dark-button {
+  margin-top: 2em;
+}
+/* line 18, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .showcase {
+  margin-top: 2em;
+}
+/* line 20, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .showcase .photo {
+  display: inline-block;
+  margin: 1em;
+}
+/* line 24, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .where-to-stay {
+  background-color: #2b3a48;
+  color: white;
+}
+/* line 27, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .where-to-stay .email {
+  color: white;
+}
+/* line 31, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .how-to-get-here .map,
+.section.venue-page .how-to-get-here .directions {
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+  min-width: 450px;
+  vertical-align: top;
+}
+/* line 38, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .how-to-get-here .map h2,
+.section.venue-page .how-to-get-here .directions h2 {
+  font-family: "chaparral-pro";
+  margin-bottom: 0.6em;
+}
+/* line 41, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .how-to-get-here .map .text,
+.section.venue-page .how-to-get-here .directions .text {
+  padding-left: 0;
+  margin-bottom: 3em;
+}
+/* line 44, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .how-to-get-here .map .text a,
+.section.venue-page .how-to-get-here .directions .text a {
+  text-decoration: underline;
+}
+/* line 46, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .how-to-get-here .map {
+  text-align: right;
+  padding-right: 2em;
+}
+/* line 50, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .how-to-get-here .map iframe {
+  min-width: 500px;
+  min-height: 400px;
+  max-height: 400px;
+}
+/* line 59, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .hotel {
+  display: inline-block;
+  margin: 2em;
+}
+/* line 63, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .hotel-name {
+  font-family: "chaparral-pro";
+  font-size: 1.3em;
+  text-align: left;
+}
+/* line 68, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .single-room,
+.section.venue-page .double-room {
+  display: inline-block;
+  position: relative;
+  margin-right: 1em;
+  text-align: left;
+}
+/* line 74, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .single-room .price,
+.section.venue-page .double-room .price {
+  font-size: 3em;
+  color: #ffda4d;
+  font-family: "chaparral-pro";
+}
+/* line 78, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .single-room .sub,
+.section.venue-page .double-room .sub {
+  font-size: 0.8em;
+  vertical-align: top;
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  font-style: italic;
+  height: 2em;
+  font-weight: bold;
+}
+/* line 88, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .stars {
+  text-align: left;
+}
+/* line 91, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .footnote {
+  font-size: 0.8em;
+  font-style: italic;
   margin-bottom: 2em;
+}
+/* line 96, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .icon-phone,
+.section.venue-page .icon-email,
+.section.venue-page .icon-star {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 0.5em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 107, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .icon-phone {
+  background-image: url("../images/icons/phone.png");
+}
+/* line 109, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .icon-email {
+  background-image: url("../images/icons/mail.png");
+}
+/* line 111, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .icon-star {
+  background-image: url("../images/icons/star.png");
+}
+/* line 114, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .contacts {
+  max-width: 960px;
+  margin: auto;
+  margin-top: 1em;
+  list-style-type: none;
+  font-weight: bold;
+}
+/* line 120, ../../_sass/sections/_venue-page.sass */
+.section.venue-page .contacts li {
+  display: inline-block;
+  width: 50%;
 }
