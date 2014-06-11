@@ -40,7 +40,7 @@ Organizers email:
 [hello@rubyconf.pt](mailto:hello@rubyconf.pt)
 
 Organizers phone:  
-0035 916 748 994
+00351 916 748 994
 
 Emergency number:  
 112
