@@ -46,4 +46,4 @@ Emergency number:
 112
 
 Local taxi company:  
-0035 253 253 253
+00351 253 253 253
