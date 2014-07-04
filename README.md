@@ -11,15 +11,14 @@ branch. You can check your progress by running `jekyll serve` and when you're
 done run `jekyll build`, to build the final product. There are other commands
 you can use, give the [jekyll docs](http://jekyllrb.com/docs/usage/) a look.
 
-You are now ready to commit (or open a pr) to master, but if you notice the
-generated site (in the `_site` directory) is being ignored. Do not fret, the
-reason for that is that in order to have the editable website as well as the
-compiled one in the same repo, we had to add an extra branch called `gh-pages`
-where the compiled website lives. This is just a github pages convention.
+You are now ready to commit (or open a PR) to master. However ,the generated
+site (in the `_site` directory) is being ignored. Do not fret, the
+reason for this is that the compiled website must live in the `gh-pages`
+branch, leaving the master one for development only. This is just a github pages convention.
 
-The next step is to go to that branch (`git checkout gh-pages`) and copy
-everything that's in the `_site` directory to the main repo directory (`cp -r
-_site .`), you can then remove the `_site` directory (`rm -r _site`).
+An easy way to easily set this up is to have the `_site` directory point to
+your `gh-pages` branch. This way, any change you make in master will be
+compiled to `_site`, which you can directly commit and publish
 
 At this point you should be able to commit (or open a pr) to the `gh-pages`
 branch with your changes.
@@ -31,22 +30,25 @@ or `gh-pages` branches, first.
 
 ### TL; DR
 
-    git clone git@github.com:groupbuddies/rubyconf-pt.git
-    git checkout -b my-master-branch
+    ... Setup ...
+    git clone git@github.com:groupbuddies/rubyconf-pt
+    cd rubyconf-pt
+    git clone git@github.com:groupbuddies/rubyconf-pt _site -b gh-pages
+
     ... Make changes ...
+    git checkout -b my-master-branch
     jekyll build
     git add -A
     git commit
     git push -u origin my-master-branch
     ... Create pull request ...
 
-    git checkout gh-pages
-    git checkout -b my-gh-pages-branch
-    cp -r _site .
-    rm -r _site
+    ... Deploy compiled site ...
+    cd _site
+    git checkout -b my-gh-pages
     git add -A
     git commit
-    git push -u origin my-gh-pages-branch
+    git push -u origin my-gh-pages
     ... Create pull request ...
 
 # Credits
