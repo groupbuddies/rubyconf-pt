@@ -58,5 +58,5 @@ RubyConf PT website is maintained by
 
 # License
 
-This website is © 2014 GB-Software As A Service, Lda. It is free software and may be
+RubyConf PT's website is © 2014 GB-Software As A Service, Lda. It is free software and may be
 redistributed under the terms specified in the [LICENSE](LICENSE) file.
