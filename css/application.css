@@ -1349,20 +1349,22 @@ body {
   margin-bottom: 150px;
   margin-top: 50px;
 }
-/* line 12, ../../_sass/sections/_sponsors.sass */
-.section.sponsors .list-sponsors .sponsor:not(:last-child) {
-  margin-right: 50px;
+@media only screen and (max-device-width: 480px) {
+  /* line 13, ../../_sass/sections/_sponsors.sass */
+  .section.sponsors .list-sponsors .sponsor:not(:last-child) {
+    margin-right: 50px;
+  }
 }
-/* line 15, ../../_sass/sections/_sponsors.sass */
+/* line 16, ../../_sass/sections/_sponsors.sass */
 .section.sponsors .sponsors-title {
   font-size: 2em;
 }
-/* line 18, ../../_sass/sections/_sponsors.sass */
+/* line 19, ../../_sass/sections/_sponsors.sass */
 .section.sponsors .sponsors-title-gold {
   color: #ffda4d;
   margin-top: 100px;
 }
-/* line 22, ../../_sass/sections/_sponsors.sass */
+/* line 23, ../../_sass/sections/_sponsors.sass */
 .section.sponsors .sponsors-title-silver {
   color: #999999;
   margin-top: 200px;
