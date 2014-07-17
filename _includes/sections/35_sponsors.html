@@ -1,0 +1,19 @@
+<section class="section sponsors" id="sponsors">
+  <h1 class="section-title">
+    {% include title_ribbon.html title="Our sponsors" %}
+  </h1>
+
+  <h2 class="sponsors-title sponsors-title-gold">Gold sponsors</h2>
+  <ul class="list-sponsors sponsors-gold">
+    {% for sponsor in page.sponsors.gold %}
+      {% include sponsor.html %}
+    {% endfor %}
+  </ul>
+
+  <h2 class="sponsors-title sponsors-title-silver">Silver sponsors</h2>
+  <ul class="list-sponsors sponsors-silver">
+    {% for sponsor in page.sponsors.silver %}
+      {% include sponsor.html %}
+    {% endfor %}
+  </ul>
+</section>
