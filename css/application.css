@@ -578,7 +578,26 @@ body {
   display: none;
 }
 
-/* line 1, ../../_sass/sections/_base.sass */
+/* line 1, ../../_sass/elements/_sponsor.sass */
+.sponsor {
+  display: inline-block;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+/* line 7, ../../_sass/elements/_sponsor.sass */
+.sponsors-gold .sponsor-logo {
+  max-height: 150px;
+  max-width: 220px;
+}
+
+/* line 12, ../../_sass/elements/_sponsor.sass */
+.sponsors-silver .sponsor-logo {
+  max-height: 100px;
+  max-width: 150px;
+}
+
+/* line 1, ../../_sass/sections/_common.sass */
 .speakers {
   background-color: white;
 }
@@ -604,44 +623,44 @@ body {
   border-top-color: #ab2b2b;
 }
 
-/* line 5, ../../_sass/sections/_base.sass */
-.venue, .section.sponsors {
+/* line 5, ../../_sass/sections/_common.sass */
+.venue, .section.sponsoring {
   background-color: #2b3a48;
   color: white;
 }
 /* line 2, ../../_sass/elements/_ribbon.sass */
-.venue .ribbon-container, .section.sponsors .ribbon-container {
+.venue .ribbon-container, .section.sponsoring .ribbon-container {
   width: 100%;
 }
 /* line 4, ../../_sass/elements/_ribbon.sass */
-.venue .ribbon, .section.sponsors .ribbon {
+.venue .ribbon, .section.sponsoring .ribbon {
   background-color: white;
   color: #2b3a48;
 }
 /* line 8, ../../_sass/elements/_ribbon.sass */
-.venue .ribbon-corner.top, .section.sponsors .ribbon-corner.top {
+.venue .ribbon-corner.top, .section.sponsoring .ribbon-corner.top {
   border-top-color: #e2e2e2;
 }
 /* line 10, ../../_sass/elements/_ribbon.sass */
-.venue .ribbon-corner.bottom, .section.sponsors .ribbon-corner.bottom {
+.venue .ribbon-corner.bottom, .section.sponsoring .ribbon-corner.bottom {
   border-bottom-color: #e2e2e2;
 }
 /* line 12, ../../_sass/elements/_ribbon.sass */
-.venue .ribbon-shadow, .section.sponsors .ribbon-shadow {
+.venue .ribbon-shadow, .section.sponsoring .ribbon-shadow {
   border-top-color: #cccccc;
 }
 
-/* line 18, ../../_sass/sections/_base.sass */
+/* line 18, ../../_sass/sections/_common.sass */
 .section {
   padding-top: 3em;
   padding-bottom: 3em;
   text-align: center;
 }
-/* line 23, ../../_sass/sections/_base.sass */
+/* line 23, ../../_sass/sections/_common.sass */
 .section .ribbon-container {
   margin-bottom: 5rem;
 }
-/* line 26, ../../_sass/sections/_base.sass */
+/* line 26, ../../_sass/sections/_common.sass */
 .section .small-title {
   margin-bottom: 1rem;
 }
@@ -944,7 +963,7 @@ body {
 }
 
 /* line 5, ../../_sass/sections/_sponsoring.sass */
-.section.sponsors .sponsor-info li {
+.section.sponsoring .sponsor-info li {
   display: inline-block;
   position: relative;
   margin: 3em;
@@ -952,19 +971,19 @@ body {
   font-family: "open-sans";
 }
 /* line 11, ../../_sass/sections/_sponsoring.sass */
-.section.sponsors .sponsor-info li .top {
+.section.sponsoring .sponsor-info li .top {
   position: absolute;
   top: 0px;
   font-style: italic;
 }
 /* line 15, ../../_sass/sections/_sponsoring.sass */
-.section.sponsors .sponsor-info li .mid {
+.section.sponsoring .sponsor-info li .mid {
   font-size: 6em;
   color: #ffda4d;
   font-family: "chaparral-pro";
 }
 /* line 19, ../../_sass/sections/_sponsoring.sass */
-.section.sponsors .sponsor-info li .bottom {
+.section.sponsoring .sponsor-info li .bottom {
   vertical-align: top;
   position: absolute;
   left: 0;
@@ -975,11 +994,11 @@ body {
   font-weight: bold;
 }
 /* line 29, ../../_sass/sections/_sponsoring.sass */
-.section.sponsors .sponsor-buttons {
+.section.sponsoring .sponsor-buttons {
   margin-top: 3em;
 }
 /* line 31, ../../_sass/sections/_sponsoring.sass */
-.section.sponsors .sponsor-buttons li {
+.section.sponsoring .sponsor-buttons li {
   display: inline-block;
   margin: 1em;
 }
@@ -1298,4 +1317,53 @@ body {
 .section.venue-page .contacts li {
   display: inline-block;
   width: 50%;
+}
+
+/* line 1, ../../_sass/sections/_sponsors.sass */
+.section.sponsors {
+  margin-top: 10em;
+}
+/* line 2, ../../_sass/elements/_ribbon.sass */
+.section.sponsors .ribbon-container {
+  width: 100%;
+}
+/* line 4, ../../_sass/elements/_ribbon.sass */
+.section.sponsors .ribbon {
+  background-color: #ffe88f;
+  color: #2b3a48;
+}
+/* line 8, ../../_sass/elements/_ribbon.sass */
+.section.sponsors .ribbon-corner.top {
+  border-top-color: #e0be3d;
+}
+/* line 10, ../../_sass/elements/_ribbon.sass */
+.section.sponsors .ribbon-corner.bottom {
+  border-bottom-color: #e0be3d;
+}
+/* line 12, ../../_sass/elements/_ribbon.sass */
+.section.sponsors .ribbon-shadow {
+  border-top-color: #ffda4d;
+}
+/* line 8, ../../_sass/sections/_sponsors.sass */
+.section.sponsors .list-sponsors {
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+/* line 12, ../../_sass/sections/_sponsors.sass */
+.section.sponsors .list-sponsors .sponsor:not(:last-child) {
+  margin-right: 50px;
+}
+/* line 15, ../../_sass/sections/_sponsors.sass */
+.section.sponsors .sponsors-title {
+  font-size: 2em;
+}
+/* line 18, ../../_sass/sections/_sponsors.sass */
+.section.sponsors .sponsors-title-gold {
+  color: #ffda4d;
+  margin-top: 100px;
+}
+/* line 22, ../../_sass/sections/_sponsors.sass */
+.section.sponsors .sponsors-title-silver {
+  color: #999999;
+  margin-top: 200px;
 }
