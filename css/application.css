@@ -1349,22 +1349,26 @@ body {
   margin-bottom: 150px;
   margin-top: 50px;
 }
-@media only screen and (max-device-width: 480px) {
-  /* line 13, ../../_sass/sections/_sponsors.sass */
+/* line 12, ../../_sass/sections/_sponsors.sass */
+.section.sponsors .list-sponsors .sponsor:not(:last-child) {
+  margin-right: 50px;
+}
+@media (max-width: 480px) {
+  /* line 12, ../../_sass/sections/_sponsors.sass */
   .section.sponsors .list-sponsors .sponsor:not(:last-child) {
-    margin-right: 50px;
+    margin-right: 0px;
   }
 }
-/* line 16, ../../_sass/sections/_sponsors.sass */
+/* line 17, ../../_sass/sections/_sponsors.sass */
 .section.sponsors .sponsors-title {
   font-size: 2em;
 }
-/* line 19, ../../_sass/sections/_sponsors.sass */
+/* line 20, ../../_sass/sections/_sponsors.sass */
 .section.sponsors .sponsors-title-gold {
   color: #ffda4d;
   margin-top: 100px;
 }
-/* line 23, ../../_sass/sections/_sponsors.sass */
+/* line 24, ../../_sass/sections/_sponsors.sass */
 .section.sponsors .sponsors-title-silver {
   color: #999999;
   margin-top: 200px;
