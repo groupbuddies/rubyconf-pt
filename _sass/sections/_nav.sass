@@ -1,12 +1,30 @@
+@mixin bottom-shadow($values)
+  -moz-box-shadow: $values
+  -webkit-box-shadow: $values
+  box-shadow: $values
+
+@media all and (min-width: #{$small-width})
+  .fake-nav
+    height: 73px
+
+  .nav
+    position: fixed
+    +bottom-shadow(0 1px 8px rgba(0, 0, 0, 0.2))
+
 .nav
+  z-index: 100
   font-size: $nav-buttons-size
   background-color: white
   width: 100%
 
+  .left-nav
+    width: 30%
+  .right-nav
+    width: 65%
+
   .left-nav,
   .right-nav
     display: inline-block
-    width: 47%
     vertical-align: middle
 
   .left-nav
@@ -14,7 +32,8 @@
 
   .right-nav
     text-align: right
-    .red-button
+    .red-button,
+    .blue-button
       margin-right: 1rem
 
   .logo,

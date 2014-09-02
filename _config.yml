@@ -4,3 +4,6 @@ highlighter: true
 
 gems:
   - jekyll-compass
+
+rubyconf:
+  tito: 'asd'

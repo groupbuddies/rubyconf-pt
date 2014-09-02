@@ -1,0 +1,21 @@
+<section class="speaker-large" id="{{ speaker.twitter }}">
+  <section class="speaker-info">
+    <div class="speaker-picture-container"> <img class="speaker-picture" src="images/speakers/{{ speaker.picture_name }}" />
+    </div>
+    <div class="speaker-name-container">
+      <h1 class="speaker-name">{{ speaker.name }}</h1>
+      <ul class="speaker-countries">
+        {% for country in speaker.countries %}
+        <li><img src="images/countries/{{ country }}.png" /></li>
+        {% endfor %}
+      </ul>
+      <a href="https://twitter.com/{{speaker.twitter}}"><h2 class="speaker-twitter">@{{ speaker.twitter }}</h2></a>
+      <a href="{{ speaker.website }}" class="speaker-website">{{ speaker.website }}</a></div>
+    </div>
+  </section>
+  <section class="talk-info markdown">
+    {% capture file_name %}{{ speaker.name | downcase | replace:' ','_' | append:'.md'| prepend:'speaker_bios/' }}{% endcapture %}
+    {% capture markdown_text %}{% include {{ file_name }} %}{% endcapture %}
+    {{ markdown_text | markdownify }}
+  </section>
+</section>

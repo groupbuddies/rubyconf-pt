@@ -1,11 +1,11 @@
-<section id="speakers" class="section speakers">
+<section id="speakers" class="section speakers-small">
   <h1 class="section-title">
     {% include title_ribbon.html title="Speakers" %}
   </h1>
 
   <section class="speaker-list">
     {% for speaker in page.speakers %}
-      {% include speaker.html %}
+      {% include speaker_small.html %}
     {% endfor %}
   </section>
 </section>

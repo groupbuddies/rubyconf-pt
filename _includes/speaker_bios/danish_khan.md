@@ -1,0 +1,7 @@
+# Talk Title
+
+**Everyone's in sales**
+
+# Talk description
+
+Whether you like it or not you are doing sales all the time. Convincing your boss to use a new tool, applying for a job, and getting a freelance contract all require selling. If you work for a product company even if you are a developer when you talk about your product you are selling. When people think of sales they immediately think of the sleazy car salesman stereotype, but that is a very negative view of sales. Sales doesn't have to be done that way. The fact is everyone is doing sales all the time. Being aware of that fact and spending some time to learn a bit about how to do sales the right way will help you talk about your product and convince your boss to try something new you think will be good for the team.
