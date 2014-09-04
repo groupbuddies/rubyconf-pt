@@ -1,0 +1,29 @@
+gold:
+  - name: Sage
+    logo_name: sage.png
+    url: http://www.sage.pt/
+  - name: Talkdesk
+    logo_name: talkdesk.png
+    url: http://www.talkdesk.com/
+  - name: GitHub
+    logo_name: github.png
+    url: https://github.com/
+  - name: Mailjet
+    logo_name: mailjet.png
+    url: https://mailjet.com/
+silver:
+  - name: Engine Yard
+    logo_name: engine_yard.png
+    url: https://www.engineyard.com/
+  - name: Nourish Care
+    logo_name: nourish.png
+    url: http://www.nourishcare.co.uk/
+  - name: SoundCloud
+    logo_name: soundcloud.png
+    url: http://www.soundcloud.com/
+  - name: Jumpseller
+    logo_name: jumpseller.png
+    url: http://jumpseller.com/
+  - name: RedLight Software
+    logo_name: redlight.png
+    url: http://www.redlightsoft.com/

@@ -1,12 +1,12 @@
 {% if include.state == "present" %}
-  <a href="{{ page.rubyconf.tito }}">
+  <a href="{{ site.data.rubyconf.tito }}">
     <div class="ticket {{ include.state }}">
       <p class="batch-name">{{ include.batch }} Batch</p>
       <p class="price">{{ include.price }}€</p>
       <p class="date">{{ include.date  }}</p>
     </div>
   </a>
-  <a href="{{ page.rubyconf.tito }}" class="red-button ticket-button {{ include.state }}">Buy</a>
+  <a href="{{ site.data.rubyconf.tito }}" class="red-button ticket-button {{ include.state }}">Buy</a>
 {% elsif include.state == "past" %}
   <div class="ticket {{ include.state }}">
     <p class="batch-name">{{ include.batch }} Batch</p>

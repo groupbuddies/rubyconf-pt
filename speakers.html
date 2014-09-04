@@ -1,96 +1,5 @@
 ---
 layout: default
-rubyconf:
-  email: hello@rubyconf.pt
-  twitter: https://twitter.com/rubyconfpt
-  facebook: http://facebook.com/rubyconfpt
-  cfp: https://groupbuddies.typeform.com/to/rViVZB
-  reverse_cfp: https://groupbuddies.typeform.com/to/OzNJZf
-  tito: https://ti.to/groupbuddies/rubyconfpt
-  prospectus: http://rubyconf.pt/prospectus.pdf
-  sponsor_url: mailto:hello@rubyconf.pt
-speakers:
-  - name: Katrina Owen
-    twitter: kytrinyx
-    picture_name: katrina.jpg
-    website: http://www.kytrinyx.com/
-    countries:
-      - Norway
-      - United-States-of-America
-  - name: Erik Michaels-Ober
-    twitter: sferik
-    picture_name: sferik.jpg
-  - name: Carlos Souza
-    twitter: caike
-    picture_name: caike.jpg
-    website: http://csouza.me
-    countries:
-      - Brazil
-  - name: Steve Klabnik
-    twitter: steveklabnik
-    picture_name: klabnik.jpg
-    website: https://www.steveklabnik.com/
-    countries:
-      - United-States-of-America
-  - name: Chris Kelly
-    twitter: amateurhuman
-    picture_name: amateurhuman.jpg
-    website: http://amateurhuman.com/
-    countries:
-      - United-States-of-America
-  - name: PJ Hagerty
-    twitter: aspleenic
-    picture_name: pj.png
-    countries:
-      - United-States-of-America
-  - name: Caleb Thompson
-    twitter: calebthompson
-    picture_name: caleb.png
-    website: http://calebthompson.io/
-    countries:
-      - United-States-of-America
-  - name: Luca Guidi
-    twitter: jodosha
-    picture_name: luca.jpeg
-    website: http://lucaguidi.com/
-    countries:
-      - Italy
-  - name: Piotr Solnica
-    twitter: _solnic_
-    picture_name: solnic.jpeg
-    website: http://solnic.eu/
-    countries:
-      - Poland
-  - name: Piotr Szotkowski
-    twitter: chastell
-    picture_name: chastell.jpg
-    website: http://chastell.net/
-    countries:
-      - Poland
-  - name: Danish Khan
-    twitter: danishkhan
-    picture_name: danish.jpg
-    website: http://danishkhan.org/
-    countries:
-      - United-States-of-America
-  - name: Alex Coles
-    twitter: myabc
-    picture_name: alex.jpg
-    website: http://alexbcoles.com/
-    countries:
-      - United-Kingdom
-  - name: Gautam Rege
-    twitter: gautamrege
-    picture_name: gautam.jpg
-    website: http://blog.joshsoftware.com/
-    countries:
-      - India
-  - name: Terence Lee
-    twitter: hone02
-    picture_name: hone.jpg
-    website: http://hone.heroku.com/
-    countries:
-      - United-States-of-America
 ---
 
 {% include sections/00_nav.html %}
@@ -100,7 +9,7 @@ speakers:
     {% include title_ribbon.html title="Speakers" %}
   </h1>
 
-  {% for speaker in page.speakers %}
+  {% for speaker in site.data.speakers %}
     {% include speaker_large.html %}
   {% endfor %}
 </section>

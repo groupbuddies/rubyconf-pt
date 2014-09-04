@@ -1,0 +1,21 @@
+hotels:
+  - name: Hotel do Elevador
+    stars: 4
+    single: 55
+    double: 65
+  - name: Hotel do Templo
+    stars: 4
+    single: 55
+    double: 65
+  - name: Hotel do Lago
+    stars: 3
+    single: 35
+    double: 40
+photos:
+  - url: /images/venue/showcase-1.png
+  - url: /images/venue/showcase-2.png
+  - url: /images/venue/showcase-3.png
+links:
+  hotels: grupos@hoteisbomjesus.pt
+  getbus: http://www.getbus.eu/
+  tub: http://www.tub.pt/
