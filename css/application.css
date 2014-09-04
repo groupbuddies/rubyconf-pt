@@ -19,19 +19,19 @@ h1 {
   font-weight: normal;
 }
 
+/* line 16, ../../_sass/utils/_reset.sass */
+ul,
+ol {
+  list-style-type: none;
+}
+
 /* line 1, ../../_sass/utils/_typography.sass */
 body {
   font-family: "open-sans";
   font-size: 20px;
 }
-@media all and (max-width: 680px) {
-  /* line 1, ../../_sass/utils/_typography.sass */
-  body {
-    font-size: 14px;
-  }
-}
 
-/* line 7, ../../_sass/utils/_typography.sass */
+/* line 5, ../../_sass/utils/_typography.sass */
 .main-title {
   font-size: 2.5em;
   font-family: "chaparral-pro";
@@ -39,26 +39,26 @@ body {
   font-weight: bold;
 }
 @media all and (max-width: 680px) {
-  /* line 7, ../../_sass/utils/_typography.sass */
+  /* line 5, ../../_sass/utils/_typography.sass */
   .main-title {
     font-size: 1.8em;
   }
 }
 
-/* line 15, ../../_sass/utils/_typography.sass */
+/* line 13, ../../_sass/utils/_typography.sass */
 .main-subtitle {
   font-size: 1.5em;
   color: #2b3a48;
   text-align: center;
 }
 @media all and (max-width: 680px) {
-  /* line 15, ../../_sass/utils/_typography.sass */
+  /* line 13, ../../_sass/utils/_typography.sass */
   .main-subtitle {
     display: none;
   }
 }
 
-/* line 22, ../../_sass/utils/_typography.sass */
+/* line 20, ../../_sass/utils/_typography.sass */
 .section-title {
   font-size: 1.8em;
   font-family: "chaparral-pro";
@@ -67,13 +67,13 @@ body {
   margin: auto;
 }
 @media all and (min-width: 680px) {
-  /* line 22, ../../_sass/utils/_typography.sass */
+  /* line 20, ../../_sass/utils/_typography.sass */
   .section-title {
     max-width: 450px;
   }
 }
 
-/* line 31, ../../_sass/utils/_typography.sass */
+/* line 29, ../../_sass/utils/_typography.sass */
 .small-title {
   font-size: 1.5em;
   font-family: "chaparral-pro";
@@ -81,37 +81,37 @@ body {
   margin: auto;
 }
 
-/* line 37, ../../_sass/utils/_typography.sass */
+/* line 35, ../../_sass/utils/_typography.sass */
 .footer-title {
   font-size: 1.2em;
   font-family: "chaparral-pro";
   color: #2b3a48;
 }
 
-/* line 42, ../../_sass/utils/_typography.sass */
+/* line 40, ../../_sass/utils/_typography.sass */
 .speaker-name {
   font-family: "chaparral-pro";
   font-weight: normal;
   font-size: 30px;
 }
 
-/* line 47, ../../_sass/utils/_typography.sass */
+/* line 45, ../../_sass/utils/_typography.sass */
 .speaker-twitter {
   font-family: "chaparral-pro";
   color: #33ccff;
   font-size: 22px;
 }
 
-/* line 52, ../../_sass/utils/_typography.sass */
+/* line 50, ../../_sass/utils/_typography.sass */
 .twitter-link {
   color: #33ccff;
 }
-/* line 54, ../../_sass/utils/_typography.sass */
+/* line 52, ../../_sass/utils/_typography.sass */
 .twitter-link:hover {
   text-decoration: underline;
 }
 
-/* line 57, ../../_sass/utils/_typography.sass */
+/* line 55, ../../_sass/utils/_typography.sass */
 .text {
   text-align: left;
   max-width: 960px;
@@ -119,9 +119,16 @@ body {
   padding: 0 50px;
   line-height: 2;
 }
-/* line 64, ../../_sass/utils/_typography.sass */
+/* line 62, ../../_sass/utils/_typography.sass */
 .text p {
   margin-bottom: 2em;
+}
+
+/* line 65, ../../_sass/utils/_typography.sass */
+.bio-title, .speaker-large .talk-info.markdown h1 {
+  font-family: "chaparral-pro";
+  color: #33ccff;
+  font-weight: bold;
 }
 
 /* line 30, ../../_sass/elements/_ribbon.sass */
@@ -382,27 +389,38 @@ body {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
-/* line 2, ../../_sass/elements/_speaker.sass */
-.speaker .speaker-picture-container {
+/* line 3, ../../_sass/elements/_speaker.sass */
+.speaker-small .speaker-picture-container,
+.speaker-large .speaker-picture-container {
   background-image: url(../images/speaker-picture-frame.svg);
   background-size: 100% 100%;
   padding: 40px;
-}
-/* line 7, ../../_sass/elements/_speaker.sass */
-.speaker .speaker-picture {
-  width: 250px;
+  text-align: center;
 }
 /* line 9, ../../_sass/elements/_speaker.sass */
-.speaker .speaker-picture:not([src*='knight.png']) {
-  height: 250px;
+.speaker-small .speaker-picture,
+.speaker-large .speaker-picture {
+  width: 250px;
 }
 /* line 11, ../../_sass/elements/_speaker.sass */
-.speaker .speaker-picture[src*='knight.png'] {
+.speaker-small .speaker-picture:not([src*='knight.png']),
+.speaker-large .speaker-picture:not([src*='knight.png']) {
+  height: 250px;
+}
+/* line 13, ../../_sass/elements/_speaker.sass */
+.speaker-small .speaker-picture[src*='knight.png'],
+.speaker-large .speaker-picture[src*='knight.png'] {
   padding-top: 25px;
   background-color: white;
 }
-/* line 16, ../../_sass/elements/_speaker.sass */
-.speaker .speaker-name-frame {
+/* line 17, ../../_sass/elements/_speaker.sass */
+.speaker-small .speaker-name,
+.speaker-large .speaker-name {
+  color: #4979b0;
+}
+
+/* line 21, ../../_sass/elements/_speaker.sass */
+.speaker-small .speaker-name-frame {
   width: 300px;
   height: 120px;
   margin: auto;
@@ -412,10 +430,92 @@ body {
   background-size: 100% 100%;
   padding: 2rem 1rem;
 }
-/* line 26, ../../_sass/elements/_speaker.sass */
-.speaker .speaker-name,
-.speaker .speaker-twitter {
+/* line 31, ../../_sass/elements/_speaker.sass */
+.speaker-small .speaker-name,
+.speaker-small .speaker-twitter {
   line-height: 30px;
+}
+
+/* line 36, ../../_sass/elements/_speaker.sass */
+.speaker-large {
+  text-align: left;
+  max-width: 1160px;
+  margin: auto;
+  padding-top: 3em;
+  margin-bottom: 6em;
+}
+/* line 43, ../../_sass/elements/_speaker.sass */
+.speaker-large .speaker-info {
+  width: 400px;
+}
+/* line 45, ../../_sass/elements/_speaker.sass */
+.speaker-large .talk-info {
+  max-width: 660px;
+}
+@media all and (min-width: 680px) {
+  /* line 49, ../../_sass/elements/_speaker.sass */
+  .speaker-large .speaker-info,
+  .speaker-large .talk-info {
+    display: inline-block;
+    vertical-align: top;
+  }
+  /* line 53, ../../_sass/elements/_speaker.sass */
+  .speaker-large .talk-info {
+    width: calc(100% - 500px);
+  }
+}
+/* line 56, ../../_sass/elements/_speaker.sass */
+.speaker-large .speaker-name-container {
+  margin: 1em 3.5em;
+  white-space: nowrap;
+}
+/* line 60, ../../_sass/elements/_speaker.sass */
+.speaker-large .speaker-name {
+  font-size: 40px;
+}
+/* line 63, ../../_sass/elements/_speaker.sass */
+.speaker-large .speaker-countries {
+  list-style-type: none;
+}
+/* line 65, ../../_sass/elements/_speaker.sass */
+.speaker-large .speaker-countries li {
+  display: inline-block;
+}
+/* line 67, ../../_sass/elements/_speaker.sass */
+.speaker-large .speaker-countries li + li {
+  margin-left: 0.5em;
+}
+/* line 69, ../../_sass/elements/_speaker.sass */
+.speaker-large .speaker-countries img {
+  max-width: 40px;
+}
+/* line 72, ../../_sass/elements/_speaker.sass */
+.speaker-large .speaker-website {
+  text-decoration: underline;
+}
+/* line 75, ../../_sass/elements/_speaker.sass */
+.speaker-large .speaker-twitter,
+.speaker-large .speaker-website,
+.speaker-large .speaker-countries {
+  margin: 0.5em 0;
+}
+/* line 80, ../../_sass/elements/_speaker.sass */
+.speaker-large .talk-info.markdown {
+  margin-left: 2em;
+  margin-top: 1em;
+}
+/* line 83, ../../_sass/elements/_speaker.sass */
+.speaker-large .talk-info.markdown h1 {
+  margin-bottom: 0.5em;
+}
+/* line 86, ../../_sass/elements/_speaker.sass */
+.speaker-large .talk-info.markdown h1:not(:first-child) {
+  margin-top: 2em;
+}
+/* line 88, ../../_sass/elements/_speaker.sass */
+.speaker-large .talk-info.markdown p {
+  color: #2b3a48;
+  margin-bottom: 0.5em;
 }
 
 /* line 1, ../../_sass/elements/_square.sass */
@@ -470,8 +570,8 @@ body {
 /* line 31, ../../_sass/elements/_button.sass */
 .disabled-button {
   color: #cccccc;
-  background-color: #eaeaea;
-  border: solid 2px #eaeaea;
+  background-color: #dddddd;
+  border: solid 2px #dddddd;
 }
 /* line 36, ../../_sass/elements/_button.sass */
 .disabled-button:hover {
@@ -598,28 +698,34 @@ body {
 }
 
 /* line 1, ../../_sass/sections/_common.sass */
-.speakers {
+.speakers-small,
+.speakers-large {
   background-color: white;
 }
 /* line 2, ../../_sass/elements/_ribbon.sass */
-.speakers .ribbon-container {
+.speakers-small .ribbon-container,
+.speakers-large .ribbon-container {
   width: 100%;
 }
 /* line 4, ../../_sass/elements/_ribbon.sass */
-.speakers .ribbon {
+.speakers-small .ribbon,
+.speakers-large .ribbon {
   background-color: #cb5757;
   color: white;
 }
 /* line 8, ../../_sass/elements/_ribbon.sass */
-.speakers .ribbon-corner.top {
+.speakers-small .ribbon-corner.top,
+.speakers-large .ribbon-corner.top {
   border-top-color: #bb4141;
 }
 /* line 10, ../../_sass/elements/_ribbon.sass */
-.speakers .ribbon-corner.bottom {
+.speakers-small .ribbon-corner.bottom,
+.speakers-large .ribbon-corner.bottom {
   border-bottom-color: #bb4141;
 }
 /* line 12, ../../_sass/elements/_ribbon.sass */
-.speakers .ribbon-shadow {
+.speakers-small .ribbon-shadow,
+.speakers-large .ribbon-shadow {
   border-top-color: #ab2b2b;
 }
 
@@ -665,51 +771,122 @@ body {
   margin-bottom: 1rem;
 }
 
-/* line 1, ../../_sass/sections/_nav.sass */
-.nav {
+/* line 6, ../../_sass/sections/_nav.sass */
+.fake-header {
+  height: 65px;
+}
+
+/* line 9, ../../_sass/sections/_nav.sass */
+.header {
+  position: fixed;
+  -moz-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* line 13, ../../_sass/sections/_nav.sass */
+.header {
+  z-index: 100;
   font-size: 0.8em;
   background-color: white;
   width: 100%;
 }
-/* line 6, ../../_sass/sections/_nav.sass */
-.nav .left-nav,
-.nav .right-nav {
+/* line 19, ../../_sass/sections/_nav.sass */
+.header .logo {
+  width: 220px;
+}
+
+/* line 22, ../../_sass/sections/_nav.sass */
+.nav {
+  position: relative;
+  width: 100%;
+}
+/* line 26, ../../_sass/sections/_nav.sass */
+.nav .logo-container,
+.nav .nav-items {
   display: inline-block;
-  width: 47%;
-  vertical-align: middle;
 }
-/* line 12, ../../_sass/sections/_nav.sass */
-.nav .left-nav {
-  margin-left: 2%;
+/* line 30, ../../_sass/sections/_nav.sass */
+.nav .logo-container {
+  margin-top: 1rem;
+  margin-left: 1em;
 }
-/* line 15, ../../_sass/sections/_nav.sass */
-.nav .right-nav {
-  text-align: right;
+/* line 33, ../../_sass/sections/_nav.sass */
+.nav label {
+  margin-top: 0.5rem;
 }
-/* line 17, ../../_sass/sections/_nav.sass */
-.nav .right-nav .red-button {
+/* line 36, ../../_sass/sections/_nav.sass */
+.nav input[type=checkbox] {
+  display: none;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+/* line 42, ../../_sass/sections/_nav.sass */
+.nav label {
+  display: none;
+  user-select: none;
+}
+/* line 46, ../../_sass/sections/_nav.sass */
+.nav .nav-items {
+  margin-top: 0.5rem;
+  float: right;
+}
+/* line 49, ../../_sass/sections/_nav.sass */
+.nav .nav-item {
+  float: left;
   margin-right: 1rem;
 }
-/* line 20, ../../_sass/sections/_nav.sass */
-.nav .logo,
-.nav .nav-action {
-  max-width: 200px;
-  vertical-align: middle;
-}
-/* line 25, ../../_sass/sections/_nav.sass */
-.nav .logo {
-  padding: 1em 0;
-}
-@media all and (max-width: 680px) {
-  /* line 29, ../../_sass/sections/_nav.sass */
-  .nav .left-nav {
-    margin: 0;
+@media screen and (max-width: 800px) {
+  /* line 54, ../../_sass/sections/_nav.sass */
+  .nav .nav-items {
+    display: none;
+    height: 100%;
+    float: none;
+  }
+  /* line 59, ../../_sass/sections/_nav.sass */
+  .nav .nav-item {
     width: 100%;
+    margin-right: 0;
+    line-height: 3em;
+  }
+  /* line 63, ../../_sass/sections/_nav.sass */
+  .nav .nav-item .red-button,
+  .nav .nav-item .blue-button {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: #2b3a48;
     text-align: center;
   }
-  /* line 33, ../../_sass/sections/_nav.sass */
-  .nav .right-nav {
-    display: none;
+  /* line 70, ../../_sass/sections/_nav.sass */
+  .nav .nav-item .red-button:hover,
+  .nav .nav-item .blue-button:hover {
+    border-radius: 0;
+  }
+  /* line 73, ../../_sass/sections/_nav.sass */
+  .nav .nav-item:first-child {
+    margin-top: 1em;
+  }
+  /* line 75, ../../_sass/sections/_nav.sass */
+  .nav .nav-item:last-child {
+    margin-bottom: 1em;
+  }
+  /* line 79, ../../_sass/sections/_nav.sass */
+  .nav input[type=checkbox]:checked ~ label:after {
+    color: #cb5757;
+  }
+  /* line 82, ../../_sass/sections/_nav.sass */
+  .nav label {
+    display: inline-block;
+    position: absolute;
+    right: 1em;
+    color: #2b3a48;
+    font-size: 2.5em;
+  }
+  /* line 88, ../../_sass/sections/_nav.sass */
+  .nav label:after {
+    content: "\2261";
   }
 }
 
@@ -789,24 +966,24 @@ body {
   background-position: center 90%;
 }
 
-/* line 4, ../../_sass/sections/_speakers.sass */
-.speakers .speaker-list {
+/* line 7, ../../_sass/sections/_speakers.sass */
+.speakers-small .speaker-list {
   margin-bottom: 3rem;
 }
-/* line 7, ../../_sass/sections/_speakers.sass */
-.speakers .speaker {
+/* line 10, ../../_sass/sections/_speakers.sass */
+.speakers-small .speaker-small {
   display: inline-block;
   vertical-align: top;
   margin: 2rem;
   margin-bottom: 5rem;
 }
-/* line 15, ../../_sass/sections/_speakers.sass */
-.speakers .speaker.you .speaker-name, .speakers .speaker.placeholder .speaker-name {
+/* line 18, ../../_sass/sections/_speakers.sass */
+.speakers-small .speaker-small.you .speaker-name, .speakers-small .speaker-small.placeholder .speaker-name {
   line-height: 55px;
 }
 @media all and (max-width: 680px) {
-  /* line 19, ../../_sass/sections/_speakers.sass */
-  .speakers .speaker {
+  /* line 22, ../../_sass/sections/_speakers.sass */
+  .speakers-small .speaker {
     margin: 0;
     -webkit-transform: scale(0.8, 0.8);
     -moz-transform: scale(0.8, 0.8);
@@ -815,8 +992,8 @@ body {
     transform: scale(0.8, 0.8);
   }
 }
-/* line 23, ../../_sass/sections/_speakers.sass */
-.speakers .between-buttons {
+/* line 26, ../../_sass/sections/_speakers.sass */
+.speakers-small .between-buttons {
   padding: 1em;
 }
 
@@ -1372,4 +1549,30 @@ body {
 .section.sponsors .sponsors-title-silver {
   color: #999999;
   margin-top: 200px;
+}
+
+/* line 2, ../../_sass/elements/_ribbon.sass */
+.speakers-page .ribbon-container {
+  width: 100%;
+}
+/* line 4, ../../_sass/elements/_ribbon.sass */
+.speakers-page .ribbon {
+  background-color: #384c5e;
+  color: white;
+}
+/* line 8, ../../_sass/elements/_ribbon.sass */
+.speakers-page .ribbon-corner.top {
+  border-top-color: #2b3a48;
+}
+/* line 10, ../../_sass/elements/_ribbon.sass */
+.speakers-page .ribbon-corner.bottom {
+  border-bottom-color: #2b3a48;
+}
+/* line 12, ../../_sass/elements/_ribbon.sass */
+.speakers-page .ribbon-shadow {
+  border-top-color: #03070b;
+}
+/* line 4, ../../_sass/sections/_speakers-page.sass */
+.speakers-page .ribbon-container {
+  margin-bottom: 10rem;
 }

@@ -1,1 +1,1 @@
-(function() { $(function() { return $('#layers').parallax(); });}).call(this);
+(function() { $(function() { $('#layers').parallax(); $('.header input[type=checkbox]').on('change', (function(_this) { return function(event) { return $('.nav-items').slideToggle(); }; })(this)); return window.onresize = (function(_this) { return function() { console.log('asd'); $('.header input[type=checkbox]').attr('checked', false); return $('.nav-items').attr('style', ''); }; })(this); });}).call(this);
