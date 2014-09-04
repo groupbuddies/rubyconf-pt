@@ -3,51 +3,87 @@
   -webkit-box-shadow: $values
   box-shadow: $values
 
-@media all and (min-width: #{$small-width})
-  .fake-nav
-    height: 73px
+.fake-header
+  height: 65px
 
-  .nav
-    position: fixed
-    +bottom-shadow(0 1px 8px rgba(0, 0, 0, 0.2))
+.header
+  position: fixed
+  +bottom-shadow(0 1px 8px rgba(0, 0, 0, 0.2))
 
-.nav
+.header
   z-index: 100
   font-size: $nav-buttons-size
   background-color: white
   width: 100%
 
-  .left-nav
-    width: 30%
-  .right-nav
-    width: 65%
-
-  .left-nav,
-  .right-nav
-    display: inline-block
-    vertical-align: middle
-
-  .left-nav
-    margin-left: 2%
-
-  .right-nav
-    text-align: right
-    .red-button,
-    .blue-button
-      margin-right: 1rem
-
-  .logo,
-  .nav-action
-    max-width: 200px
-    vertical-align: middle
-
   .logo
-    padding: 1em 0
+    width: 220px
 
-  @media all and (max-width: #{$small-width})
-    .left-nav
-      margin: 0
-      width: 100%
-      text-align: center
-    .right-nav
+.nav
+  position: relative
+  width: 100%
+
+  .logo-container,
+  .nav-items
+    display: inline-block
+
+  .logo-container
+    margin-top: 1rem
+    margin-left: 1em
+  label
+    margin-top: 0.5rem
+
+  input[type=checkbox]
+    display: none
+    position: absolute
+    top: -9999px
+    left: -9999px
+
+  label
+    display: none
+    user-select: none
+
+  .nav-items
+    margin-top: 0.5rem
+    float: right
+  .nav-item
+    float: left
+    margin-right: 1rem
+
+  @media screen and (max-width: #{$large-menu-width})
+    .nav-items
       display: none
+      height: 100%
+      float: none
+
+    .nav-item
+      width: 100%
+      margin-right: 0
+      line-height: 3em
+      .red-button,
+      .blue-button
+        display: block
+        border: none
+        background-color: transparent
+        color: $dark-blue
+        text-align: center
+        &:hover
+          border-radius: 0
+
+    .nav-item:first-child
+      margin-top: 1em
+    .nav-item:last-child
+      margin-bottom: 1em
+
+    input[type=checkbox]:checked
+      & ~ label:after
+        color: $light-red
+
+    label
+      display: inline-block
+      position: absolute
+      right: 1em
+      color: $dark-blue
+      font-size: 2.5em
+      &:after
+        content: "\2261"

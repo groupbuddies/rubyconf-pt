@@ -1,11 +1,16 @@
-<section class="nav">
-  <div class="left-nav">
-    <a href="/"><img class="logo" src="images/logo.png" alt="logo" /></a>
-  </div>
-  <div class="right-nav">
-    <a href="{{ page.rubyconf.tito }}" target="_blank" class="red-button">Register Now</a>
-    <a href="speakers.html" class="blue-button">Speakers List</a>
-    <a href="/#sponsoring" class="blue-button">Become a Sponsor</a>
-  </div>
+<section class="header">
+  <nav class="nav">
+    <div class="logo-container">
+      <a href="/"><img class="logo" src="images/logo.png" alt="logo" /></a>
+    </div>
+    <input type="checkbox" id="nav-activate">
+    <label for="nav-activate"></label>
+
+    <ul class="nav-items">
+      <li class="nav-item"><a href="{{ page.rubyconf.tito }}" target="_blank" class="red-button">Register Now</a></li>
+      <li class="nav-item"><a href="speakers.html" class="blue-button">Speakers List</a></li>
+      <li class="nav-item"><a href="/#sponsoring" class="blue-button">Become a Sponsor</a></li>
+    </ul>
+  </nav>
 </section>
-<section class="fake-nav"></section>
+<section class="fake-header"></section>

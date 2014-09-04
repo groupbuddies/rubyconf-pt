@@ -6,7 +6,7 @@
       <h1 class="speaker-name">{{ speaker.name }}</h1>
       <ul class="speaker-countries">
         {% for country in speaker.countries %}
-        <li><img src="images/countries/{{ country }}.png" /></li>
+        <li><img src="images/countries/{{ country }}.png" alt="{{ country }}" title="{{ country }}" /></li>
         {% endfor %}
       </ul>
       <a href="https://twitter.com/{{speaker.twitter}}"><h2 class="speaker-twitter">@{{ speaker.twitter }}</h2></a>
