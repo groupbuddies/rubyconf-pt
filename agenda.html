@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{% include sections/00_nav.html %}
+
+<section id="schedule-page" class="section schedule-page">
+  <h1 class="agenda-title">Agenda</h1>
+
+  <section>
+    {% include timeline.html slots=site.data.agenda.day1 title="Day 1" subtitle="Monday, October 13th"  class="day1" %}
+    {% include timeline.html slots=site.data.agenda.day2 title="Day 2" subtitle="Tuesday, October 14th" class="day2" %}
+  </section>
+
+  {% comment %}
+  <section class="large related-events">
+    <h2 class="related-events-title">Fringe Events</h2>
+
+    <section class="column">
+      <h3 class="related-events-subtitle">Sunday, October 12th</h3>
+      <ul class="timeline extra">
+        {% for slot in site.data.agenda.sunday %}
+          <li class="timeline-slot extra">{% include timeline-slot.html %}</li>
+        {% endfor %}
+      </ul>
+    </section>
+  </section>
+  {% endcomment %}
+</section>
+
+{% include sections/60_footer.html %}

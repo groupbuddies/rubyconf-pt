@@ -14,7 +14,10 @@
     </div>
   </section>
   <section class="talk-info markdown">
-    {% capture file_name %}{{ speaker.name | downcase | replace:' ','_' | append:'.md'| prepend:'speaker_bios/' }}{% endcapture %}
+    <h1>Talk Title</h1>
+    <p><strong>{{ speaker.talk_title }}</strong></p>
+    <h1>Talk Description</h1>
+    {% capture file_name %}{{ speaker.name | downcase | replace:' ','_' | append:'.md'| prepend:'talk_descriptions/' }}{% endcapture %}
     {% capture markdown_text %}{% include {{ file_name }} %}{% endcapture %}
     {{ markdown_text | markdownify }}
   </section>

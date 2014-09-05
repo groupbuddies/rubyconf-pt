@@ -1,83 +1,110 @@
 - name: Katrina Owen
   twitter: kytrinyx
+  talk_title: Overkill
   picture_name: katrina.jpg
   website: http://www.kytrinyx.com/
   countries:
     - Norway
     - United-States-of-America
+
 - name: Erik Michaels-Ober
   twitter: sferik
+  talk_title: Writing fast Ruby
   picture_name: sferik.jpg
   website: https://github.com/sferik
   countries:
     - United-States-of-America
+
 - name: Carlos Souza
   twitter: caike
+  talk_title: Building Better Web APIs with Rails
   picture_name: caike.jpg
   website: http://csouza.me
   countries:
     - Brazil
+
 - name: Steve Klabnik
   twitter: steveklabnik
+  talk_title: TBA
   picture_name: klabnik.jpg
   website: https://www.steveklabnik.com/
   countries:
     - United-States-of-America
+
 - name: Chris Kelly
   twitter: amateurhuman
+  talk_title: String Theory
   picture_name: amateurhuman.jpg
   website: http://amateurhuman.com/
   countries:
     - United-States-of-America
+
 - name: PJ Hagerty
   twitter: aspleenic
+  talk_title: Coding and the Mozart Effect
   picture_name: pj.png
   countries:
     - United-States-of-America
+
 - name: Caleb Thompson
   twitter: calebthompson
+  talk_title: "Search Your Feelings: Multi-Table Full Text Search in Postgres"
   picture_name: caleb.png
   website: http://calebthompson.io/
   countries:
     - United-States-of-America
+
 - name: Luca Guidi
   twitter: jodosha
+  talk_title: Towards a better web development with Lotus
   picture_name: luca.jpeg
   website: http://lucaguidi.com/
   countries:
     - Italy
+
 - name: Piotr Solnica
   twitter: _solnic_
+  talk_title: Clean Code Cowboy
   picture_name: solnic.jpeg
   website: http://solnic.eu/
   countries:
     - Poland
+
 - name: Piotr Szotkowski
   twitter: chastell
+  talk_title: Ruby’s Gems
   picture_name: chastell.jpg
   website: http://chastell.net/
   countries:
     - Europe
+
 - name: Danish Khan
   twitter: danishkhan
+  talk_title: Everyone's in sales
   picture_name: danish.jpg
   website: http://danishkhan.org/
   countries:
     - United-States-of-America
+
 - name: Alex Coles
   twitter: myabc
+  talk_title: Frontend Choices
   picture_name: alex.jpg
   website: http://alexbcoles.com/
   countries:
     - United-Kingdom
+
 - name: Gautam Rege
   twitter: gautamrege
+  talk_title: Why Ruby must Go!
   picture_name: gautam.jpg
   website: http://blog.joshsoftware.com/
   countries:
     - India
+
 - name: Terence Lee
   twitter: hone02
+  talk_title: Ruby & You
   picture_name: hone.jpg
   website: http://hone.heroku.com/
   countries:

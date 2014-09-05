@@ -1,0 +1,81 @@
+$line-margin: 25px
+
+.timeline-slot
+  position: relative
+  text-align: left
+  height: 120px
+  margin-bottom: 1em
+  &:not(.extra)
+    padding: 0.5em
+
+  &.coffee-break
+    background-color: $light-grey2
+
+  .slot-time,
+  .slot-speaker,
+  .slot-sponsor
+    display: inline-block
+    padding: 6px 10px
+    margin: 5px 5px 5px 0
+    font-weight: bold
+    font-size: 0.8em
+    color: $white
+
+  .slot-time
+    background-color: $light-blue
+  &:before
+    color: $light-blue
+  .slot-border
+    background-color: $light-blue
+  &.party-time
+    .slot-time
+      background-color: darken($dark-yellow, 20%)
+    &:before
+      color: darken($dark-yellow, 20%)
+  &.end
+    .slot-time
+      background-color: $dark-red
+    &:before
+      color: $dark-red
+  &.empty
+    .slot-time
+      background-color: transparent
+
+  .slot-speaker
+    background-color: $dark-blue
+
+  .slot-sponsor
+    background-color: $black
+    &:before
+      content: "sponsored by"
+      font-style: italic
+      margin-right: 10px
+      font-weight: normal
+
+  &.with-line
+    &:not(:last-child) .slot-border,
+    &:before
+      position: absolute
+
+    &:not(:last-child):not(.empty) .slot-border
+      height: 120%
+      top: 25%
+      width: 1px
+      left: - $line-margin
+
+    &:not(:last-child):not(.empty):before
+      content: '\25CF'
+      left: - ($line-margin + 9px)
+      font-size: 22px
+      top: 13px
+      z-index: 10
+
+    &:last-child
+      &:before
+        content: ''
+        left: - $line-margin
+        top: ($line-margin + 8px)
+        width: $line-margin + 9px
+        height: 1px
+        background-color: $light-blue
+        z-index: -1

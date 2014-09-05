@@ -1,9 +1,3 @@
-# Talk Title
-
-**Overkill**
-
-# Talk description
-
 When is it okay to build an orbital laser to destroy an ant-hill?
 
 Many cry "overkill" when design principles are applied to trivial problems. And for good reason: in the context of work, excessive embellishment gets us into trouble. Complexity costs us time and money.

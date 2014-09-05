@@ -1,7 +1,1 @@
-# Talk Title
-
-**Clean Code Cowboy**
-
-# Talk description
-
 Have you ever had a fear of writing code? That maybe what you’re about to write makes no sense. Or maybe it’s not following best practices. Maybe it’s full of code smells? Or even worse maybe it doesn’t do what it’s supposed to do? You wrote something and you think “is this right and does it look OK!?”. Do you feel confident about your code? Are you happy with it? Programming is fun but it can be simply stressful - let’s just chill out, write a failing test and make it pass!
