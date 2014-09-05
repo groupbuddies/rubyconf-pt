@@ -1,9 +1,3 @@
-# Talk Title
-
-**Frontend Choices (Should we be building our user interfaces the "Rails Way"?)**
-
-# Talk description
-
 Rails was born in 2004, the time of the "Ajax revolution". With the help of a little bit of prototype, scriptaculous and RJS, Rails made its mark in part because it facilitated creating beautiful and highly interactive web user interfaces in no time at all.
 
 Fast forward to 2013. Frameworks like Meteor and Hoodie are capturing increasing mindshare. Are we now in the decade of JavaScript? Is the "Rails Way" still relevant to the Front End?

@@ -1,0 +1,138 @@
+day1:
+  - from: "09:00"
+    to: "09:30"
+    title: Registration
+    type: end
+
+  - from: "09:30"
+    to: "09:45"
+    title: Welcome / Day Opening
+    type: end
+
+  - from: "09:45"
+    to: "10:45"
+    speaker: Katrina Owen
+    type: speaker
+
+  - from: "10:45"
+    to: "11:15"
+    type: party-time
+    title: Coffee-break
+
+  - from: "11:15"
+    to: "12:15"
+    speaker: Alex Coles
+    type: speaker
+
+  - from: "12:15"
+    to: "13:15"
+    speaker: Piotr Szotkowski
+    type: speaker
+
+  - from: "13:15"
+    to: "14:45"
+    title: Lunch
+    type: party-time
+    sponsor: Mailjet
+
+  - from: "14:45"
+    to: "15:45"
+    speaker: Carlos Souza
+    type: speaker
+
+  - from: "15:45"
+    to: "16:45"
+    speaker: Chris Kelly
+    type: speaker
+
+  - from: "16:45"
+    to: "17:05"
+    type: party-time
+    title: Coffee-break
+
+  - from: "17:05"
+    to: "18:05"
+    speaker: Gautam Rege
+    type: speaker
+
+  - from: "18:05"
+    to: "19:05"
+    speaker: Erik Michaels-Ober
+    type: speaker
+
+  - from: "19:00"
+    type: party-time
+    title: Sunset Party (w/ Dinner)
+
+day2:
+  - from: "09:30"
+    to: "09:45"
+    type: end
+    title: Day Opening
+
+  - from: "09:45"
+    to: "10:45"
+    speaker: Steve Klabnik
+    type: speaker
+
+  - from: "10:45"
+    to: "11:15"
+    type: party-time
+    title: Coffee-break
+
+  - from: "11:15"
+    to: "12:15"
+    speaker: PJ Hagerty
+    type: speaker
+
+  - from: "12:15"
+    to: "13:15"
+    speaker: Piotr Solnica
+    type: speaker
+
+  - from: "13:15"
+    to: "14:45"
+    title: Lunch
+    type: party-time
+
+  - from: "14:45"
+    to: "15:45"
+    speaker: Luca Guidi
+    type: speaker
+
+  - from: "15:45"
+    to: "16:45"
+    speaker: Danish Khan
+    type: speaker
+
+  - from: "16:45"
+    to: "17:15"
+    type: party-time
+    title: Coffee-break
+
+  - from: "17:05"
+    to: "18:05"
+    speaker: Caleb Thompson
+    type: speaker
+
+  - from: "18:05"
+    to: "19:05"
+    speaker: Terence Lee
+    type: speaker
+
+  - from: "20:00"
+    type: party-time
+    title: Speakers Dinner
+
+  - from: "22:00"
+    type: party-time
+    title: Farewell Party
+
+
+sunday:
+  - from: "09:00"
+    to: "20:00"
+    title: Rails Girls
+
+  - from: "20:00"
+    title: Welcome Drinks

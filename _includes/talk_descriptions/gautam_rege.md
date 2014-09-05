@@ -1,9 +1,3 @@
-# Talk Title
-
-**Why Ruby must Go!**
-
-# Talk description
-
 Pun intended!
 Ruby is an awesome language but can learn a lot from Go. In this talk, I profile and compare both languages and discuss what Ruby can learn from Go.
 

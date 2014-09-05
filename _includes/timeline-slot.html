@@ -1,0 +1,39 @@
+{% assign current_speaker=nil %}
+{% if slot.speaker %}
+  {% for speaker in site.data.speakers %}
+    {% if speaker.name == slot.speaker %}
+      {% assign current_speaker=speaker %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if current_speaker %}
+<a href="{{ current_speaker.twitter | prepend:'/speakers.html#' }}" class="timeline-slot-link">
+{% endif %}
+  <div class="slot-border"></div>
+
+  <div class="slot-time">
+    <span class="slot-time-from">{{ slot.from }}</span>
+    {% if slot.to %}
+      <span>-</span>
+      <span class="slot-time-to">{{ slot.to }}</span>
+    {% endif %}
+  </div>
+
+  {% if current_speaker %}
+    <div class="slot-speaker">{{ current_speaker.name }}</div>
+  {% endif %}
+
+  {% if slot.sponsor %}
+    <div class="slot-sponsor">{{ slot.sponsor }}</div>
+  {% endif %}
+
+  {% if current_speaker %}
+    <p class="slot-title small-title">{{ current_speaker.talk_title }}</p>
+  {% else %}
+    <p class="slot-title small-title">{{ slot.title }}</p>
+  {% endif %}
+
+{% if current_speaker %}
+</a>
+{% endif %}

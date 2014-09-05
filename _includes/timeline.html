@@ -1,0 +1,11 @@
+<section class="column">
+  <h3 class="schedule-subtitle">{{ include.subtitle }}</h3>
+  <h2 class="schedule-title">{{ include.title }}</h2>
+  <ul class="timeline {{ include.class }}">
+    {% for slot in include.slots %}
+      <li class="timeline-slot with-line {{ slot.type }}">
+        {% include timeline-slot.html %}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
