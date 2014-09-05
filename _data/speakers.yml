@@ -8,6 +8,9 @@
 - name: Erik Michaels-Ober
   twitter: sferik
   picture_name: sferik.jpg
+  website: https://github.com/sferik
+  countries:
+    - United-States-of-America
 - name: Carlos Souza
   twitter: caike
   picture_name: caike.jpg
