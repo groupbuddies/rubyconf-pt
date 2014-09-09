@@ -1,25 +1,47 @@
 .what-to-do-page
   > header
-    margin-botom: 5em
+    margin-bottom: 5em
+    h1
+      margin-bottom: 1em
 
   .region
+    margin-top: 5em
     margin-bottom: 10em
     header
-      img,
+      position: relative
+      margin-bottom: 3em
+      width: 100%
+      .region-img,
       .region-title
-        width: 100%
-        color: $white
-      .region-title.geres
-        background-image: url(../images/what-to-do/geres.png)
-        background-size: cover
-      .region-title:before
+        position: absolute
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+
+      .region-title
+        top: 35%
+
+      .region-img
+        background-size: 100%
+        &.douro
+          background-image: url(../images/what-to-do/douro.png)
+        &.geres
+          background-image: url(../images/what-to-do/geres.png)
+        &.porto
+          background-image: url(../images/what-to-do/porto.png)
+        &.guimaraes
+          background-image: url(../images/what-to-do/guimaraes.png)
+
+      &:before
         content: ""
         display: block
         padding-bottom: 55.55%
 
-    p
-      text-align: left
-      max-width: 960px
-      margin: auto
-      margin-bottom: 1.5em
-      padding: 0 1em
+  p
+    text-align: left
+    max-width: 960px
+    margin: auto
+    margin-bottom: 1.5em
+    padding: 0 1em
+    line-height: 1.4em
