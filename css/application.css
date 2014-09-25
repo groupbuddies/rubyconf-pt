@@ -828,10 +828,11 @@ body {
   content: "\25CF";
   left: -34px;
   font-size: 22px;
+  font-family: "chaparral-pro";
   top: 13px;
   z-index: 10;
 }
-/* line 74, ../../_sass/elements/_schedule-slot.sass */
+/* line 75, ../../_sass/elements/_schedule-slot.sass */
 .timeline-slot.with-line:last-child:before {
   content: "";
   left: -25px;
