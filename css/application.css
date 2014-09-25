@@ -131,6 +131,48 @@ body {
   font-weight: bold;
 }
 
+/* line 70, ../../_sass/utils/_typography.sass */
+.schedule-title {
+  font-family: "chaparral-pro";
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #4979b0;
+}
+
+/* line 76, ../../_sass/utils/_typography.sass */
+.schedule-subtitle {
+  font-family: "chaparral-pro";
+  font-size: 1.8em;
+  font-weight: normal;
+}
+
+/* line 81, ../../_sass/utils/_typography.sass */
+.related-events-subtitle {
+  padding: 10px 15px;
+  background-color: #4979b0;
+  color: white;
+  display: inline-block;
+}
+
+/* line 87, ../../_sass/utils/_typography.sass */
+.agenda-title,
+.related-events-title {
+  text-align: center;
+  font-family: "chaparral-pro";
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+/* line 94, ../../_sass/utils/_typography.sass */
+.agenda-title {
+  color: #ab2b2b;
+}
+
+/* line 97, ../../_sass/utils/_typography.sass */
+.related-events-title {
+  color: #4979b0;
+}
+
 /* line 30, ../../_sass/elements/_ribbon.sass */
 .ribbon-container {
   position: relative;
@@ -441,7 +483,7 @@ body {
   text-align: left;
   max-width: 1160px;
   margin: auto;
-  padding-top: 3em;
+  padding-top: 4em;
   margin-bottom: 6em;
 }
 /* line 43, ../../_sass/elements/_speaker.sass */
@@ -695,6 +737,109 @@ body {
 .sponsors-silver .sponsor-logo {
   max-height: 100px;
   max-width: 150px;
+}
+
+/* line 3, ../../_sass/elements/_schedule-slot.sass */
+.timeline-slot {
+  position: relative;
+  text-align: left;
+  height: 120px;
+  margin-bottom: 1em;
+}
+/* line 8, ../../_sass/elements/_schedule-slot.sass */
+.timeline-slot:not(.extra) {
+  padding: 0.5em;
+}
+/* line 11, ../../_sass/elements/_schedule-slot.sass */
+.timeline-slot.coffee-break {
+  background-color: #dfe9ec;
+}
+/* line 14, ../../_sass/elements/_schedule-slot.sass */
+.timeline-slot .slot-time,
+.timeline-slot .slot-speaker,
+.timeline-slot .slot-sponsor {
+  display: inline-block;
+  padding: 6px 10px;
+  margin: 5px 5px 5px 0;
+  font-weight: bold;
+  font-size: 0.8em;
+  color: white;
+}
+/* line 24, ../../_sass/elements/_schedule-slot.sass */
+.timeline-slot .slot-time {
+  background-color: #33ccff;
+}
+/* line 26, ../../_sass/elements/_schedule-slot.sass */
+.timeline-slot:before {
+  color: #33ccff;
+}
+/* line 28, ../../_sass/elements/_schedule-slot.sass */
+.timeline-slot .slot-border {
+  background-color: #33ccff;
+}
+/* line 31, ../../_sass/elements/_schedule-slot.sass */
+.timeline-slot.party-time .slot-time {
+  background-color: #e6b600;
+}
+/* line 33, ../../_sass/elements/_schedule-slot.sass */
+.timeline-slot.party-time:before {
+  color: #e6b600;
+}
+/* line 36, ../../_sass/elements/_schedule-slot.sass */
+.timeline-slot.end .slot-time {
+  background-color: #ab2b2b;
+}
+/* line 38, ../../_sass/elements/_schedule-slot.sass */
+.timeline-slot.end:before {
+  color: #ab2b2b;
+}
+/* line 41, ../../_sass/elements/_schedule-slot.sass */
+.timeline-slot.empty .slot-time {
+  background-color: transparent;
+}
+/* line 44, ../../_sass/elements/_schedule-slot.sass */
+.timeline-slot .slot-speaker {
+  background-color: #2b3a48;
+}
+/* line 47, ../../_sass/elements/_schedule-slot.sass */
+.timeline-slot .slot-sponsor {
+  background-color: black;
+}
+/* line 49, ../../_sass/elements/_schedule-slot.sass */
+.timeline-slot .slot-sponsor:before {
+  content: "sponsored by";
+  font-style: italic;
+  margin-right: 10px;
+  font-weight: normal;
+}
+/* line 56, ../../_sass/elements/_schedule-slot.sass */
+.timeline-slot.with-line:not(:last-child) .slot-border, .timeline-slot.with-line:before {
+  position: absolute;
+}
+/* line 60, ../../_sass/elements/_schedule-slot.sass */
+.timeline-slot.with-line:not(:last-child):not(.empty) .slot-border {
+  height: 120%;
+  top: 25%;
+  width: 1px;
+  left: -25px;
+}
+/* line 66, ../../_sass/elements/_schedule-slot.sass */
+.timeline-slot.with-line:not(:last-child):not(.empty):before {
+  content: "\25CF";
+  left: -34px;
+  font-size: 22px;
+  top: 13px;
+  z-index: 10;
+}
+/* line 74, ../../_sass/elements/_schedule-slot.sass */
+.timeline-slot.with-line:last-child:before {
+  content: "";
+  left: -25px;
+  top: 33px;
+  width: 34px;
+  height: 1px;
+  background-color: #33ccff;
+  z-index: -1;
 }
 
 /* line 1, ../../_sass/sections/_common.sass */
@@ -1575,4 +1720,67 @@ body {
 /* line 4, ../../_sass/sections/_speakers-page.sass */
 .speakers-page .ribbon-container {
   margin-bottom: 10rem;
+}
+
+/* line 1, ../../_sass/sections/_agenda-page.sass */
+.schedule-page {
+  background: url("../images/agenda-bg.png") no-repeat;
+  background-size: 200px 200px;
+}
+/* line 2, ../../_sass/elements/_ribbon.sass */
+.schedule-page .ribbon-container {
+  width: 100%;
+}
+/* line 4, ../../_sass/elements/_ribbon.sass */
+.schedule-page .ribbon {
+  background-color: #384c5e;
+  color: white;
+}
+/* line 8, ../../_sass/elements/_ribbon.sass */
+.schedule-page .ribbon-corner.top {
+  border-top-color: #2b3a48;
+}
+/* line 10, ../../_sass/elements/_ribbon.sass */
+.schedule-page .ribbon-corner.bottom {
+  border-bottom-color: #2b3a48;
+}
+/* line 12, ../../_sass/elements/_ribbon.sass */
+.schedule-page .ribbon-shadow {
+  border-top-color: #03070b;
+}
+/* line 7, ../../_sass/sections/_agenda-page.sass */
+.schedule-page .ribbon-container {
+  margin-bottom: 10rem;
+}
+/* line 10, ../../_sass/sections/_agenda-page.sass */
+.schedule-page .schedule-title,
+.schedule-page .schedule-subtitle {
+  text-align: left;
+}
+/* line 14, ../../_sass/sections/_agenda-page.sass */
+.schedule-page .column {
+  text-align: left;
+  min-width: 400px;
+  max-width: 500px;
+  margin: 0 2em;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 22, ../../_sass/sections/_agenda-page.sass */
+.schedule-page .timeline {
+  margin-top: 2em;
+}
+/* line 25, ../../_sass/sections/_agenda-page.sass */
+.schedule-page .timeline,
+.schedule-page .related-events .column {
+  margin-bottom: 3em;
+}
+/* line 29, ../../_sass/sections/_agenda-page.sass */
+.schedule-page .agenda-title,
+.schedule-page .related-events-title {
+  margin-bottom: 1em;
+}
+/* line 33, ../../_sass/sections/_agenda-page.sass */
+.schedule-page .agenda-title {
+  margin-top: 2em;
 }
