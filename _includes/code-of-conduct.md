@@ -37,13 +37,13 @@ and conference-related social events.
 
 
 Organizers email:  
-[hello@rubyconf.pt](mailto:hello@rubyconf.pt)
+**[hello@rubyconf.pt](mailto:hello@rubyconf.pt)**
 
 Organizers phone:  
-00351 916 748 994
+**00351 916 748 994**
 
 Emergency number:  
-112
+**112**
 
 Local taxi company:  
-00351 253 253 253
+**00351 253 253 253**

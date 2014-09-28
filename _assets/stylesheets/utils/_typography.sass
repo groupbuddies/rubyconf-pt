@@ -1,0 +1,97 @@
+body
+  font-family: $font-family-base
+  font-size: $font-size-base
+
+.main-title
+  font-size: $main-title-size
+  font-family: $headings-font-family
+  color: $main-title-color
+  font-weight: bold
+  @media all and (max-width: #{$small-width})
+    font-size: $main-title-size-small
+
+.main-subtitle
+  font-size: $main-subtitle-size
+  color: $sub-title-color
+  text-align: center
+  @media all and (max-width: #{$small-width})
+    display: none
+
+.section-title
+  font-size: $section-title-size
+  font-family: $headings-font-family
+  color: $dark-blue
+  max-width: 60%
+  @media all and (max-width: #{$screen-xs-min})
+    max-width: 80%
+  margin: auto
+  @media all and (min-width: #{$small-width})
+    max-width: 450px
+
+.small-title
+  font-size: $small-title-size
+  font-family: $headings-font-family
+  color: $dark-blue
+  margin: auto
+
+.speaker-name
+  font-family: $headings-font-family
+  font-weight: normal
+  font-size: 30px
+
+.speaker-twitter
+  font-family: $headings-font-family
+  color: $light-blue
+  font-size: 22px
+  font-weight: bold
+
+.twitter-link
+  color: $light-blue
+  &:hover
+    text-decoration: underline
+
+.text
+  text-align: left
+  max-width: 960px
+  margin: auto
+  padding: 0 50px
+  line-height: 2
+
+  p
+    margin-bottom: 2em
+
+.bio-title
+  font-family: $headings-font-family
+  color: $light-blue
+  font-weight: bold
+
+.schedule-title
+  font-family: $headings-font-family
+  font-size: $main-title-size
+  font-weight: bold
+  color: $speaker-blue
+
+.schedule-subtitle
+  font-family: $headings-font-family
+  font-size: $main-title-size-small
+  font-weight: normal
+
+.related-events-subtitle
+  padding: 10px 15px
+  background-color: $speaker-blue
+  color: $white
+  display: inline-block
+
+.agenda-title,
+.related-events-title
+  text-align: center
+  font-family: $headings-font-family
+  font-size: $main-title-size
+  font-weight: bold
+
+.agenda-title
+  color: $dark-red
+
+.related-events-title
+  color: $speaker-blue
+

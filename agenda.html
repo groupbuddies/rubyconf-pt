@@ -7,13 +7,17 @@ layout: default
 <section id="schedule-page" class="section schedule-page">
   <h1 class="agenda-title">Agenda</h1>
 
-  <section>
-    {% include timeline.html slots=site.data.agenda.day1 title="Day 1" subtitle="Monday, October 13th"  class="day1" %}
-    {% include timeline.html slots=site.data.agenda.day2 title="Day 2" subtitle="Tuesday, October 14th" class="day2" %}
+  <section class="row">
+    <section class="col-xs-10 col-xs-offset-2 col-md-4 col-md-offset-3">
+      {% include timeline.html slots=site.data.agenda.day1 title="Day 1" subtitle="Monday, October 13th"  class="day1" %}
+    </section>
+    <section class="col-xs-10 col-xs-offset-2 col-md-4 col-md-offset-0">
+      {% include timeline.html slots=site.data.agenda.day2 title="Day 2" subtitle="Tuesday, October 14th" class="day2" %}
+    </section>
   </section>
 
   {% comment %}
-  <section class="large related-events">
+  <section class="row large related-events">
     <h2 class="related-events-title">Fringe Events</h2>
 
     <section class="column">

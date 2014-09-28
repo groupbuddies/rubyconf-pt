@@ -1,24 +1,26 @@
 {% if include.state == "present" %}
   <a href="{{ site.data.rubyconf.tito }}">
-    <div class="ticket {{ include.state }}">
-      <p class="batch-name">{{ include.batch }} Batch</p>
-      <p class="price">{{ include.price }}€</p>
-      <p class="date">{{ include.date  }}</p>
+    <div class="ticket {{ include.state }} center-block">
+      <div class="batch-name">{{ include.batch }} Batch</div>
+      <div class="price">{{ include.price }}€</div>
+      <div class="date">{{ include.date  }}</div>
     </div>
   </a>
-  <a href="{{ site.data.rubyconf.tito }}" class="red-button ticket-button {{ include.state }}">Buy</a>
+  <a href="{{ site.data.rubyconf.tito }}" class="btn btn-primary {{ include.state }}">Buy</a>
+
 {% elsif include.state == "past" %}
-  <div class="ticket {{ include.state }}">
-    <p class="batch-name">{{ include.batch }} Batch</p>
-    <p class="price">{{ include.price }}€</p>
-    <p class="date">{{ include.date  }}</p>
+  <div class="ticket {{ include.state }} center-block">
+    <div class="batch-name">{{ include.batch }} Batch</div>
+    <div class="price">{{ include.price }}€</div>
+    <div class="date">{{ include.date  }}</div>
   </div>
-  <a class="disabled-button ticket-button {{ include.state }}">Sold Out</a>
+  <a class="btn btn-disabled {{ include.state }}">Sold Out</a>
+
 {% else %}
-  <div class="ticket {{ include.state }}">
-    <p class="batch-name">{{ include.batch }} Batch</p>
-    <p class="price">{{ include.price }}€</p>
-    <p class="date">{{ include.date  }}</p>
+  <div class="ticket {{ include.state }} center-block">
+    <div class="batch-name">{{ include.batch }} Batch</div>
+    <div class="price">{{ include.price }}€</div>
+    div <div class="date">{{ include.date  }}</div>
   </div>
-  <span class="ticket-button disabled-button {{ include.state }}">Available at {{ include.time }}</span>
+  <span class="btn btn-disabled {{ include.state }}">Available at {{ include.time }}</span>
 {% endif %}

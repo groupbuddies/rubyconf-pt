@@ -3,9 +3,11 @@
     {% include title_ribbon.html title="Speakers" %}
   </h1>
 
-  <section class="speaker-list">
+  <ul class="list-unstyled speaker-list row">
     {% for speaker in site.data.speakers %}
-      {% include speaker-small.html %}
+      <div class="col-md-4 col-lg-3 center-block">
+        {% include speaker-small.html %}
+      </div>
     {% endfor %}
-  </section>
+  </ul>
 </section>

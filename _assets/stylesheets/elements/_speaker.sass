@@ -1,0 +1,82 @@
+.speaker-small,
+.speaker-large
+  .speaker-picture-container
+    background-image: url(../images/speaker-picture-frame.svg)
+    background-size: 100% 100%
+    text-align: center
+    padding: 40px
+
+  .speaker-picture
+    width: 250px
+    &:not([src*='knight.png'])
+      height: 250px
+    &[src*='knight.png']
+      padding-top: 25px
+      background-color: $white
+    @media all and (max-width: #{$screen-xs-min})
+      width: 200px
+      &:not([src*='knight.png'])
+        height: 200px
+
+  .speaker-name
+    color: $speaker-blue
+
+.speaker-small
+  .speaker-picture-container
+  .speaker-name-frame
+    max-width: 300px
+    height: 120px
+    margin: auto
+    margin-top: 1rem
+    text-align: center
+    background-image: url(../images/speaker-name-frame.svg)
+    background-size: 100% 100%
+    padding: 2.5rem 1rem
+
+  .speaker-name,
+  .speaker-twitter
+    line-height: 30px
+
+
+.speaker-large
+  text-align: left
+  margin-bottom: 6em
+
+  .speaker-name-container
+    margin-top: 1em
+    margin-left: 3em
+    white-space: nowrap
+
+  .speaker-name
+    font-size: 40px
+
+  .speaker-countries
+    list-style-type: none
+    li
+      display: inline-block
+    li + li
+      margin-left: 0.5em
+    img
+      max-width: 40px
+
+  .speaker-website
+    text-decoration: underline
+
+  .speaker-twitter,
+  .speaker-website,
+  .speaker-countries
+    margin: 0.5em 0
+
+  .talk-info.markdown
+    margin-left: 2em
+    margin-top: 1em
+    h1
+      @extend .bio-title
+      font-size: 1.4em
+      margin-bottom: 0.5em
+    h1:not(:first-child)
+      margin-top: 2em
+    p
+      color: $dark-blue
+      margin-bottom: 0.5em
+      line-height: 1.4em

@@ -1,48 +1,53 @@
-<section class="section footer">
+<section class="footer">
   <img class="footer-logo" src="images/square-logo.png">
-  <div class="column about">
-    <h1 class="footer-title">About</h1>
-    <ul class="footer-list">
-      <li><a href="{{ site.data.rubyconf.blog }}">Blog</a></li>
-      <li><a href="/#speakers">Speakers</a></li>
-      <li><a href="/code-of-conduct.html">Code of conduct</a></li>
-    </ul>
+
+  <div class="row">
+    <div class="col-md-3 col-md-offset-1 col-xs-8 col-xs-offset-2">
+      <h1>About</h1>
+      <ul class="list-unstyled">
+        <li><a href="{{ site.data.rubyconf.blog }}" target="_blank">Blog</a></li>
+        <li><a href="/#speakers">Speakers</a></li>
+        <li><a href="/code-of-conduct.html">Code of conduct</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md-3 col-md-offset-1 col-xs-8 col-xs-offset-2">
+      <h1>Contact us</h1>
+      <ul class="list-unstyled">
+        <li>
+          <a href="mailto:{{ site.data.rubyconf.email }}" target="_blank">
+            <img class="footer-icon" src="images/email-icon.png" alt="email">
+            <span class="hidden-xs">{{ site.data.rubyconf.email }}</span>
+          </a>
+        </li>
+        <li>
+          <a href="{{ site.data.rubyconf.twitter }}" target="_blank">
+            <img class="footer-icon" src="images/twitter-icon.png" alt="email">
+            <span class="hidden-xs">twitter.com/rubyconfpt</span>
+          </a>
+        </li>
+        <li>
+          <a href="{{ site.data.rubyconf.facebook }}" target="_blank">
+            <img class="footer-icon" src="images/facebook-icon.png" alt="email">
+            <span class="hidden-xs">facebook.com/rubyconfpt</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col-md-3 col-md-offset-1 col-xs-8 col-xs-offset-2">
+      <h1>Co-organized by</h1>
+      <ul class="list-unstyled">
+        <li>
+          <a href="http://groupbuddies.com" target="_blank">Group Buddies</a>
+        </li>
+      </ul>
+    </div>
   </div>
 
-  <div class="column contact_us">
-    <h1 class="footer-title">Contact us</h1>
-    <ul class="footer-list">
-      <li>
-        <a href="mailto:{{ site.data.rubyconf.email }}" target="_blank">
-          <img class="footer-icon" src="images/email-icon.png" alt="email">
-          <span class="optional-text">{{ site.data.rubyconf.email }}</span>
-        </a>
-      </li>
-      <li>
-        <a href="{{ site.data.rubyconf.twitter }}" target="_blank">
-          <img class="footer-icon" src="images/twitter-icon.png" alt="email">
-          <span class="optional-text">twitter.com/rubyconfpt</span>
-        </a>
-      </li>
-      <li>
-        <a href="{{ site.data.rubyconf.facebook }}" target="_blank">
-          <img class="footer-icon" src="images/facebook-icon.png" alt="email">
-          <span class="optional-text">facebook.com/rubyconfpt</span>
-        </a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="column organization">
-    <h1 class="footer-title">Co-organized by</h1>
-    <ul class="footer-list">
-      <li>
-        <a href="http://groupbuddies.com" target="_blank">Group Buddies</a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="bottom">
-    <p>© All rights reserved. 2014</p>
+  <div class="row">
+    <div class="col-md-12">
+      <p class="text-center"><small>© All rights reserved. 2014</small></p>
+    </div>
   </div>
 </section>

@@ -2,15 +2,14 @@
   <h1 class="section-title">
     {% include title_ribbon.html title="Tickets" %}
   </h1>
-
-  <ul class="ticket-batches">
-    <li class="batch first">
+  <ul class="row list-unstyled">
+    <li class="col-md-4 batch first">
       {% include ticket.html batch="1st" price="150" date="May 20th" time="12:00 WEST" state="past" active=true %}
     </li>
-    <li class="batch second">
+    <li class="col-md-4 batch second">
       {% include ticket.html batch="2nd" price="200" date="June 5th" time="16:00 WEST" state="past" active=true %}
     </li>
-    <li class="batch third">
+    <li class="col-md-4 batch third">
       {% include ticket.html batch="3rd" price="250" date="September 16th" time="14:00 WEST" state="present" active=false %}
     </li>
   </ul>

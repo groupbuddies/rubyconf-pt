@@ -1,17 +1,17 @@
 <section class="section sponsors" id="sponsors">
   <h1 class="section-title">
-    {% include title_ribbon.html title="Our sponsors" %}
+    {% include title_ribbon.html title="Sponsors" %}
   </h1>
 
   <h2 class="sponsors-title sponsors-title-gold">Gold sponsors</h2>
-  <ul class="list-sponsors sponsors-gold">
+  <ul class="list-unstyled sponsors-list sponsors-gold">
     {% for sponsor in site.data.sponsors.gold %}
       {% include sponsor.html %}
     {% endfor %}
   </ul>
 
   <h2 class="sponsors-title sponsors-title-silver">Silver sponsors</h2>
-  <ul class="list-sponsors sponsors-silver">
+  <ul class="list-unstyled sponsors-list sponsors-silver">
     {% for sponsor in site.data.sponsors.silver %}
       {% include sponsor.html %}
     {% endfor %}

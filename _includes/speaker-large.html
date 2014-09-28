@@ -1,19 +1,20 @@
-<section class="speaker-large" id="{{ speaker.twitter }}">
-  <section class="speaker-info">
-    <div class="speaker-picture-container"> <img class="speaker-picture" src="images/speakers/{{ speaker.picture_name }}" />
+<section class="row speaker-large" id="{{ speaker.twitter }}">
+  <section class="col-xs-6 col-xs-offset-3 col-md-3 col-md-offset-2 speaker-info">
+    <div class="speaker-picture-container">
+      <img class="speaker-picture" src="images/speakers/{{ speaker.picture_name }}" />
     </div>
     <div class="speaker-name-container">
       <h1 class="speaker-name">{{ speaker.name }}</h1>
-      <ul class="speaker-countries">
+      <ul class="list-unstyled list-inline speaker-countries">
         {% for country in speaker.countries %}
         <li><img src="images/countries/{{ country }}.png" alt="{{ country }}" title="{{ country }}" /></li>
         {% endfor %}
       </ul>
       <a href="https://twitter.com/{{speaker.twitter}}"><h2 class="speaker-twitter">@{{ speaker.twitter }}</h2></a>
-      <a href="{{ speaker.website }}" class="speaker-website">{{ speaker.website }}</a></div>
+      <a href="{{ speaker.website }}" class="speaker-website">{{ speaker.website }}</a>
     </div>
   </section>
-  <section class="talk-info markdown">
+  <section class="col-xs-10 col-xs-offset-1 col-md-5 col-md-offset-0 talk-info markdown">
     <h1>Talk Title</h1>
     <p><strong>{{ speaker.talk_title }}</strong></p>
     <h1>Talk Description</h1>

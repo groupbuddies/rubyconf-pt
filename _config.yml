@@ -2,8 +2,6 @@ name: RubyConf Portugal
 markdown: redcarpet
 highlighter: true
 
-gems:
-  - jekyll-compass
-
-rubyconf:
-  tito: 'asd'
+assets:
+  js_compressor: uglifier
+  css_compressor: sass

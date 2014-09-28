@@ -1,0 +1,39 @@
+@mixin bottom-shadow($values)
+  -moz-box-shadow: $values
+  -webkit-box-shadow: $values
+  box-shadow: $values
+
+body
+  padding-top: 65px
+
+.navbar
+  +bottom-shadow(0 1px 8px rgba(0, 0, 0, 0.2))
+  background-color: $white
+  .logo
+    width: 220px
+    height: 46px
+    margin: 10px
+  .icon-bar
+    background-color: $dark-blue
+  .navbar-right
+    margin-top: 5px
+  li
+    margin: 0.3em
+  .btn
+    font-size: 0.8em
+    padding: 6px 12px
+  .btn-primary:hover
+    background-color: $dark-red
+  .btn-default:hover
+    background-color: $white
+
+  @media screen and (max-width: #{$grid-float-breakpoint})
+    .btn
+      display: block
+      border: none
+      background-color: transparent
+      color: $dark-blue
+      text-align: center
+      &:hover
+        background-color: transparent
+        border-radius: 0
