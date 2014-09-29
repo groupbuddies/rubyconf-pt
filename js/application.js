@@ -1,1 +1,0 @@
-(function() { $(function() { $('.header input[type=checkbox]').on('change', (function(_this) { return function(event) { return $('.nav-items').slideToggle(); }; })(this)); return window.onresize = (function(_this) { return function() { $('.header input[type=checkbox]').attr('checked', false); return $('.nav-items').attr('style', ''); }; })(this); });}).call(this);
