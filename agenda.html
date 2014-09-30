@@ -16,20 +16,48 @@ layout: default
     </section>
   </section>
 
-  {% comment %}
-  <section class="row large related-events">
-    <h2 class="related-events-title">Fringe Events</h2>
+  <section class="row large fringe-events">
+    <h2 class="fringe-events-title">Fringe Events</h2>
 
-    <section class="column">
-      <h3 class="related-events-subtitle">Sunday, October 12th</h3>
-      <ul class="timeline extra">
-        {% for slot in site.data.agenda.sunday %}
-          <li class="timeline-slot extra">{% include timeline-slot.html %}</li>
-        {% endfor %}
-      </ul>
+    <section class="col-md-8 col-md-offset-2">
+      {% for day in site.data.agenda.fringe %}
+      <div class="row">
+        <div class="col-xs-4 day">
+          <h3 class="fringe-events-subtitle">{{ day.title }}</h3>
+        </div>
+
+        <div class="col-xs-12">
+          <ul class="list-unstyled">
+            {% for event in day.events %}
+            <li class="event row">
+              <div class="col-xs-12 col-md-4 time">
+                <div class="slot-time">
+                  <span class="slot-time-from">{{ event.from }}</span>
+                  {% if event.to %}
+                    <span>-</span>
+                    <span class="slot-time-to">{{ event.to }}</span>
+                  {% endif %}
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-md-8">
+                <h4>{{ event.title }}</h4>
+                <p><strong>Where: </strong><a href="{{ event.where.url }}" class="underline">{{ event.where.name }}</a></p>
+                <div class="markdown">
+                  {% capture file_name %}{{ event.title | downcase | replace:' ','_' | append:'.md'| prepend:'fringe_descriptions/' }}{% endcapture %}
+                  {% capture markdown_text %}{% include {{ file_name }} %}{% endcapture %}
+                  {{ markdown_text | markdownify }}
+                </div>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+
+      {% endfor %}
     </section>
   </section>
-  {% endcomment %}
 </section>
 
 {% include sections/60_footer.html %}

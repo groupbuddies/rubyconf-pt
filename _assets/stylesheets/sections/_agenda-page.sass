@@ -19,12 +19,39 @@
     margin-top: 2em
 
   .timeline,
-  .related-events .column
+  .fringe-events .column
     margin-bottom: 3em
 
   .agenda-title,
-  .related-events-title
+  .fringe-events-title
     margin-bottom: 1em
 
   .agenda-title
     margin-top: 2em
+
+  .fringe-events
+    .day,
+    .time
+      @media all and (min-width: #{$screen-xs-min})
+        text-align: right
+        padding-right: 2em
+
+    text-align: left
+    h4
+      font-weight: bold
+    .logo
+      width: 100px
+    .event
+      margin-bottom: 3em
+
+    .slot-time
+      display: inline-block
+      padding: 6px 10px
+      margin: 5px 0
+      font-weight: bold
+      font-size: 0.8em
+      color: $white
+      background-color: $light-blue
+
+.underline
+  text-decoration: underline

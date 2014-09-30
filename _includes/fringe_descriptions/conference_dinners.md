@@ -1,0 +1,1 @@
+For the last day of RubyConf, we handpicked some of our favourite restaurants in town just for you. Enjoy the fine portuguese food and hospitality, in the company of your fellow attendees. After that, we'll meet up for the Farewell Party!

@@ -130,10 +130,53 @@ day2:
     title: Farewell Party
 
 
-sunday:
-  - from: "09:00"
-    to: "20:00"
-    title: Rails Girls
+fringe:
+  - title: "Saturday, 11th"
+    events:
+      - from: "10:00"
+        to: "12:00"
+        title: CoderDojo Minho
+        url: 
+        where:
+          name: University of Minho, Department of Informatics
+          url: https://www.google.com/maps/d/u/0/viewer?mid=z4YpBgNaec_I.k2haZHvu5EVo
 
-  - from: "20:00"
-    title: Welcome Drinks
+  - title: "Sunday, 12th"
+    events:
+      - from: "09:00"
+        to: "20:00"
+        title: Rails Girls
+        url: http://railsgirls.com/braga2014
+        where:
+          name: GNRation
+          url: https://www.google.com/maps/d/u/0/viewer?mid=z4YpBgNaec_I.k2haZHvu5EVo
+
+      - from: "20:00"
+        title: Welcome Drinks
+        where:
+          name: GNRation
+          url: https://www.google.com/maps/d/u/0/viewer?mid=z4YpBgNaec_I.k2haZHvu5EVo
+
+  - title: "Monday, 13th"
+    events:
+      - from: "19:00"
+        title: Sunset Party
+        where:
+          name: Bom Jesus de Braga
+          url: https://www.google.com/maps/d/u/0/viewer?mid=z4YpBgNaec_I.k2haZHvu5EVo
+
+  - title: "Tuesday, 14th"
+    events:
+      - from: "20:00"
+        title: Conference Dinners
+        where:
+          name: TBA
+          url: https://www.google.com/maps/d/u/0/viewer?mid=z4YpBgNaec_I.k2haZHvu5EVo
+
+      - from: "22:00"
+        title: Farewell Party
+        where:
+          name: Sé de Braga
+          url: https://www.google.com/maps/d/u/0/viewer?mid=z4YpBgNaec_I.k2haZHvu5EVo
+
+
