@@ -11,6 +11,9 @@ gold:
   - name: Mailjet
     logo_name: mailjet.png
     url: https://mailjet.com/
+  - gold: Fyber
+    logo_name: fyber.png
+    url: http://www.fyber.com/
 silver:
   - name: Engine Yard
     logo_name: engine_yard.png
