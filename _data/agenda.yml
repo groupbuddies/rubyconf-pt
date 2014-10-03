@@ -94,6 +94,7 @@ day2:
     to: "14:45"
     title: Lunch
     type: party-time
+    sponsor: Fyber
 
   - from: "14:45"
     to: "15:45"
