@@ -36,3 +36,6 @@ silver:
   - name: HitFox
     logo_name: hitfox.png
     url: http://www.hitfoxgroup.com/
+  - name: bitcrowd
+    logo_name: bitcrowd.png
+    url: http://bitcrowd.net/#home
