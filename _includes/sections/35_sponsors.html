@@ -16,4 +16,11 @@
       {% include sponsor.html %}
     {% endfor %}
   </ul>
+
+  <h2 class="sponsors-title sponsors-title-partners">Partners</h2>
+  <ul class="list-unstyled sponsors-list sponsors-partners">
+    {% for sponsor in site.data.sponsors.partners %}
+      {% include sponsor.html %}
+    {% endfor %}
+  </ul>
 </section>

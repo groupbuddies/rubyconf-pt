@@ -14,6 +14,7 @@ gold:
   - gold: Fyber
     logo_name: fyber.png
     url: http://www.fyber.com/
+
 silver:
   - name: Engine Yard
     logo_name: engine_yard.png
@@ -39,3 +40,14 @@ silver:
   - name: bitcrowd
     logo_name: bitcrowd.png
     url: http://bitcrowd.net/#home
+  - name: JOBBOX
+    logo_name: jobbox.png
+    url: http://www.jobbox.io/
+
+partners:
+  - name: Porto I/O
+    logo_name: porto_io.png
+    url: http://porto.io/en/
+  - name: Startup Braga
+    logo_name: startup_braga.png
+    url: http://www.investbraga.com/startup/
