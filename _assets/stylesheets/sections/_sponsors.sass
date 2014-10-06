@@ -1,8 +1,12 @@
 .section.sponsors
+  $max-width: 1200px
   @include yellow-ribbon
 
   .sponsors-list
     margin-bottom: 50px
+    @media all and (max-width: #{$screen-vlg-min})
+      margin: 0 auto
+      max-width: $max-width
 
   .sponsors-title
     margin-top: 100px
