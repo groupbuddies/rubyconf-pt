@@ -10,6 +10,7 @@ The options are:
 <br>
 
 - [**Bira dos Namorados**](http://www.tripadvisor.com.br/Restaurant_Review-g2618580-d7056433-Reviews-Bira_dos_Namorados-Braga_District_Northern_Portugal.html)
+
 A tribute to the Minho region. 'Bira' suggests the traditional dance from Minho, the 'Vira', and 'Namorados' comes from the traditional handkerchiefs of the region, 'Lenços dos Namorados'.
   It presents three concepts which are connected in order to obtain an integrated offer in a single establishment: handmade hamburgers and steaks, a regional store and a Café Concert.
 
@@ -36,6 +37,7 @@ Appeared in 2004, beside Sé de Braga. Its goal is to invigorate one of the most
 <br>
 
 - [**Copo 1/2**](http://www.tripadvisor.com.br/Restaurant_Review-g189171-d2263929-Reviews-Copo1_2-Braga_Braga_District_Northern_Portugal.html)
+
 A multifaceted space which provides many experiences: restaurant, wine bar & tapas and cocktail & gin bar. All options have thought-out spots designed specifically for each concept.
 It presents a menu inspired in typical food from Minho. The tapas make a perfect match with a glass of wine which is the house trademark.
 
