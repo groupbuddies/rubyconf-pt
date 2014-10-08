@@ -46,17 +46,17 @@ day1:
     type: speaker
 
   - from: "16:45"
-    to: "17:05"
+    to: "17:00"
     type: party-time
     title: Coffee-break
 
-  - from: "17:05"
-    to: "18:05"
+  - from: "17:00"
+    to: "18:00"
     speaker: Gautam Rege
     type: speaker
 
-  - from: "18:05"
-    to: "19:05"
+  - from: "18:00"
+    to: "19:00"
     speaker: Erik Michaels-Ober
     type: speaker
 
@@ -111,13 +111,13 @@ day2:
     type: party-time
     title: Coffee-break
 
-  - from: "17:05"
-    to: "18:05"
+  - from: "17:15"
+    to: "18:15"
     speaker: Caleb Thompson
     type: speaker
 
-  - from: "18:05"
-    to: "19:05"
+  - from: "18:15"
+    to: "19:15"
     speaker: Terence Lee
     type: speaker
 
@@ -178,5 +178,3 @@ fringe:
         where:
           name: Sé de Braga
           url: https://www.google.com/maps/d/u/0/viewer?mid=z4YpBgNaec_I.k2haZHvu5EVo
-
-
