@@ -3,7 +3,7 @@ For the last day of RubyConf, we handpicked some of our favourite restaurants in
 We selected some of the best restaurants in Braga, covering all price ranges.
 Seats are limited, but we can always get some more depending on the interest.
 
-Use [this form](https://ti.to/groupbuddies/rubyconfpt-conference-dinners) to reserve your seat. Please keep in mind that this is an extra service, the dinner price is not included in your conference ticket. The form will be used only to ensure your seat is reserved. Payment will be handled at the restaurant (RubyConf staff members will be there to assist).
+Use [this form](https://ti.to/groupbuddies/rubyconfpt-conference-dinners) to reserve your seat. Please keep in mind that this is an extra service, the dinner price is not included in your conference ticket. The form will be used only to ensure your seat is reserved. Payment will be handled at the restaurant (RubyConf staff members will be there to assist). All restaurants include a vegetarian option.
 
 The options are:
 
