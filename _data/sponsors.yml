@@ -51,3 +51,12 @@ partners:
   - name: Startup Braga
     logo_name: startup_braga.png
     url: http://www.investbraga.com/startup/
+  - name: CeSIUM
+    logo_name: cesium.png
+    url: http://www.cesium.di.uminho.pt/
+  - name: gen design studio
+    logo_name: gen.png
+    url: http://gen.pt/
+  - name: Bicafé
+    logo_name: bicafe.png
+    url: http://www.bicafe.pt/
