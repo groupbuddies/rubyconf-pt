@@ -51,16 +51,15 @@ or `gh-pages` branches, first.
     git push -u origin my-gh-pages
     ... Create pull request ...
 
-# Credits
+# About
 
-RubyConf PT 2014 website was created and is maintained by
-[Subvisual](https://subvisual.co/).
+RubyConf PT 2014 website was created by [Subvisual](http://subvisual.co).
 
 [![Subvisual](https://raw.githubusercontent.com/subvisual/guides/master/github/templates/subvisual_logo_with_name.png)](http://subvisual.co)
 
+If you need to contact the maintainer <a href="mailto:contact@subvisual.co">reach out to us</a>.
+
 # License
 
-RubyConf PT 2014's website is © 2014-2017 Subvisual, Lda.
-
-It is free software and may be redistributed under the terms specified in the
-[LICENSE](LICENSE) file.
+RubyConf PT 2014's website is © 2014-2018 Subvisual. It is free software and may be
+redistributed under the terms specified in the [LICENSE](LICENSE) file.
