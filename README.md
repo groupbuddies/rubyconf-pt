@@ -1,4 +1,4 @@
-# RubyConf PT website
+# RubyConf PT 2014's website
 
 The first ever ruby conference in Portugal needed the first ever ruby conference
 in Portugal website. For this we went with Jekyll and github pages, a very
@@ -53,12 +53,14 @@ or `gh-pages` branches, first.
 
 # Credits
 
-![groupbuddies](http://www.groupbuddies.com/logo.png)
+RubyConf PT 2014 website was created and is maintained by
+[Subvisual](https://subvisual.co/).
 
-RubyConf PT website is maintained by
-[Group Buddies](http://groupbuddies.com/).
+[![Subvisual](https://raw.githubusercontent.com/subvisual/guides/master/github/templates/subvisual_logo_with_name.png)](http://subvisual.co)
 
 # License
 
-RubyConf PT's website is © 2014 GB-Software As A Service, Lda. It is free software and may be
-redistributed under the terms specified in the [LICENSE](LICENSE) file.
+RubyConf PT 2014's website is © 2014-2017 Subvisual, Lda.
+
+It is free software and may be redistributed under the terms specified in the
+[LICENSE](LICENSE) file.
