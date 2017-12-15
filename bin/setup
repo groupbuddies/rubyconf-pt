@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Install Ruby dependencies (if required)
+bundle check || bundle install
